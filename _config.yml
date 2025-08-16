@@ -1,1 +1,15 @@
+title: "hanopt"
+description: "Notes, projects, and bikepacking."
+author: "Eduard Krutitskiy"
+# Use GitHub Pages–supported theme
 theme: minima
+
+# Nice-to-haves (all supported by GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# If you later use a custom domain, set url to https://yourdomain.com
+url: "https://hanopt.github.io"
+# leave baseurl empty for user sites
+baseurl: ""
