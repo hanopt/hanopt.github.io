@@ -9,7 +9,13 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+# Add this if using minima theme
+include:
+  - _includes/head-custom.html
+
 # If you later use a custom domain, set url to https://yourdomain.com
 url: "https://hanopt.github.io"
 # leave baseurl empty for user sites
 baseurl: ""
+
+
