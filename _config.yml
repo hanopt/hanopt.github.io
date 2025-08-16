@@ -11,7 +11,7 @@ plugins:
 
 # Add this if using minima theme
 include:
-  - _includes/head-custom.html
+  - _includes/custom-head.html
 
 # If you later use a custom domain, set url to https://yourdomain.com
 url: "https://hanopt.github.io"
