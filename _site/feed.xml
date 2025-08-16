@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-16T17:23:34+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">hanopt</title><subtitle>Notes, projects, and bikepacking.</subtitle><author><name>Eduard</name></author><entry><title type="html">Hello World</title><link href="http://localhost:4000/2025/08/16/hello-world.html" rel="alternate" type="text/html" title="Hello World" /><published>2025-08-16T00:00:00+02:00</published><updated>2025-08-16T00:00:00+02:00</updated><id>http://localhost:4000/2025/08/16/hello-world</id><content type="html" xml:base="http://localhost:4000/2025/08/16/hello-world.html"><![CDATA[<hr />
+<p>layout: post
+title: “Hello World”
+—</p>
+
+<p>This is my first post written in <strong>Markdown</strong>.</p>
+
+<ul>
+  <li>Add images: <code class="language-plaintext highlighter-rouge">![alt text](/assets/img/fox.jpeg)</code></li>
+  <li>Add code:
+```python
+print(“hi”)</li>
+</ul>]]></content><author><name>Eduard</name></author><summary type="html"><![CDATA[layout: post title: “Hello World” —]]></summary></entry><entry><title type="html">Radreise durch Schweden – 10 Tage Abenteuer</title><link href="http://localhost:4000/2025/08/16/radreise-schweden.md.html" rel="alternate" type="text/html" title="Radreise durch Schweden – 10 Tage Abenteuer" /><published>2025-08-16T00:00:00+02:00</published><updated>2025-08-16T00:00:00+02:00</updated><id>http://localhost:4000/2025/08/16/radreise-schweden.md</id><content type="html" xml:base="http://localhost:4000/2025/08/16/radreise-schweden.md.html"><![CDATA[<p>Im Sommer unternahm ich eine zehntägige Radreise durch Schweden – ein Abenteuer voller Natur, Bewegung und kleiner kulinarischer Highlights. 🚴‍♂️🇸🇪🍄</p>
+
+<hr />
+
+<h2 id="-tour-statistik">📊 Tour-Statistik</h2>
+<ul>
+  <li>Gesamtdistanz: <strong>820,28 km</strong></li>
+  <li>Tagesdurchschnitt: <strong>82 km</strong></li>
+  <li>Gesamter Höhenanstieg: <strong>7.186 m</strong></li>
+  <li>Durchschnittsgeschwindigkeit: <strong>16,8 km/h</strong></li>
+</ul>
+
+<p>Die letzten Tage waren besonders windig – aber genau das gehört zum Abenteuer dazu. 🌬️</p>
+
+<hr />
+
+<h2 id="️-route">🗺️ Route</h2>
+<p>Mit der Fähre ging es von <strong>Kiel nach Göteborg</strong>, anschließend fuhren wir folgende Etappen:</p>
+
+<ul>
+  <li>Göteborg → Uddevalla</li>
+  <li>Uddevalla → Fjällbacka</li>
+  <li>Tanum → Halden</li>
+  <li>Halden → Marker</li>
+  <li>Marker → Arvika</li>
+  <li>Arvika → Karlstad</li>
+  <li>Karlstad → Mariestad</li>
+  <li>Mariestad → Götene</li>
+  <li>Götene → Alingsås</li>
+  <li>Alingsås → Göteborg</li>
+</ul>
+
+<p>Besonders eindrucksvoll war die Passage an der Westküste, aber auch die Etappen rund um den <strong>Vänernsee</strong> boten viele schöne Momente.</p>
+
+<hr />
+
+<h2 id="-natur--pilze">🍄 Natur &amp; Pilze</h2>
+<p>Unterwegs hielt ich natürlich auch nach Pilzen Ausschau. Pfifferlinge wuchsen direkt am Wegesrand und landeten gleich in der Pfanne. Dazu gab es reichlich Preiselbeeren, die wir fleißig sammelten. Auch Wildkräuter wie der Rainfarn fanden ihren Weg in unser Kartoffelpüree.</p>
+
+<hr />
+
+<h2 id="-kulinarische-highlights">🍳 Kulinarische Highlights</h2>
+<ul>
+  <li>Gekocht wurde klassisch auf dem Gaskocher: <strong>Reis, Kartoffeln, Nudeln</strong>.</li>
+  <li>Bananen waren unsere ständigen Begleiter – einer der besten Energielieferanten auf der Tour.</li>
+  <li>Einmal gab es sogar ein richtiges BBQ an einem gut ausgestatteten Rastplatz – inklusive Wasserhahn! 💧🔥</li>
+</ul>
+
+<hr />
+
+<h2 id="-leben-unterwegs">🌊 Leben unterwegs</h2>
+<ul>
+  <li>Zu Beginn begleitete uns viel Sonne – in Strömstad wurde es so heiß, dass ab 13 Uhr nichts mehr ging. Am Ende hatten wir beide einen leichten Sonnenstich.</li>
+  <li>Baden in klaren Seen war die perfekte Erfrischung nach langen Etappen.</li>
+  <li>Auch die Kleidung wurde kurzerhand im See gewaschen – nachhaltig und erfrischend.</li>
+</ul>
+
+<hr />
+
+<h2 id="-ausblick">📖 Ausblick</h2>
+<p>Parallel zur Tour arbeite ich an meinem Buch <strong>„In die Pilze und noch viel weiter“</strong> 🍄📖, das sich inzwischen der Fertigstellung nähert. Bald ist es soweit!</p>
+
+<hr />
+
+<p>👉 Schweden hat mich mit seiner Natur, Ruhe und Weite begeistert. Eine Radreise dorthin kann ich jedem empfehlen, der Lust auf Abenteuer und Entschleunigung hat.</p>]]></content><author><name>Eduard</name></author><summary type="html"><![CDATA[Im Sommer unternahm ich eine zehntägige Radreise durch Schweden – ein Abenteuer voller Natur, Bewegung und kleiner kulinarischer Highlights. 🚴‍♂️🇸🇪🍄]]></summary></entry></feed>
