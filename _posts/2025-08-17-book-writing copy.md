@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Book Writing Journey [English Version]"
+title: "My Book Writing Journey"
 ---
 
 # The Reason I Started Writing
@@ -45,7 +45,7 @@ I completed two bikepacking tours through Sweden, a country I would consider one
 
 My book is not only about mushrooms but also about exploring nature more broadly. That’s why I highly recommend both reading it and experiencing Sweden firsthand. Alongside mushrooms such as chanterelles, you will also find delicious lingonberries. Don’t be discouraged by the rain—rainy days are essential for the growth of both mushrooms and berries. The berries usually ripen by late July, which I consider the best time to visit the country.
 
-Camping in the forests of Sweden brings you closer to nature, as you begin to notice countless plants and mushrooms along the way. I also loved listening to the sounds of wildlife. One evening was especially memorable—my friend and I heard owls calling nearby, right next to our campsite.
+Camping in the forests of Sweden brings you closer to nature, as you begin to notice countless plants and mushrooms along the way. I also loved listening to the sounds of wildlife. One evening was especially memorable — my friend and I heard owls calling nearby, right next to our campsite.
 
 ![Pfifferlinge und Beeren](/assets/img/Korb.JPG)
 

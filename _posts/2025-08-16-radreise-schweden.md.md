@@ -52,6 +52,7 @@ Unterwegs hielt ich natürlich auch nach Pilzen Ausschau. **Pfifferlinge** wuchs
 - Baden in klaren Seen war die perfekte Erfrischung nach langen Etappen.  
 - Auch die Kleidung wurde kurzerhand im See gewaschen – nachhaltig und erfrischend.  
 - Die letzten Tage waren besonders regnerisch und windig – aber genau das gehört zum Abenteuer dazu. 🌬️
+
 ---
 
 ## 📖 Ausblick
