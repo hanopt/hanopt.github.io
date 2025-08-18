@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="headline">{{ page.title | escape }}</h1>
+
+    {% if page.lang %}
+    <p class="subtitle">
+      {% case page.lang %}
+        {% when "en" %} 🇬🇧 English
+        {% when "de" %} 🇩🇪 Deutsch
+        {% when "ru" %} 🇷🇺 Русский
+        {% else %} {{ page.lang | upcase }}
+      {% endcase %}
+    </p>
+    {% endif %}
+
+    <p class="post-meta">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.modified_date -%}
+        • <span class="meta-label">Updated:</span>
+        <time class="dt-modified" datetime="{{ page.modified_date | date_to_xmlschema }}" itemprop="dateModified">
+          {{ page.modified_date | date: date_format }}
+        </time>
+      {%- endif -%}
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span class="p-author h-card" itemprop="name">{{ page.author }}</span>
+        </span>
+      {%- endif -%}
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+<style>
+.subtitle{font-size:.95rem;color:#666;margin:.15rem 0 1.1rem}
+.meta-label{opacity:.75}
+</style>

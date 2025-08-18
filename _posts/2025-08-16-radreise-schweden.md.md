@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Radreise durch Schweden – 10 Tage Abenteuer"
+lang: de
 ---
 
 Im Sommer unternahm ich eine zehntägige Radreise durch Schweden – ein Abenteuer voller Natur, Bewegung und kleiner kulinarischer Highlights. 🚴‍♂️🇸🇪🍄  

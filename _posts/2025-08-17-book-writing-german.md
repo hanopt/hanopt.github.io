@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Die Entstehungsgeschicht von meinem Buch"
+lang: de
 ---
 
 # Der Grund, warum ich zu schreiben begann

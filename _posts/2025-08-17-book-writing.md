@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "My Book Writing Journey [English Version]"
+title: "My Book Writing Journey"
+lang: en
 ---
 
 # The Reason I Started Writing
