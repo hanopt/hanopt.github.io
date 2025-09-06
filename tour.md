@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Anmeldung Pilztour"
+subtitle: "Herbst 2025"
 permalink: /tour-signup/
 ---
 

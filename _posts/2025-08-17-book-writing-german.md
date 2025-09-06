@@ -9,6 +9,8 @@ lang: de
 Meine Buchschreib-Reise begann im Dezember. Die Idee kam mir nach einem besonders intensiven Wochenende, an dem ich vier Pilzführungen direkt hintereinander gegeben hatte. Insgesamt verbrachte ich etwa 16 Stunden im Wald, während ich Einsteiger in die faszinierende Welt der Pilze einführte. Am Ende war ich völlig erschöpft – nicht nur vom Laufen, sondern auch vom ständigen Beantworten der gleichen Fragen.  
 Da beschloss ich, diese Fragen mit ausführlichen Antworten niederzuschreiben. Daraus entstand schließlich das Kapitel „Einsteigerfragen“. Für dieses Kapitel fertigte ich mehrere handgezeichnete Illustrationen an, um zentrale Konzepte zu erklären. Da Anfänger oft unsicher sind und Angst vor Pilzvergiftungen haben, fügte ich Daten ein, die die vergleichsweise geringe Häufigkeit solcher Vorfälle verdeutlichen. Zusätzlich widmete ich ein ganzes Kapitel den gefährlichsten Pilzgiften, inklusive Fallberichten, um Einsteigern das Erkennen gefährlicher Arten zu erleichtern.
 
+Durch das Buch möchte ich ein solides Wissensfundament vermitteln. Es soll als Ergänzung zu meinen Pilztouren dienen.
+
 ![Alt text](/assets/img/lifecycle.JPEG)
 
 # Die Werkzeuge hinter meinem Buch- und Coverdesign
