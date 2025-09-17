@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Die Entstehungsgeschicht von meinem Buch"
+title: "Die Entstehungsgeschicht von meinem Buch 🍄"
 lang: de
 ---
 

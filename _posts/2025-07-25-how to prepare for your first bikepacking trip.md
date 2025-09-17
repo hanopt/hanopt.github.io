@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Prepare for Your First Bikepacking Trip"
+title: "How to Prepare for Your First Bikepacking Trip 🚴🏼"
 lang: en
 ---
 

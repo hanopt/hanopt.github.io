@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Book Writing Journey"
+title: "My Book Writing Journey 🍄"
 lang: en
 ---
 

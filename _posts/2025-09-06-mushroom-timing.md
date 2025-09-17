@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wann ist die beste Zeit Pilze zu sammeln?"
+title: "Wann ist die beste Zeit Pilze zu sammeln? 🍄‍🟫🍄"
 lang: de
 ---
 
@@ -12,11 +12,3 @@ Im Herbst 2025 gibt's wieder Pilztouren!
 👉 [Anmeldung hier](https://forms.gle/JvqXBEnY9zq2iczn6) 👈
 
 
-
-<iframe width="560" height="315" 
-  src="https://youtu.be/0hZCHqALbE4?si=1R0a3FG98w7HJmrR" 
-  title="YouTube video player" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-  allowfullscreen>
-</iframe>

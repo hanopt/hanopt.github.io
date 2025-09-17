@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Radreise durch Schweden – 10 Tage Abenteuer"
+title: "Radreise durch Schweden – 10 Tage Abenteuer 🚴🏼"
 lang: de
 ---
 

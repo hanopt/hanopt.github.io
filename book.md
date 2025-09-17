@@ -6,14 +6,8 @@ permalink: /book/
 
 # 📖 In die Pilze und noch viel weiter
 
+### 👉 [Auf Amazon bestellen](https://www.amazon.de/dp/B0FRBYN7GP) 👈
 ![Alt text](/assets/img/cover.png)
-
-
-Wissenschaftliche Fakten, Fallberichte und persönliche Touren — über 50 Arten verständlich erklärt.
-
-- 👉 **Kaufen bei Amazon**: <YOUR_LINK>
-- 📦 Format: 7"×10", s/w + Farbfotos
-- ⏱️ Updates & Bonusmaterial hier im Blog
 
 
 
@@ -24,5 +18,11 @@ Durch meine Reisen nach Schweden, Spanien und Russland fließen zudem kulturelle
 Bestimmungsmerkmale, anschauliche Bilder und Zeichnungen machen dieses Werk zu einem unverzichtbaren Begleiter für Pilzfreunde – vom neugierigen Einsteiger bis zum erfahrenen Mykologen.
 
 Ein Buch, das nicht nur Wissen vermittelt, sondern inspiriert – Pilze mit neuen Augen zu sehen und die Natur zu entdecken.
+
+- 👉 **Kaufen bei Amazon**: <YOUR_LINK>
+- 📦 Format: 7"×10",  Farbfotos
+
+
+
 
 
