@@ -7,6 +7,7 @@ permalink: /book/
 # 📖 In die Pilze und noch viel weiter
 
 ### 👉 [Auf Amazon bestellen](https://www.amazon.de/dp/B0FRBYN7GP) 👈
+- 📦 Format: 7"×10",  Farbfotos
 ![Alt text](/assets/img/cover.png)
 
 
@@ -19,9 +20,12 @@ Bestimmungsmerkmale, anschauliche Bilder und Zeichnungen machen dieses Werk zu e
 
 Ein Buch, das nicht nur Wissen vermittelt, sondern inspiriert – Pilze mit neuen Augen zu sehen und die Natur zu entdecken.
 
-- 👉 **Kaufen bei Amazon**: <YOUR_LINK>
-- 📦 Format: 7"×10",  Farbfotos
 
+
+
+Social Media:
+- 📸 Instagram: [@hanopt](https://instagram.com/hanopt)  
+- ▶️ YouTube: [hanopt](https://youtube.com/@hanopt)  
 
 
 

@@ -1,13 +1,15 @@
-title: "hanopt"
-description: "Notes, projects, and bikepacking."
-author: "Eduard"
+title: "Eduard's Blog"
+description: "Pilze, Natur, Wissenschaft"
+author: "@hanopt"
 # Use GitHub Pages–supported theme
 theme: minima
+#theme: jekyll-theme-slate
 
 # Nice-to-haves (all supported by GitHub Pages)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  
 
 # Add this if using minima theme
 include:
