@@ -31,6 +31,9 @@
 <loc>http://localhost:4000/book/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/photogallery/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/tour-signup/</loc>
 </url>
 <url>
