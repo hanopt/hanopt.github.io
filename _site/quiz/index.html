@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Pilz-Quiz | Eduard’s Blog</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Pilz-Quiz" />
+<meta name="author" content="@hanopt" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Pilze, Natur, Wissenschaft" />
+<meta property="og:description" content="Pilze, Natur, Wissenschaft" />
+<link rel="canonical" href="http://localhost:4000/quiz/" />
+<meta property="og:url" content="http://localhost:4000/quiz/" />
+<meta property="og:site_name" content="Eduard’s Blog" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Pilz-Quiz" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"@hanopt"},"description":"Pilze, Natur, Wissenschaft","headline":"Pilz-Quiz","url":"http://localhost:4000/quiz/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Eduard&apos;s Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Eduard&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">Über mich</a><a class="page-link" href="/book/">Mein Buch</a><a class="page-link" href="/photogallery/">Fotos</a><a class="page-link" href="/quiz/">Pilz-Quiz</a><a class="page-link" href="/tour-signup/">Anmeldung Pilztour</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <style>
+  .quiz-container{max-width:900px;margin:2rem auto;padding:1.25rem}
+  .card{border:1px solid #e5e7eb;border-radius:16px;padding:1.25rem;box-shadow:0 6px 16px rgba(0,0,0,.06)}
+  .muted{color:#6b7280}
+  .btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1rem;border-radius:999px;border:1px solid #d1d5db;background:#111827;color:#fff;cursor:pointer}
+  .btn.secondary{background:#fff;color:#111827}
+  .btn[disabled]{opacity:.45;cursor:not-allowed}
+  .answers{display:grid;grid-template-columns:1fr;gap:.75rem;margin-top:1rem}
+  .answers button{width:100%;text-align:left;padding:1rem;border:1px solid #e5e7eb;border-radius:12px;background:#fff}
+  .answers button:hover{border-color:#9ca3af}
+  .answers button.correct{border-color:#16a34a;background:#f0fdf4}
+  .answers button.incorrect{border-color:#dc2626;background:#fef2f2}
+  .progress{height:10px;background:#f3f4f6;border-radius:999px;overflow:hidden}
+  .bar{height:100%;width:0;background:#111827}
+  .pill{display:inline-block;padding:.2rem .6rem;border-radius:999px;background:#f3f4f6}
+  .kbd{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;border:1px solid #e5e7eb;border-bottom-width:2px;border-radius:6px;padding:.05rem .35rem;background:#fafafa}
+  details{background:#f9fafb;border:1px dashed #e5e7eb;padding:.75rem;border-radius:12px}
+</style>
+
+<div class="quiz-container">
+  <h1 id="title">🍄 Pilz-Quiz</h1>
+  <p class="muted">Teste dein Wissen über Pilze. Keine Anmeldung nötig. Dein bester Score wird lokal gespeichert.</p>
+
+  <div class="card" id="intro">
+    <p><span class="pill">10 zufällige Fragen</span> • <span class="pill">Multiple Choice</span> • <span class="pill">Erklärungen nach jeder Antwort</span></p>
+    <div style="margin-top:1rem;display:flex;gap:.75rem;flex-wrap:wrap">
+      <button class="btn" id="startBtn">Quiz starten</button>
+      <button class="btn secondary" id="reviewBtn" disabled>Letzte Runde ansehen</button>
+      <span class="muted" id="bestScore"></span>
+    </div>
+  </div>
+
+  <div class="card" id="quiz" hidden aria-live="polite">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem">
+      <div><strong id="counter">Frage 1/10</strong></div>
+      <div class="progress" style="flex:1;max-width:400px"><div class="bar" id="bar"></div></div>
+    </div>
+
+    <h2 id="question" style="margin-top:1rem"></h2>
+    <div class="answers" id="answers"></div>
+
+    <details id="explanationWrap" style="margin-top:1rem" hidden>
+      <summary><strong>Erklärung</strong></summary>
+      <div id="explanation" style="margin-top:.5rem"></div>
+    </details>
+
+    <div style="margin-top:1rem;display:flex;gap:.75rem;flex-wrap:wrap">
+      <button class="btn" id="nextBtn" disabled>Nächste Frage</button>
+      <button class="btn secondary" id="skipBtn">Überspringen</button>
+      <span class="muted">Tipp: drücke <span class="kbd">1–4</span> zur Auswahl</span>
+    </div>
+  </div>
+
+  <div class="card" id="result" hidden>
+    <h2>Ergebnis</h2>
+    <p id="score"></p>
+    <div id="shareWrap" style="margin:.5rem 0 1rem"></div>
+    <div style="display:flex;gap:.75rem;flex-wrap:wrap">
+      <button class="btn" id="retryBtn">Erneut versuchen</button>
+      <button class="btn secondary" id="seeReviewBtn">Fragen überprüfen</button>
+    </div>
+  </div>
+
+  <div class="card" id="review" hidden>
+    <h2>Überprüfung</h2>
+    <ol id="reviewList"></ol>
+  </div>
+</div>
+
+<script>
+// ——— Konfiguration ———
+const QUIZ_LENGTH = 10; // Fragen pro Runde
+const SHUFFLE_ANSWERS = true;
+const STORAGE_KEY = 'pilz-quiz-best';
+const STORAGE_REVIEW = 'pilz-quiz-last-review';
+
+/** Schema:
+ * { q: 'Frage', choices: ['A','B','C','D'], correctIndex: 1, explanation: '…' }
+ */
+const QUESTIONS = [
+  { q: 'Welches Gift ist hauptsächlich für die hohe Letalität des Grünen Knollenblätterpilzes (Amanita phalloides) verantwortlich?', choices: ['Muscarin', 'Amatoxine', 'Orellanin', 'Gyromitrin'], correctIndex: 1, explanation: 'Amatoxine (z. B. α‑Amanitin) blockieren die RNA‑Polymerase II und verursachen Leberversagen.' },
+  { q: 'Richtig oder falsch: Echte Pfifferlinge (Cantharellus) besitzen echte Lamellen.', choices: ['Richtig', 'Falsch'], correctIndex: 1, explanation: 'Pfifferlinge besitzen Leisten (sogenannte „falsche Lamellen“), keine dünnen Lamellen.' },
+  { q: 'Ein Röhrling verfärbt sich beim Anschneiden sofort blau und schmeckt sehr bitter. Was ist eine sichere Regel?', choices: ['Nach langem Kochen essbar','Besser meiden: Bitterkeit deutet auf ungenießbare/ giftige Arten hin','Immer essbar, wenn die Röhren gelb sind','Essbar, wenn man die Huthaut entfernt'], correctIndex: 1, explanation: 'Starke Bitterkeit deutet oft auf ungenießbare oder problematische Röhrlinge hin (z. B. Gallenröhrling).'} ,
+  { q: 'Welche Gattung erkennt man an einem spinnwebartigen Teilvelum („Cortina“) und rostbraunem Sporenpulver?', choices: ['Lactarius','Russula','Cortinarius','Agaricus'], correctIndex: 2, explanation: 'Cortinarius‑Arten besitzen eine Cortina; manche enthalten das Nierengift Orellanin.' },
+  { q: 'Wodurch lassen sich echte Morcheln (Morchella) gut erkennen?', choices: ['Baumwollartiges Inneres','Klebriger lilafarbener Hut','Durchgehend hohl von Hut bis Stiel','Blaugrüner Sporenabdruck'], correctIndex: 2, explanation: 'Echte Morcheln sind komplett hohl; Giftlorcheln sind meist gekammert und können giftig sein.' },
+  { q: 'Ein wilder Champignon riecht phenolisch nach Tinte und sein Fleisch vergilbt stark. Was bedeutet das?', choices: ['Essbarer Wiesenchampignon','Zuchtchampignon','Giftiger Agaricus (z. B. Karbol‑Egerling)','Steinpilz'], correctIndex: 2, explanation: 'Karbol‑Egerlinge (Agaricus xanthodermus‑Gruppe) riechen phenolisch und vergilben stark – sie verursachen Magen‑Darm‑Beschwerden.' },
+  { q: 'Welches Merkmal unterscheidet Milchlinge (Lactarius) von Täublingen (Russula)?', choices: ['Ring am Stiel','Milchsaft beim Anschneiden','Blauer Sporenabdruck','Hohlstiel'], correctIndex: 1, explanation: 'Milchlinge sondern beim Anschneiden Milchsaft ab, Täublinge nicht.' },
+  { q: 'Warum entwickeln Trüffel (Tuber spp.) ihr charakteristisches Aroma?', choices: ['Um Schnecken abzuschrecken','Um Tiere zur Sporenverbreitung anzulocken','Um Frost zu verhindern','Um die Photosynthese zu steigern'], correctIndex: 1, explanation: 'Die Duftstoffe locken Tiere an, die die Trüffel ausgraben und so die Sporen verbreiten.' },
+  { q: 'Welche Organismen parasitieren Cordyceps‑Arten hauptsächlich?', choices: ['Nadelbäume','Insekten/Arthropoden','Nur andere Pilze','Gräser'], correctIndex: 1, explanation: 'Viele Cordyceps‑Arten parasitieren Insekten oder andere Arthropoden.' },
+  { q: 'Warum gilt der Kahle Krempling (Paxillus involutus) heute als gefährlich?', choices: ['Er verdirbt schnell','Er reichert nur Schwermetalle an','Er kann hämolytische Anämie nach wiederholtem Verzehr auslösen','Er leuchtet im Dunkeln'], correctIndex: 2, explanation: 'Wiederholter Verzehr kann eine Immunreaktion auslösen, die rote Blutkörperchen zerstört.' }
+];
+
+// ——— Utilities ———
+function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}return arr}
+function sample(arr,n){return shuffle(arr.slice()).slice(0, n)}
+
+// ——— State ———
+let state = { deck: [], index: 0, correct: 0, review: [] };
+
+// ——— Elements ———
+const intro = document.getElementById('intro');
+const startBtn = document.getElementById('startBtn');
+const reviewBtn = document.getElementById('reviewBtn');
+const bestScore = document.getElementById('bestScore');
+const quiz = document.getElementById('quiz');
+const counter = document.getElementById('counter');
+const bar = document.getElementById('bar');
+const questionEl = document.getElementById('question');
+const answersEl = document.getElementById('answers');
+const explanationWrap = document.getElementById('explanationWrap');
+const explanationEl = document.getElementById('explanation');
+const nextBtn = document.getElementById('nextBtn');
+const skipBtn = document.getElementById('skipBtn');
+const result = document.getElementById('result');
+const score = document.getElementById('score');
+const shareWrap = document.getElementById('shareWrap');
+const retryBtn = document.getElementById('retryBtn');
+const seeReviewBtn = document.getElementById('seeReviewBtn');
+const review = document.getElementById('review');
+const reviewList = document.getElementById('reviewList');
+
+// ——— Init ———
+(function init(){
+  const best = Number(localStorage.getItem(STORAGE_KEY) || 0);
+  if(best>0) bestScore.textContent = `Best: ${best}/${QUIZ_LENGTH}`;
+  const last = JSON.parse(localStorage.getItem(STORAGE_REVIEW) || 'null');
+  if(last && last.length) reviewBtn.disabled = false;
+})();
+
+startBtn.addEventListener('click', startQuiz);
+reviewBtn.addEventListener('click', showLastReview);
+nextBtn.addEventListener('click', nextQuestion);
+skipBtn.addEventListener('click', ()=>{lockQuestion(-1)});
+retryBtn.addEventListener('click', startQuiz);
+seeReviewBtn.addEventListener('click', showCurrentReview);
+
+window.addEventListener('keydown', (e)=>{
+  if(quiz.hasAttribute('hidden')) return;
+  const k = e.key;
+  if(['1','2','3','4'].includes(k)){
+    const idx = Number(k)-1;
+    const btn = answersEl.querySelectorAll('button')[idx];
+    if(btn) btn.click();
+  }
+});
+
+function startQuiz(){
+  intro.hidden = true; result.hidden = true; review.hidden = true; quiz.hidden = false;
+  state.deck = sample(QUESTIONS, Math.min(QUIZ_LENGTH, QUESTIONS.length)).map(q=>({...q}));
+  state.index = 0; state.correct = 0; state.review = [];
+  renderQuestion();
+}
+
+function renderQuestion(){
+  nextBtn.disabled = true; explanationWrap.hidden = true; explanationEl.innerHTML = '';
+  const q = state.deck[state.index];
+  counter.textContent = `Frage ${state.index+1}/${state.deck.length}`;
+  bar.style.width = `${(state.index/state.deck.length)*100}%`;
+  questionEl.innerHTML = q.q;
+  const choices = q.choices.map((c,i)=>({i, t:c}));
+  const order = SHUFFLE_ANSWERS? shuffle(choices): choices;
+  answersEl.innerHTML='';
+  order.forEach(({i,t},pos)=>{
+    const b = document.createElement('button');
+    b.innerHTML = `<span class="pill" aria-hidden="true">${pos+1}</span> ${t}`;
+    b.addEventListener('click', ()=> lockQuestion(i, b));
+    answersEl.appendChild(b);
+  });
+}
+
+function lockQuestion(pickedIndex, pickedBtn){
+  answersEl.querySelectorAll('button').forEach(btn=>btn.disabled = true);
+  const q = state.deck[state.index];
+  const buttons = Array.from(answersEl.children);
+  buttons.forEach(btn=>{
+    const label = btn.textContent.replace(/\n/g,'');
+    const text = label.replace(/^\s*\d+\s*/,'').trim();
+    const orig = q.choices.findIndex(c => c === text);
+    if(orig === q.correctIndex) btn.classList.add('correct');
+  });
+  if(pickedIndex === q.correctIndex){
+    state.correct++;
+    if(pickedBtn) pickedBtn.classList.add('correct');
+  } else if(pickedIndex !== -1) {
+    if(pickedBtn) pickedBtn.classList.add('incorrect');
+  }
+  explanationEl.innerHTML = q.explanation || '';
+  explanationWrap.hidden = !q.explanation;
+  nextBtn.disabled = false;
+  state.review.push({q:q.q, choices:q.choices, correctIndex:q.correctIndex, picked:pickedIndex});
+}
+
+function nextQuestion(){
+  state.index++;
+  if(state.index >= state.deck.length){
+    finish();
+  } else {
+    renderQuestion();
+  }
+}
+
+function finish(){
+  quiz.hidden = true; result.hidden = false; review.hidden = true;
+  bar.style.width = '100%';
+  score.textContent = `Du hast ${state.correct} / ${state.deck.length} Punkten erzielt.`;
+  const best = Number(localStorage.getItem(STORAGE_KEY) || 0);
+  if(state.correct > best){
+    localStorage.setItem(STORAGE_KEY, String(state.correct));
+    bestScore.textContent = `Best: ${state.correct}/${state.deck.length}`;
+  }
+  localStorage.setItem(STORAGE_REVIEW, JSON.stringify(state.review));
+
+  const shareUrl = new URL('/quiz/', location.origin).toString();
+  const shareText = `Ich habe ${state.correct}/${state.deck.length} im 🍄 Pilz‑Quiz geschafft! Versuch es auch: ${shareUrl}`;
+  shareWrap.innerHTML = '';
+  if(navigator.share){
+    const btn = document.createElement('button');
+    btn.className='btn secondary';
+    btn.textContent = 'Score teilen';
+    btn.addEventListener('click', ()=>navigator.share({text:shareText}).catch(()=>{}));
+    shareWrap.appendChild(btn);
+  } else {
+    const small = document.createElement('small');
+    small.className='muted';
+    small.textContent = shareText;
+    shareWrap.appendChild(small);
+  }
+}
+
+function showCurrentReview(){ buildReview(state.review); }
+function showLastReview(){ const last = JSON.parse(localStorage.getItem(STORAGE_REVIEW) || 'null'); if(!last) return; buildReview(last); }
+function buildReview(items){
+  intro.hidden=true; quiz.hidden=true; result.hidden=true; review.hidden=false;
+  reviewList.innerHTML = '';
+  items.forEach((it,idx)=>{
+    const li = document.createElement('li');
+    li.style.marginBottom = '1rem';
+    const head = document.createElement('div');
+    head.innerHTML = `<strong>F${idx+1}.</strong> ${it.q}`;
+    const ul = document.createElement('ul');
+    ul.style.margin = '.5rem 0 0 1rem';
+    it.choices.forEach((c,i)=>{
+      const ci = document.createElement('li');
+      const mark = i===it.correctIndex ? '✅' : (i===it.picked ? '✖️' : '•');
+      ci.innerHTML = `${mark} ${c}`;
+      ul.appendChild(ci);
+    });
+    li.appendChild(head); li.appendChild(ul);
+    reviewList.appendChild(li);
+  });
+}
+</script>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Eduard&#39;s Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">@hanopt</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Pilze, Natur, Wissenschaft</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
