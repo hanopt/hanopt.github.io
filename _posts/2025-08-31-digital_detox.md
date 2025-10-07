@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Digital Detox, eine Auszeit fürs Gehirn 🧠"
+categories: [Natur und Outdoor]
 lang: de
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Die Entstehungsgeschicht von meinem Buch 🍄"
+categories: [Natur und Outdoor]
 lang: de
 ---
 

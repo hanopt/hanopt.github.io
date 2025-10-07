@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Wann ist die beste Zeit Pilze zu sammeln? 🍄‍🟫🍄"
+categories: [Natur und Outdoor]
 lang: de
 ---
 

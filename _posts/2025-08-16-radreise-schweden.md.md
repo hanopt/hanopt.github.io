@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Radreise durch Schweden – 10 Tage Abenteuer 🚴🏼"
+categories: [Natur und Outdoor]
 lang: de
 ---
 

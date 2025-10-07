@@ -1,9 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-25T12:19:45+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Eduard’s Blog</title><subtitle>Pilze, Natur, Wissenschaft</subtitle><author><name>@hanopt</name></author><entry xml:lang="de"><title type="html">Wann ist die beste Zeit Pilze zu sammeln? 🍄‍🟫🍄</title><link href="http://localhost:4000/2025/09/06/mushroom-timing.html" rel="alternate" type="text/html" title="Wann ist die beste Zeit Pilze zu sammeln? 🍄‍🟫🍄" /><published>2025-09-06T00:00:00+02:00</published><updated>2025-09-06T00:00:00+02:00</updated><id>http://localhost:4000/2025/09/06/mushroom-timing</id><content type="html" xml:base="http://localhost:4000/2025/09/06/mushroom-timing.html"><![CDATA[<p>Wenn ich Pilztouren anbiete, ist es mir wichtig, dass die Teilnehmer möglichst viele verschiedene Pilzarten entdecken können. Bei länger anhaltender Trockenheit kann es jedoch vorkommen, dass nur wenige Pilze im Wald zu finden sind. Für die Bildung von Fruchtkörpern ist ausreichend Feuchtigkeit notwendig – schließlich bestehen Pilze zu rund 90 % aus Wasser.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-07T18:53:53+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Eduard’s Blog</title><subtitle>Pilze, Natur, Wissenschaft</subtitle><author><name>@hanopt</name></author><entry xml:lang="de"><title type="html">Die deutsche Ölindustrie – Fallbeispiel Holborn Raffinerie</title><link href="http://localhost:4000/wirtschaft/2025/10/02/oil-refinery.html" rel="alternate" type="text/html" title="Die deutsche Ölindustrie – Fallbeispiel Holborn Raffinerie" /><published>2025-10-02T00:00:00+02:00</published><updated>2025-10-02T00:00:00+02:00</updated><id>http://localhost:4000/wirtschaft/2025/10/02/oil%20refinery</id><content type="html" xml:base="http://localhost:4000/wirtschaft/2025/10/02/oil-refinery.html"><![CDATA[<p>Erdöl ist nach wie vor eine zentrale Ressource der globalen Energieversorgung. In Raffinerien werden aus Rohöl verschiedene Produkte gewonnen, darunter Benzin, Diesel, Heizöl, Schweröl (LSFO = Low Sulfur Fuel Oil), Kerosin, Flüssiggase (Liquefied Petroleum Gas, z. B. Propan und Butan), Naphtha und Cyclohexan. In der Luftfahrt verwendet man Kerosin, in der Seeverkehr Schweröl im Straßenverkehr überwiegend Benzin und Diesel.</p>
+
+<p>Erdöl ist nicht nur als Energieträger wichtig, sondern ist auch ein für die Herstellung von Kunststoffen, Läsungsmitteln, Schmierstoffen, Farbstoffen, Düngern, Pestiziden, Pharamzeutika wichtig.</p>
+
+<h2 id="rohölversorgung">Rohölversorgung</h2>
+
+<p>Damit eine Raffinerie kontinuierlich produzieren kann, muss die Versorgung mit Rohöl jederzeit sichergestellt sein. Die Holborn Raffinerie in Hamburg-Harburg wird beispielsweise über die <strong>Norddeutsche Ölleitung (NDO)</strong> aus Wilhelmshaven beliefert – dort befindet sich der größte Ölhafen Deutschlands. Die Raffinerie verarbeitet jährlich rund <strong>5 Millionen Tonnen Rohöl</strong>.</p>
+
+<h2 id="woher-kommt-das-rohöl-nach-deutschland">Woher kommt das Rohöl nach Deutschland?</h2>
+
+<p>Das Rohöl wird mit Öltankern über See oder durch Pipelines nach Deutschland transport. Häufig ist es eine Kombination aus beidem.
+Das EU-Ölembargo führte dazu, dass im Januar 2023 die importierte Mengen an russischem Rohöl nur noch 3500 Tonnen betrug. Im Jahr 2022 war wurden 2,8 Millionen Tonnen russisches Erdöl importiert. Im Gegenzug wurde vermehrt Erdöl aus Norwegen, UK und Kasachstan bezogen.</p>
+
+<p><a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/03/PD23_098_51.html?utm_source=chatgpt.com">Destatis</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Pipeline</th>
+      <th style="text-align: center">Abbr.</th>
+      <th style="text-align: right">Throughput 2010 (mt)</th>
+      <th style="text-align: right">Latest Throughput (mt)</th>
+      <th style="text-align: center">Year</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Brunsbüttel — Heide</td>
+      <td style="text-align: center">—</td>
+      <td style="text-align: right">2.9</td>
+      <td style="text-align: right">n/a</td>
+      <td style="text-align: center">—</td>
+      <td>Heide refinery capacity ≈4.5 mt/y; no public annual flow data</td>
+    </tr>
+    <tr>
+      <td>Wilhelmshaven — Hamburg</td>
+      <td style="text-align: center">NDO</td>
+      <td style="text-align: right">4.2</td>
+      <td style="text-align: right">≈ 4.6</td>
+      <td style="text-align: center">2024</td>
+      <td>Slight increase; data from NWO operator report</td>
+    </tr>
+    <tr>
+      <td>Wilhelmshaven — Ruhr &amp; Rhine district</td>
+      <td style="text-align: center">NWO</td>
+      <td style="text-align: right">15.6</td>
+      <td style="text-align: right">≈ 14.1</td>
+      <td style="text-align: center">2024</td>
+      <td>Stable; supplies inland refineries</td>
+    </tr>
+    <tr>
+      <td>Rotterdam (NL) — Ruhr &amp; Rhine district</td>
+      <td style="text-align: center">RRP</td>
+      <td style="text-align: right">13.9</td>
+      <td style="text-align: right">≈ 25</td>
+      <td style="text-align: center">2024</td>
+      <td>Throughput close to capacity; key import route</td>
+    </tr>
+    <tr>
+      <td>Lavéra (FR) — Karlsruhe</td>
+      <td style="text-align: center">SPSE</td>
+      <td style="text-align: right">6.0</td>
+      <td style="text-align: right">≈ 23 (system total)</td>
+      <td style="text-align: center">2024</td>
+      <td>System total; specific Karlsruhe split not published</td>
+    </tr>
+    <tr>
+      <td>Trieste (IT) — Bavaria &amp; Karlsruhe</td>
+      <td style="text-align: center">TAL</td>
+      <td style="text-align: right">24.6</td>
+      <td style="text-align: right">37.2</td>
+      <td style="text-align: center">2022</td>
+      <td>Major growth; ongoing TAL-PLUS capacity upgrade</td>
+    </tr>
+    <tr>
+      <td>Russia — Schwedt &amp; Spergau</td>
+      <td style="text-align: center">Druzhba</td>
+      <td style="text-align: right">19.8</td>
+      <td style="text-align: right">≈ 1.5 (Kazakh crude)</td>
+      <td style="text-align: center">2024</td>
+      <td>Russian flows stopped; only Kazakh volumes remain</td>
+    </tr>
+    <tr>
+      <td>Rostock — Schwedt</td>
+      <td style="text-align: center">MVL</td>
+      <td style="text-align: right">1.9</td>
+      <td style="text-align: right">≈ 6–7</td>
+      <td style="text-align: center">2024</td>
+      <td>Boosted to replace lost Druzhba imports; upgrade target ≈ 9 mt/y</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Source:</strong> Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)</p>
+
+<p>Bei der Verarbeitung des Rohöls werden zunächst Verunreinigungen wie Schwefel und Blei entfernt. Anschließend erfolgt die <strong>Rektifikation</strong> – eine mehrstufige Trennmethode, bei der das Rohöl in verschiedene Fraktionen aufgeteilt wird. Im Gegensatz zur einfachen <strong>Destillation</strong> bietet die Rektifikation eine höhere Trennschärfe, da durch mehrere Verdampfungs- und Kondensationsvorgänge Gleichgewichte in den einzelnen Trennstufen entstehen. So lassen sich die einzelnen Bestandteile des Rohöls präzise voneinander trennen.</p>
+
+<h2 id="co-einsparung-und-grüne-raffinerien">CO₂-Einsparung und grüne Raffinerien</h2>
+
+<p>Da Airlines, Reedereien und Logistikunternehmen zunehmend verpflichtet werden, ihren <strong>CO₂-Fußabdruck</strong> zu senken, steigt die Nachfrage nach Kraftstoffen, die zur Verbesserung der eigenen Klimabilanz beitragen. Ab dem <strong>1. Januar 2025</strong> müssen Lieferanten von Flugzeugtreibstoffen einen <strong>Mindestanteil von 2 % Sustainable Aviation Fuel (SAF)</strong> beifügen.</p>
+
+<p>Die Holborn Raffinerie plant, ab <strong>2027</strong> jährlich <strong>220.000 Tonnen Biosprit</strong> herzustellen. Als Rohstoffe sollen <strong>gebrauchte Speisefette</strong> sowie <strong>Rückstände aus der Zellstoffproduktion</strong> verwendet werden (Zellstoff besteht zu etwa 90 % aus Zellulose und wird beispielsweise bei der Papierproduktion eingesetzt).</p>
+
+<p>Das Projekt wird <strong>ohne öffentliche Fördermittel</strong> realisiert und mit rund <strong>475 Millionen Euro</strong> vollständig privat finanziert. Damit entsteht in Hamburg Deutschlands erste grüne Raffinerie.</p>
+
+<p><a href="https://www.welt.de/regionales/hamburg/article253481994/Energiewirtschaft-Hier-soll-Deutschlands-erste-gruene-Raffinerie-entstehen.html">Quelle: WELT – Hier soll Deutschlands erste grüne Raffinerie entstehen (2024)</a></p>]]></content><author><name>@hanopt</name></author><category term="Wirtschaft" /><summary type="html"><![CDATA[Erdöl ist nach wie vor eine zentrale Ressource der globalen Energieversorgung. In Raffinerien werden aus Rohöl verschiedene Produkte gewonnen, darunter Benzin, Diesel, Heizöl, Schweröl (LSFO = Low Sulfur Fuel Oil), Kerosin, Flüssiggase (Liquefied Petroleum Gas, z. B. Propan und Butan), Naphtha und Cyclohexan. In der Luftfahrt verwendet man Kerosin, in der Seeverkehr Schweröl im Straßenverkehr überwiegend Benzin und Diesel.]]></summary></entry><entry xml:lang="de"><title type="html">Wann ist die beste Zeit Pilze zu sammeln? 🍄‍🟫🍄</title><link href="http://localhost:4000/natur%20und%20outdoor/2025/09/06/mushroom-timing.html" rel="alternate" type="text/html" title="Wann ist die beste Zeit Pilze zu sammeln? 🍄‍🟫🍄" /><published>2025-09-06T00:00:00+02:00</published><updated>2025-09-06T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2025/09/06/mushroom-timing</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2025/09/06/mushroom-timing.html"><![CDATA[<p>Wenn ich Pilztouren anbiete, ist es mir wichtig, dass die Teilnehmer möglichst viele verschiedene Pilzarten entdecken können. Bei länger anhaltender Trockenheit kann es jedoch vorkommen, dass nur wenige Pilze im Wald zu finden sind. Für die Bildung von Fruchtkörpern ist ausreichend Feuchtigkeit notwendig – schließlich bestehen Pilze zu rund 90 % aus Wasser.</p>
 
 <p>Um eine möglichst ertragreiche Tour zu gewährleisten, vergebe ich bevorzugt Termine ab Oktober. In dieser Zeit sind die Temperaturen meist niedriger und es regnet häufiger. September-Termine biete ich in der Regel erst dann an, wenn ein Ende der Trockenheit absehbar ist. Wer also langfristig planen möchte, ist mit einer Tour im Oktober, November oder Dezember am besten beraten. Bis in den Dezember hinein wachsen Pilze noch sehr gut, und sobald der erste Frost einsetzt, erscheinen zudem oft kälteliebende Arten.</p>
 
 <p>Im Herbst 2025 gibt’s wieder Pilztouren!
-👉 <a href="https://forms.gle/JvqXBEnY9zq2iczn6">Anmeldung hier</a> 👈</p>]]></content><author><name>@hanopt</name></author><summary type="html"><![CDATA[Wenn ich Pilztouren anbiete, ist es mir wichtig, dass die Teilnehmer möglichst viele verschiedene Pilzarten entdecken können. Bei länger anhaltender Trockenheit kann es jedoch vorkommen, dass nur wenige Pilze im Wald zu finden sind. Für die Bildung von Fruchtkörpern ist ausreichend Feuchtigkeit notwendig – schließlich bestehen Pilze zu rund 90 % aus Wasser.]]></summary></entry><entry xml:lang="de"><title type="html">Digital Detox, eine Auszeit fürs Gehirn 🧠</title><link href="http://localhost:4000/2025/08/31/digital_detox.html" rel="alternate" type="text/html" title="Digital Detox, eine Auszeit fürs Gehirn 🧠" /><published>2025-08-31T00:00:00+02:00</published><updated>2025-08-31T00:00:00+02:00</updated><id>http://localhost:4000/2025/08/31/digital_detox</id><content type="html" xml:base="http://localhost:4000/2025/08/31/digital_detox.html"><![CDATA[<p>Der technische Fortschritt und die Digitalisierung haben wesentlich dazu beigetragen, wirtschaftliche Prozesse zu verbessern. Anstelle von Briefen und persönlichen Treffen reichen heute oft schon E-Mails und Online-Meetings, um sich abzustimmen und Informationen auszutauschen. Produkte können bequem im Internet bestellt werden, anstatt sie mühsam im Laden aufzusuchen. Auch Werbung hat sich stark verändert: Statt Flyer in der Nachbarschaft zu verteilen oder Werbetafeln zu nutzen, können Unternehmen ihre Produkte einfach online bewerben. Dabei ist es möglich, gezielt bestimmte Zielgruppen anzusprechen, die für das Produkt relevant sind. Plattformen mit vielen Nutzern, die dort täglich mehrere Stunden verbringen, bieten einen idealen Nährboden für erfolgreiche Werbekampagnen.</p>
+👉 <a href="https://forms.gle/JvqXBEnY9zq2iczn6">Anmeldung hier</a> 👈</p>]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[Wenn ich Pilztouren anbiete, ist es mir wichtig, dass die Teilnehmer möglichst viele verschiedene Pilzarten entdecken können. Bei länger anhaltender Trockenheit kann es jedoch vorkommen, dass nur wenige Pilze im Wald zu finden sind. Für die Bildung von Fruchtkörpern ist ausreichend Feuchtigkeit notwendig – schließlich bestehen Pilze zu rund 90 % aus Wasser.]]></summary></entry><entry xml:lang="de"><title type="html">Digital Detox, eine Auszeit fürs Gehirn 🧠</title><link href="http://localhost:4000/natur%20und%20outdoor/2025/08/31/digital_detox.html" rel="alternate" type="text/html" title="Digital Detox, eine Auszeit fürs Gehirn 🧠" /><published>2025-08-31T00:00:00+02:00</published><updated>2025-08-31T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2025/08/31/digital_detox</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2025/08/31/digital_detox.html"><![CDATA[<p>Der technische Fortschritt und die Digitalisierung haben wesentlich dazu beigetragen, wirtschaftliche Prozesse zu verbessern. Anstelle von Briefen und persönlichen Treffen reichen heute oft schon E-Mails und Online-Meetings, um sich abzustimmen und Informationen auszutauschen. Produkte können bequem im Internet bestellt werden, anstatt sie mühsam im Laden aufzusuchen. Auch Werbung hat sich stark verändert: Statt Flyer in der Nachbarschaft zu verteilen oder Werbetafeln zu nutzen, können Unternehmen ihre Produkte einfach online bewerben. Dabei ist es möglich, gezielt bestimmte Zielgruppen anzusprechen, die für das Produkt relevant sind. Plattformen mit vielen Nutzern, die dort täglich mehrere Stunden verbringen, bieten einen idealen Nährboden für erfolgreiche Werbekampagnen.</p>
 
 <p>Während Social Media für Unternehmen eine effiziente Werbeplattform darstellt, kann sie für Nutzer auch problematisch sein. Die Algorithmen sind darauf ausgelegt, die Aufmerksamkeit möglichst lange zu binden. Der Feed wird individuell an die Interessen und Bedürfnisse der Nutzer angepasst. Auch das Gefühl des Fear of Missing Out (FOMO) trägt dazu bei, dass sie immer wieder zurückkehren. Der konstante Fluss neuer Inhalte verlängert die Nutzungssitzungen und kann durch die Stimulation des Dopaminsystems zu einem Suchtverhalten führen.</p>
 
@@ -51,7 +157,7 @@
       <li>7–12 Jahre: weniger als 2 Stunden pro Tag</li>
     </ul>
   </li>
-</ul>]]></content><author><name>@hanopt</name></author><summary type="html"><![CDATA[Der technische Fortschritt und die Digitalisierung haben wesentlich dazu beigetragen, wirtschaftliche Prozesse zu verbessern. Anstelle von Briefen und persönlichen Treffen reichen heute oft schon E-Mails und Online-Meetings, um sich abzustimmen und Informationen auszutauschen. Produkte können bequem im Internet bestellt werden, anstatt sie mühsam im Laden aufzusuchen. Auch Werbung hat sich stark verändert: Statt Flyer in der Nachbarschaft zu verteilen oder Werbetafeln zu nutzen, können Unternehmen ihre Produkte einfach online bewerben. Dabei ist es möglich, gezielt bestimmte Zielgruppen anzusprechen, die für das Produkt relevant sind. Plattformen mit vielen Nutzern, die dort täglich mehrere Stunden verbringen, bieten einen idealen Nährboden für erfolgreiche Werbekampagnen.]]></summary></entry><entry xml:lang="de"><title type="html">Die Entstehungsgeschicht von meinem Buch 🍄</title><link href="http://localhost:4000/2025/08/17/book-writing-german.html" rel="alternate" type="text/html" title="Die Entstehungsgeschicht von meinem Buch 🍄" /><published>2025-08-17T00:00:00+02:00</published><updated>2025-08-17T00:00:00+02:00</updated><id>http://localhost:4000/2025/08/17/book-writing-german</id><content type="html" xml:base="http://localhost:4000/2025/08/17/book-writing-german.html"><![CDATA[<h1 id="der-grund-warum-ich-zu-schreiben-begann">Der Grund, warum ich zu schreiben begann</h1>
+</ul>]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[Der technische Fortschritt und die Digitalisierung haben wesentlich dazu beigetragen, wirtschaftliche Prozesse zu verbessern. Anstelle von Briefen und persönlichen Treffen reichen heute oft schon E-Mails und Online-Meetings, um sich abzustimmen und Informationen auszutauschen. Produkte können bequem im Internet bestellt werden, anstatt sie mühsam im Laden aufzusuchen. Auch Werbung hat sich stark verändert: Statt Flyer in der Nachbarschaft zu verteilen oder Werbetafeln zu nutzen, können Unternehmen ihre Produkte einfach online bewerben. Dabei ist es möglich, gezielt bestimmte Zielgruppen anzusprechen, die für das Produkt relevant sind. Plattformen mit vielen Nutzern, die dort täglich mehrere Stunden verbringen, bieten einen idealen Nährboden für erfolgreiche Werbekampagnen.]]></summary></entry><entry xml:lang="de"><title type="html">Die Entstehungsgeschicht von meinem Buch 🍄</title><link href="http://localhost:4000/natur%20und%20outdoor/2025/08/17/book-writing-german.html" rel="alternate" type="text/html" title="Die Entstehungsgeschicht von meinem Buch 🍄" /><published>2025-08-17T00:00:00+02:00</published><updated>2025-08-17T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2025/08/17/book-writing-german</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2025/08/17/book-writing-german.html"><![CDATA[<h1 id="der-grund-warum-ich-zu-schreiben-begann">Der Grund, warum ich zu schreiben begann</h1>
 
 <p>Meine Buchschreib-Reise begann im Dezember. Die Idee kam mir nach einem besonders intensiven Wochenende, an dem ich vier Pilzführungen direkt hintereinander gegeben hatte. Insgesamt verbrachte ich etwa 16 Stunden im Wald, während ich Einsteiger in die faszinierende Welt der Pilze einführte. Am Ende war ich völlig erschöpft – nicht nur vom Laufen, sondern auch vom ständigen Beantworten der gleichen Fragen.<br />
 Da beschloss ich, diese Fragen mit ausführlichen Antworten niederzuschreiben. Daraus entstand schließlich das Kapitel „Einsteigerfragen“. Für dieses Kapitel fertigte ich mehrere handgezeichnete Illustrationen an, um zentrale Konzepte zu erklären. Da Anfänger oft unsicher sind und Angst vor Pilzvergiftungen haben, fügte ich Daten ein, die die vergleichsweise geringe Häufigkeit solcher Vorfälle verdeutlichen. Zusätzlich widmete ich ein ganzes Kapitel den gefährlichsten Pilzgiften, inklusive Fallberichten, um Einsteigern das Erkennen gefährlicher Arten zu erleichtern.</p>
@@ -104,7 +210,7 @@ Für das Cover nutzte ich meine besten Makrofotos von Pilzen, die die Vielfalt r
 
 <p>Ich entschied mich, mein Buch über Amazon KDP zu veröffentlichen, da die Plattform Self-Publishing unkompliziert macht, sobald Manuskript und Cover fertig sind. Wenn du meine Arbeit unterstützen möchtest, kannst du ein Exemplar direkt bei Amazon bestellen.</p>
 
-<p>Link:</p>]]></content><author><name>@hanopt</name></author><summary type="html"><![CDATA[Der Grund, warum ich zu schreiben begann]]></summary></entry><entry xml:lang="en"><title type="html">My Book Writing Journey 🍄</title><link href="http://localhost:4000/2025/08/17/book-writing.html" rel="alternate" type="text/html" title="My Book Writing Journey 🍄" /><published>2025-08-17T00:00:00+02:00</published><updated>2025-08-17T00:00:00+02:00</updated><id>http://localhost:4000/2025/08/17/book-writing</id><content type="html" xml:base="http://localhost:4000/2025/08/17/book-writing.html"><![CDATA[<h1 id="the-reason-i-started-writing">The Reason I Started Writing</h1>
+<p>Link:</p>]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[Der Grund, warum ich zu schreiben begann]]></summary></entry><entry xml:lang="en"><title type="html">My Book Writing Journey 🍄</title><link href="http://localhost:4000/natur%20und%20outdoor/2025/08/17/book-writing.html" rel="alternate" type="text/html" title="My Book Writing Journey 🍄" /><published>2025-08-17T00:00:00+02:00</published><updated>2025-08-17T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2025/08/17/book-writing</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2025/08/17/book-writing.html"><![CDATA[<h1 id="the-reason-i-started-writing">The Reason I Started Writing</h1>
 
 <p>My book-writing journey started in December. The idea came to me after a particularly busy weekend where I gave four mushroom tours back-to-back. I had spent around 16 hours in the forest, guiding beginners through the fascinating world of mushrooms. By the end, I felt completely exhausted—not just from the walking, but from answering the same questions again and again.
 That’s when I decided to start writing those questions down, along with detailed answers. They eventually became the foundation for my chapter “Einsteigerfragen” (Beginner Questions). For this chapter, I created several hand-drawn illustrations to explain key concepts. Since beginners are often uncertain and worried about mushroom poisoning, I included data to highlight the relatively low frequency of such incidents. In addition, I dedicated an entire chapter to the most lethal mushroom toxins, including case reports, to help beginners recognize the species they should strictly avoid.</p>
@@ -155,7 +261,7 @@ I used my best mushroom macro photos for my cover which represent the variety of
 
 <p>I chose to publish my book through Amazon KDP, as the platform makes self-publishing straightforward once the manuscript and cover are complete. If you’d like to support my work, you can order a copy directly on Amazon.</p>
 
-<p>Link:</p>]]></content><author><name>@hanopt</name></author><summary type="html"><![CDATA[The Reason I Started Writing]]></summary></entry><entry xml:lang="de"><title type="html">Radreise durch Schweden – 10 Tage Abenteuer 🚴🏼</title><link href="http://localhost:4000/2025/08/16/radreise-schweden.md.html" rel="alternate" type="text/html" title="Radreise durch Schweden – 10 Tage Abenteuer 🚴🏼" /><published>2025-08-16T00:00:00+02:00</published><updated>2025-08-16T00:00:00+02:00</updated><id>http://localhost:4000/2025/08/16/radreise-schweden.md</id><content type="html" xml:base="http://localhost:4000/2025/08/16/radreise-schweden.md.html"><![CDATA[<p>Im Sommer unternahm ich eine zehntägige Radreise durch Schweden – ein Abenteuer voller Natur, Bewegung und kleiner kulinarischer Highlights. 🚴‍♂️🇸🇪🍄</p>
+<p>Link:</p>]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[The Reason I Started Writing]]></summary></entry><entry xml:lang="de"><title type="html">Radreise durch Schweden – 10 Tage Abenteuer 🚴🏼</title><link href="http://localhost:4000/natur%20und%20outdoor/2025/08/16/radreise-schweden.md.html" rel="alternate" type="text/html" title="Radreise durch Schweden – 10 Tage Abenteuer 🚴🏼" /><published>2025-08-16T00:00:00+02:00</published><updated>2025-08-16T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2025/08/16/radreise-schweden.md</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2025/08/16/radreise-schweden.md.html"><![CDATA[<p>Im Sommer unternahm ich eine zehntägige Radreise durch Schweden – ein Abenteuer voller Natur, Bewegung und kleiner kulinarischer Highlights. 🚴‍♂️🇸🇪🍄</p>
 
 <hr />
 
@@ -218,7 +324,7 @@ I used my best mushroom macro photos for my cover which represent the variety of
 
 <hr />
 
-<p>👉 Schweden hat mich mit seiner Natur, Ruhe und Weite begeistert. Eine Radreise dorthin kann ich jedem empfehlen, der Lust auf Abenteuer und Entschleunigung hat.</p>]]></content><author><name>@hanopt</name></author><summary type="html"><![CDATA[Im Sommer unternahm ich eine zehntägige Radreise durch Schweden – ein Abenteuer voller Natur, Bewegung und kleiner kulinarischer Highlights. 🚴‍♂️🇸🇪🍄]]></summary></entry><entry xml:lang="en"><title type="html">How to Prepare for Your First Bikepacking Trip 🚴🏼</title><link href="http://localhost:4000/2025/07/25/how-to-prepare-for-your-first-bikepacking-trip.html" rel="alternate" type="text/html" title="How to Prepare for Your First Bikepacking Trip 🚴🏼" /><published>2025-07-25T00:00:00+02:00</published><updated>2025-07-25T00:00:00+02:00</updated><id>http://localhost:4000/2025/07/25/how%20to%20prepare%20for%20your%20first%20bikepacking%20trip</id><content type="html" xml:base="http://localhost:4000/2025/07/25/how-to-prepare-for-your-first-bikepacking-trip.html"><![CDATA[<h2 id="what-will-you-need-for-your-trip">What will you need for your trip?</h2>
+<p>👉 Schweden hat mich mit seiner Natur, Ruhe und Weite begeistert. Eine Radreise dorthin kann ich jedem empfehlen, der Lust auf Abenteuer und Entschleunigung hat.</p>]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[Im Sommer unternahm ich eine zehntägige Radreise durch Schweden – ein Abenteuer voller Natur, Bewegung und kleiner kulinarischer Highlights. 🚴‍♂️🇸🇪🍄]]></summary></entry><entry xml:lang="en"><title type="html">How to Prepare for Your First Bikepacking Trip 🚴🏼</title><link href="http://localhost:4000/natur%20und%20outdoor/2025/07/25/how-to-prepare-for-your-first-bikepacking-trip.html" rel="alternate" type="text/html" title="How to Prepare for Your First Bikepacking Trip 🚴🏼" /><published>2025-07-25T00:00:00+02:00</published><updated>2025-07-25T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2025/07/25/how%20to%20prepare%20for%20your%20first%20bikepacking%20trip</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2025/07/25/how-to-prepare-for-your-first-bikepacking-trip.html"><![CDATA[<h2 id="what-will-you-need-for-your-trip">What will you need for your trip?</h2>
 
 <p>Follow a simple rule: <strong>pack as little as possible</strong>.<br />
 I’ve met cyclists who managed their tours with just two panniers — and that was enough. Especially in summer, you don’t need much gear.</p>
@@ -341,4 +447,4 @@ Take a small Bluetooth speaker with you — cycling to music together can be a g
   <li>Power bank &amp; charging cables</li>
 </ul>
 
-<hr />]]></content><author><name>@hanopt</name></author><summary type="html"><![CDATA[What will you need for your trip?]]></summary></entry></feed>
+<hr />]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[What will you need for your trip?]]></summary></entry></feed>

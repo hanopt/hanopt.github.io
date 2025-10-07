@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to Prepare for Your First Bikepacking Trip 🚴🏼"
+categories: [Natur und Outdoor]
 lang: en
 ---
 

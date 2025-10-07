@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "My Book Writing Journey 🍄"
+categories: [Natur und Outdoor]
 lang: en
 ---
 

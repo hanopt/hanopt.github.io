@@ -32,7 +32,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">Über mich</a><a class="page-link" href="/book/">Mein Buch</a><a class="page-link" href="/photogallery/">Fotos</a><a class="page-link" href="/quiz/">Pilz-Quiz</a><a class="page-link" href="/tour-signup/">Anmeldung Pilztour</a></div>
+        <div class="trigger"><a class="page-link" href="/about/">Über mich</a><a class="page-link" href="/book/">Mein Buch</a><a class="page-link" href="/photogallery/">Fotos</a><a class="page-link" href="/quiz%20copy.html">PSV-Quiz</a><a class="page-link" href="/quiz/">Pilz-Quiz</a><a class="page-link" href="/tour-signup/">Anmeldung Pilztour</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -145,9 +145,9 @@ const QUESTIONS = [
   { q: 'Welche Wirkung hat Ergotamin (Mutterkorn)?', choices: ['Lebertoxisch', 'Nephrotoxisch', 'Gefäßverengend (periphere Durchblutung)', 'Neurotrop mit Halluzinationen'], correctIndex: 2, explanation: 'Ergotalkaloide schädigen v. a. periphere Gefäße.' },
   { q: 'Was ist Geotropismus bei Pilzen?', choices: ['Wachstum zum Licht', 'Wachstum zur Schwerkraft ausgerichtet', 'Wachstum zur Feuchte', 'Wachstum zur Wärme'], correctIndex: 1, explanation: 'Fruchtkörper richten Poren/Lamellen zur Schwerkraft aus.' },
   { q: 'Was bedeutet hygrophan?', choices: ['Lamellen laufen herab', 'Hut verfärbt sich bei Feuchte', 'Sporen sind amyloid', 'Stiel ist hohl'], correctIndex: 1, explanation: 'Hygrophane Hüte hellen beim Trocknen auf (Rand oft heller/durchscheinend gerieft).' },
-  { q: 'Aus welchen Hauptteilen besteht ein typischer Fruchtkörper?', choices: ['Sporen und Zystiden', 'Hut, Stiel, Fruchtschicht', 'Myzel, Hyphe, Basidie', 'Sklerotium, Hut, Sporen'], correctIndex: 1, explanation: 'Hut/Stiel tragen die Fruchtschicht (Hymenium).' },
-  { q: 'Was ist die Trama?', choices: ['Fruchtschicht', 'Steriles Grundgewebe des Fruchtkörpers', 'Sporenanhäufung', 'Stielrinde'], correctIndex: 1, explanation: 'Trama = steriles Stützgewebe.' },
-  { q: 'Wie nennt man die Fruchtschicht?', choices: ['Peridie', 'Hymenium', 'Trama', 'Cortex'], correctIndex: 1, explanation: 'Das Hymenium ist die sporenbildende Schicht.' },
+  { q: 'Aus welchen Hauptteilen besteht ein typischer Fruchtkörper?', choices: ['Sporen und Zystiden', 'Hut, Stiel, Fruchtschicht (Hymenium)', 'Myzel, Hyphe, Basidie', 'Sklerotium, Hut, Sporen'], correctIndex: 1, explanation: 'Hut/Stiel tragen die Fruchtschicht (Hymenium).' },
+  { q: 'Was ist die Trama?', choices: ['Fruchtschicht (Hymenium)', 'Steriles Grundgewebe des Fruchtkörpers', 'Sporenanhäufung', 'Stielrinde'], correctIndex: 1, explanation: 'Trama = steriles Stützgewebe.' },
+  { q: 'Wie nennt man die Fruchtschicht (Hymenium)?', choices: ['Peridie', 'Hymenium', 'Trama', 'Cortex'], correctIndex: 1, explanation: 'Das Hymenium ist die sporenbildende Schicht.' },
   { q: 'In welchem Schichttyp werden bei Röhrlingen die Sporen gebildet?', choices: ['Lamellen', 'Röhren', 'Leisten', 'Stacheln'], correctIndex: 1, explanation: 'Röhrenmündung = Poren.' },
   { q: 'Was ist eine Anamorphe?', choices: ['Hauptfruchtform (sexuell)', 'Nebenfruchtform (asexuell)', 'Resupinate Form', 'Hypogäische Form'], correctIndex: 1, explanation: 'Anamorphe = ungeschlechtliche Sporenbildung, v. a. bei Ascomyceten.' },
   { q: 'Was ist eine Teleomorphe?', choices: ['Nebenfruchtform', 'Hauptfruchtform (sexuelle Sporenbildung)', 'Sklerotium', 'Rhizomorphe'], correctIndex: 1, explanation: 'Teleomorphe = sexuelle Hauptfruchtform.' },
@@ -281,7 +281,7 @@ const QUESTIONS = [
   { q: 'Was ist die Guajak-Reaktion?', choices: ['Anilinblau-Test', 'Phenol-Reaktion', 'Harzfarbstofftest bei Boletus', 'Jod-Test'], correctIndex: 2, explanation: 'Guajak kann bei Steinpilzgruppe grünliche Reaktion zeigen.' },
   { q: 'Wer zeigt häufig lilafarbene Töne bei Hut/Lamellen (essbar)?', choices: ['Cortinarius orellanus', 'Lepista nuda', 'Galerina marginata', 'Amanita pantherina'], correctIndex: 1, explanation: 'Violetter Rötelritterling (Geruch/Standort beachten).' },
   { q: 'Welche Gattung hat oft brüchige Hüte und scharfe Geschmacksproben?', choices: ['Russula', 'Agaricus', 'Hypholoma', 'Boletus'], correctIndex: 0, explanation: 'Scharfe Täublinge i. d. R. nicht essbar.' },
-  { q: 'Welche Farbe zeigt ein „blauender“ Röhrling beim Anschnitt?', choices: ['Rot', 'Gelb', 'Blau', 'Keine'], correctIndex: 2, explanation: 'Oxidation Phenole → Blauverfärbung.' },
+  { q: 'Warum „blauenden“ manche Röhrlinge beim Anschnitt?', choices: ['Ein blauer Giftstoff wird produziert', 'Oxidation an der Luft', 'Der Druck führt zur chemischen Reaktion', 'Die blaue Farbe läuft aus den Zellen aus'], correctIndex: 2, explanation: 'Oxidation → Blauverfärbung.' },
   { q: 'Welche Gruppe besitzt oft Sporenornament (Warzeln/Grate) sichtbar in Melzer (amyloid)?', choices: ['Täublingsartigen (Russulales)', 'Agaricus', 'Boletus', 'Hypholoma'], correctIndex: 0, explanation: 'Ornamentierte Sporen, oft amyloid.' },
   { q: 'Wer hat oft weißes, brüchiges Fleisch und brennt scharf (Milchlinge/Täublinge)?', choices: ['Russula/Lactarius', 'Agaricus', 'Hypholoma', 'Pluteus'], correctIndex: 0, explanation: 'Geschmacksprobe nur bei unbedenklichen Gattungen!.' },
   { q: 'Welche Gattung bildet typisch eine Teil- und Gesamthülle?', choices: ['Amanita', 'Lepiota', 'Agaricus', 'Russula'], correctIndex: 0, explanation: 'Amanita mit universellem und partiellem Velum.' },
