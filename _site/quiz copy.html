@@ -38,56 +38,67 @@
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <style>
-.quiz-container {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 1.5rem;
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  background: #fafafa;
-}
-h2 {margin-bottom: 1rem;}
-input[type="text"] {
-  width: 100%;
-  padding: 0.75rem;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-}
-button {
-  margin-top: 1rem;
-  padding: 0.6rem 1.2rem;
-  border: none;
-  border-radius: 8px;
-  background-color: #111827;
-  color: white;
-  cursor: pointer;
-}
-button:hover {background-color: #374151;}
-.result {
-  margin-top: 1rem;
-  padding: 0.75rem;
-  border-radius: 8px;
-  background: #eef;
-}
-.stats {
-  margin-top: 1rem;
-  font-size: 1.05rem;
-  line-height: 1.6;
-}
-#resetBtn {
-  background: #9333ea;
-  margin-top: 1.5rem;
-}
-#resetBtn:hover {
-  background: #7e22ce;
-}
+  .quiz-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    background: #fafafa;
+  }
+  h2 { margin-bottom: 1rem; }
+
+  /* auto-expanding textarea */
+  #answerInput {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    resize: none;          /* user can't drag to resize */
+    overflow: hidden;      /* no scrollbars while growing */
+    min-height: 2.5rem;    /* starts as ~2 rows */
+    line-height: 1.4;
+  }
+
+  button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #111827;
+    color: white;
+    cursor: pointer;
+  }
+  button:hover { background-color: #374151; }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+
+  .result {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 8px;
+    background: #eef;
+  }
+  .stats {
+    margin-top: 1rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+  #resetBtn {
+    background: #9333ea;
+    margin-top: 1.5rem;
+  }
+  #resetBtn:hover { background: #7e22ce; }
 </style>
 
-<h1> Wer tiefer in die Mykologie eintauchen möchte, kann versuchen, die über 500 Fragen der PSV-Prüfung auswendig zu lernen.</h1>
+<h1>Wer tiefer in die Mykologie eintauchen möchte, kann versuchen, die über 500 Fragen der PSV-Prüfung auswendig zu lernen.</h1>
 
 <div class="quiz-container">
-  <h2 id="question">Frage wird geladen...</h2>
-  <input type="text" id="answerInput" placeholder="Deine Antwort hier...">
+  <h2 id="question">Frage wird geladen…</h2>
+
+  <!-- Multi-line, auto-expanding answer field -->
+  <textarea id="answerInput" placeholder="Deine Antwort hier…"></textarea>
+
   <button id="showAnswerBtn">Lösung anzeigen</button>
 
   <div class="result" id="solution" style="display:none;"></div>
@@ -100,7 +111,6 @@ button:hover {background-color: #374151;}
   <div class="stats" id="stats"></div>
   <button id="resetBtn">🔄 Quiz zurücksetzen</button>
 </div>
-
 <script>
 const questions = [
   {
@@ -386,7 +396,7 @@ const questions = [
   {
     id: 57,
     question: "Nennen Sie drei Pilzarten mit schleimiger Huthaut.",
-    answer: "Goldröhrling (Suillus grevillei), Körnchenröhrling (Suillus granulatus), Butterpilz (Suillus luteus)."
+    answer: "Goldröhrling (Suillus grevillei), Beringter Schleimrübling, Butterpilz (Suillus luteus)."
   },
   {
     id: 58,
@@ -486,7 +496,7 @@ const questions = [
   {
     id: 77,
     question: "Nennen Sie je eine Zeigerpflanze für feuchte/nasse und extrem trockene Standorte.",
-    answer: "Extrem trocken: Polster-Kissenmoos (Grimmia pulvinata). Feucht/nass: Echtes Mädesüß (Filipendula ulmaria)."
+    answer: "Extrem trocken: Königskerze. Feucht/nass: Echtes Mädesüß (Filipendula ulmaria) oder Brunnenkresse"
   },
   {
     id: 78,
@@ -846,7 +856,7 @@ const questions = [
   {
     id: 149,
     question: "Beschreiben Sie die Frühjahrslorchel (Gyromitra esculenta agg.) und nennen Sie fünf wichtige bestimmungsrelevante Merkmale.",
-    answer: "Hut hirnartig gewunden, gekammert hohl, gelblich bis rotbraun; Stiel weißlich und längsgrubig; Fleisch weißlich-gelblich, brüchig; saprotroph lebend; enthält das Gift Gyromitrin."
+    answer: "Hut hirnartig gewunden, gekammert hohl, Geruch: Würzig Pilzig, spermatisch Geschmack: würzig, mild. Fleisch weißlich, brüchig und wachsartig, Hut kastanienbraun, Vorkommen Nadelwald,  ; saprotroph lebend; enthält das Gift Gyromitrin."
   },
   {
     id: 150,
@@ -976,7 +986,7 @@ const questions = [
   {
     id: 175,
     question: "Nennen Sie drei wichtige bestimmungsrelevante Merkmale des Pfefferröhrlings (Chalciporus piperatus).",
-    answer: "Pfeffrig-scharfer Geschmack; weiches Fleisch; Fruchtkörper in Orangetönen; Röhren meist dunkler gefärbt."
+    answer: "Pfeffrig-scharfer Geschmack; weiches Fleisch; Fruchtkörper in Orangetönen; Röhren meist rotbraun, Röhren mit großen Löchern; "
   },
   {
     id: 176,
@@ -1031,7 +1041,7 @@ const questions = [
   {
     id: 186,
     question: "Nennen Sie zwei Merkmale, an denen Sie Satanspilz (Rubroboletus satanas) und Wurzelnden Bitterröhrling (Caloboletus radicans) unterscheiden können.",
-    answer: "Röhren: Satan rot, Bitterröhrling gelb. Stiel: Satan rötlich, Bitterröhrling gelblich."
+    answer: "Röhren: Satan rot, Bitterröhrling gelb. Stiel: Satan rötlich, Bitterröhrling gelblich. Geruch: Satan neutral bis aasartig, Bitterröhrling Maggi"
   },
   {
     id: 187,
@@ -1046,7 +1056,7 @@ const questions = [
   {
     id: 189,
     question: "Nennen Sie fünf wichtige bestimmungsrelevante Merkmale für die Gattung der Dickröhrlinge (Boletus s.l.).",
-    answer: "Stiel genetzt; Fleisch nicht oder kaum verfärbend; Sporenpulver olivgrün bis olivbraun; Röhren jung weiß, später olivgrün; bilden Ektomykorrhiza."
+    answer: "Hutfarbe braun/beige; Stiel genetzt; Fleisch nicht oder kaum verfärbend; Sporenpulver olivgrün bis olivbraun; Röhren jung weiß, später olivgrün; bilden Ektomykorrhiza."
   },
   {
     id: 190,
@@ -1196,7 +1206,7 @@ const questions = [
     {
     id: 219,
     question: "Nennen Sie drei wichtige bestimmungsrelevante Merkmale des Violetten Rötelritterlings (Lepista nuda).",
-    answer: "Lamellen ausgebuchtet angewachsen; alle Teile violett bis lilafarben; Lamellen leicht verschiebbar; wächst bevorzugt im Wald."
+    answer: "Multivitamingeruch, Lamellen ausgebuchtet angewachsen; alle Teile violett bis lilafarben; Lamellen leicht verschiebbar; wächst bevorzugt im Wald."
   },
   {
     id: 220,
@@ -1251,7 +1261,7 @@ const questions = [
   {
     id: 230,
     question: "Beschreiben Sie den Duftenden Trichterling (Paralepistopsis/Clitocybe amoenolens) und nennen Sie 10 wichtige bestimmungsrelevante Merkmale.",
-    answer: "Hut konvex bis flach, teils mit stumpfem Buckel, cremebeige bis rotbraun, feucht fleckend; Lamellen cremefarben, herablaufend, leicht ablösbar; Stiel hutfarben oder heller, jung voll, später hohl, fein faserig; Fleisch weißlich bis orange, parfümierter Geruch; Sporenpulver weißlich; saprotroph; wärmeliebend; enthält stark neurotoxisches Muscarin-Derivat."
+    answer: "Lamelletten zwischen lamellen// Sporenpulver weiß //Geruch: Jasmin, überreife Birne // Geschmack: Süßlich, mehlig // Hut konvex bis flach, teils mit stumpfem Buckel, cremebeige bis rotbraun, feucht fleckend; Lamellen cremefarben, herablaufend, leicht ablösbar; Stiel hutfarben oder heller, jung voll, später hohl, fein faserig; Fleisch weißlich bis orange, parfümierter Geruch; Sporenpulver weißlich; saprotroph; wärmeliebend; enthält stark neurotoxisches Muscarin-Derivat."
   },
   {
     id: 231,
@@ -1316,7 +1326,7 @@ const questions = [
   {
     id: 243,
     question: "Beschreiben Sie den Grünling (Tricholoma equestre) und nennen Sie 10 wichtige bestimmungsrelevante Merkmale.",
-    answer: "Hut halbkugelig bis flach, meist gebuckelt, gelb-grünlich mit dunklen Schüppchen; Lamellen ausgebuchtet angewachsen, gelb-grünlich; Stiel zylindrisch, glatt, ohne Ring; Geruch mehlig; Sporenpulver weiß; Fleisch gelblich; Mykorrhiza mit Kiefer; giftig (Equestre-Syndrom)."
+    answer: "1. Riecht Mehlig 2. Schmeckt Mehlig 3. Hut Grüngelb, 4. im Alter bräunlicher Hut, 5. Feinschuppiger Hut, 6. Weißes Sporenpulver 7. Lamellen ausgebuchtet, 8. Mykhorizza mit z.B. Kiefern, 9. Lamellenschneiden glatt 10. Haut schmierig, wenn feucht "
   },
   {
     id: 244,
@@ -1621,7 +1631,7 @@ const questions = [
   {
     id: 304,
     question: "Nennen Sie drei wichtige bestimmungsrelevante Merkmale für die Gattung Bodenporlinge (Albatrellus).",
-    answer: "Gestielte Porlinge am Boden; meist kurzer, dicker Stiel; dickes, trockenes, brüchiges Fleisch; (überwiegend) Mykorrhiza."
+    answer: "Gestielte Porlinge am Boden, Der Hut ist unregelmäßig verbogen, meist kurzer, dicker Stiel; dickes, trockenes, brüchiges Fleisch; (überwiegend) Mykorrhiza."
   },
   {
     id: 305,
@@ -1872,7 +1882,7 @@ const questions = [
   {
     "id": 353,
     "question": "Was versteht man unter pileat, pleurotoid und boletoid?",
-    "answer": "Pileat: mit zentralem Stiel, pleurotoid: seitlich gestielt, boletoid: röhrenförmig mit zentralem Stiel (Röhrlingstyp)."
+    "answer": "Pileat: mit zentralem Stiel, pleurotoid: seitlich gestielt (side ear form), boletoid: röhrenförmig mit zentralem Stiel (Röhrlingstyp)."
   },
   {
     "id": 354,
@@ -1972,7 +1982,7 @@ const questions = [
   {
     "id": 373,
     "question": "Was versteht man unter einem monomitischen, dimitischen und trimitischen Hyphensystem?",
-    "answer": "Monomitisch: nur generative Hyphen; dimitisch: zusätzlich Skeletthyphen; trimitisch: auch Bindehyphen vorhanden."
+    "answer": "generativen Hyphen kommen auch Bindehyphen und Skeletthyphen vor."
   },
   {
     "id": 374,
@@ -2172,7 +2182,7 @@ const questions = [
   {
     "id": 413,
     "question": "Was ist eine Zeigerpflanze und nennen Sie je eine für saure und basische Standorte.",
-    "answer": "Pflanzen, die Bodenverhältnisse anzeigen; z. B. Heidelbeere (sauer), Stinkende Nieswurz (basisch)."
+    "answer": "Pflanzen, die Bodenverhältnisse anzeigen; z. B. Heidelbeere (sauer), Thymian (basisch)."
   },
   {
     "id": 414,
@@ -2287,7 +2297,7 @@ const questions = [
   {
     "id": 436,
     "question": "Welche Sammelbeschränkung gilt für nicht geschützte, aber häufige Pilzarten?",
-    "answer": "Nur geringe Mengen zum persönlichen Verbrauch („Handstraußregel“) dürfen entnommen werden."
+    "answer": "Nur geringe Mengen zum persönlichen Verbrauch. 2 Kg pro Tag"
   },
   {
     "id": 437,
@@ -2297,12 +2307,12 @@ const questions = [
   {
     "id": 438,
     "question": "Nennen Sie drei Pilzgattungen, die nach der Bundesartenschutzverordnung besonders geschützt sind.",
-    "answer": "Morcheln (Morchella), Trüffeln (Tuber) und Saftlinge (Hygrocybe)."
+    "answer": "Morcheln (Morchella), Trüffeln (Tuber) und Kaiserling (Amanita caesarea) )."
   },
   {
     "id": 439,
     "question": "Nennen Sie drei Pilzarten, die nach der Bundesartenschutzverordnung besonders geschützt sind.",
-    "answer": "Königsröhrling (Butyriboletus regius), Kaiserling (Amanita caesarea) und Lärchenröhrling (Suillus grevillei)."
+    "answer": "Saftlinge, Kaiserling (Amanita caesarea) und schwarzer Trüffel (Tuber melanosporum)."
   },
   {
     "id": 440,
@@ -2592,7 +2602,7 @@ const questions = [
   {
     "id": 497,
     "question": "Nennen Sie zwei Pilzarten aus unterschiedlichen Gattungen, die in Verbindung mit Alkohol Vergiftungen auslösen können.",
-    "answer": "Grauer Faltentintling (Coprinopsis atramentaria) und Spitzschuppiger Schirmling (Lepiota aspera)."
+    "answer": "Grauer Faltentintling (Coprinopsis atramentaria) und Sparriger Schüppling."
   },
   {
     "id": 498,
@@ -2884,82 +2894,112 @@ const questions = [
 
 ];
 
-// Fortschritt laden oder neu anlegen
-let progress = JSON.parse(localStorage.getItem("quizProgress")) || {};
+ // Progress from localStorage
+  let progress = JSON.parse(localStorage.getItem("quizProgress")) || {};
+  let currentQuestion = {};
 
-let currentQuestion = {};
+  // Auto-expand textarea on input
+  const answerEl = document.getElementById("answerInput");
+  function autoGrow(el) {
+    el.style.height = "auto";
+    el.style.height = el.scrollHeight + "px";
+  }
+  answerEl.addEventListener("input", () => autoGrow(answerEl));
+  // initialize height once
+  autoGrow(answerEl);
 
-function getActiveQuestions() {
-  return questions.filter(q => (progress[q.id] || 0) < 3);
-}
+  function getActiveQuestions() {
+    return questions.filter(q => (progress[q.id] || 0) < 3);
+  }
 
-function newQuestion() {
-  const active = getActiveQuestions();
-  if (active.length === 0) {
-    document.getElementById("question").textContent = "🎉 Alle Fragen wurden dreimal richtig beantwortet! Glückwunsch!";
-    document.getElementById("answerInput").style.display = "none";
-    document.getElementById("showAnswerBtn").style.display = "none";
+  function setUIEnabled(enabled) {
+    document.getElementById("showAnswerBtn").disabled = !enabled;
+    document.getElementById("correctBtn").disabled = !enabled;
+    document.getElementById("wrongBtn").disabled = !enabled;
+    answerEl.disabled = !enabled;
+  }
+
+  function newQuestion() {
+    // Handle "no questions loaded" state
+    if (questions.length === 0) {
+      document.getElementById("question").textContent =
+        "⚠️ Noch keine Fragen geladen. Füge später Fragen in das questions-Array ein.";
+      document.getElementById("solution").style.display = "none";
+      document.getElementById("ratingButtons").style.display = "none";
+      setUIEnabled(false);
+      updateStats();
+      return;
+    }
+
+    const active = getActiveQuestions();
+    if (active.length === 0) {
+      document.getElementById("question").textContent =
+        "🎉 Alle Fragen wurden dreimal richtig beantwortet! Glückwunsch!";
+      document.getElementById("solution").style.display = "none";
+      document.getElementById("ratingButtons").style.display = "none";
+      setUIEnabled(false);
+      updateStats();
+      return;
+    }
+
+    const randomIndex = Math.floor(Math.random() * active.length);
+    currentQuestion = active[randomIndex];
+    document.getElementById("question").textContent = currentQuestion.question;
+    document.getElementById("solution").style.display = "none";
     document.getElementById("ratingButtons").style.display = "none";
+    answerEl.value = "";
+    autoGrow(answerEl);
+    setUIEnabled(true);
     updateStats();
-    return;
   }
-  const randomIndex = Math.floor(Math.random() * active.length);
-  currentQuestion = active[randomIndex];
-  document.getElementById("question").textContent = currentQuestion.question;
-  document.getElementById("solution").style.display = "none";
-  document.getElementById("ratingButtons").style.display = "none";
-  document.getElementById("answerInput").value = "";
-  updateStats();
-}
 
-function updateStats() {
-  const total = questions.length;
-  let zero = 0, one = 0, two = 0, three = 0;
-  questions.forEach(q => {
-    const count = progress[q.id] || 0;
-    if (count === 0) zero++;
-    else if (count === 1) one++;
-    else if (count === 2) two++;
-    else if (count >= 3) three++;
+  function updateStats() {
+    const total = questions.length;
+    let zero = 0, one = 0, two = 0, three = 0;
+    questions.forEach(q => {
+      const count = progress[q.id] || 0;
+      if (count === 0) zero++;
+      else if (count === 1) one++;
+      else if (count === 2) two++;
+      else if (count >= 3) three++;
+    });
+    document.getElementById("stats").innerHTML = `
+      <strong>Fragen Pool insgesamt:</strong> ${total}<br>
+      Noch nie richtig beantwortet: ${zero}<br>
+      Einmal richtig beantwortet: ${one}<br>
+      Zweimal richtig beantwortet: ${two}<br>
+      Dreimal richtig beantwortet (abgeschlossen): ${three}
+    `;
+  }
+
+  document.getElementById("showAnswerBtn").addEventListener("click", () => {
+    if (!currentQuestion.answer) return;
+    document.getElementById("solution").style.display = "block";
+    document.getElementById("solution").textContent = "✅ Lösung: " + currentQuestion.answer;
+    document.getElementById("ratingButtons").style.display = "block";
   });
-  document.getElementById("stats").innerHTML = `
-    <strong>Fragen Pool insgesamt:</strong> ${total}<br>
-    Noch nie richtig beantwortet: ${zero}<br>
-    Einmal richtig beantwortet: ${one}<br>
-    Zweimal richtig beantwortet: ${two}<br>
-    Dreimal richtig beantwortet (abgeschlossen): ${three}
-  `;
-}
 
-document.getElementById("showAnswerBtn").addEventListener("click", () => {
-  document.getElementById("solution").style.display = "block";
-  document.getElementById("solution").textContent = "✅ Lösung: " + currentQuestion.answer;
-  document.getElementById("ratingButtons").style.display = "block";
-});
-
-document.getElementById("correctBtn").addEventListener("click", () => {
-  progress[currentQuestion.id] = (progress[currentQuestion.id] || 0) + 1;
-  localStorage.setItem("quizProgress", JSON.stringify(progress));
-  newQuestion();
-});
-
-document.getElementById("wrongBtn").addEventListener("click", () => {
-  newQuestion();
-});
-
-document.getElementById("resetBtn").addEventListener("click", () => {
-  if (confirm("Willst du wirklich alles zurücksetzen und neu anfangen?")) {
-    localStorage.removeItem("quizProgress");
-    progress = {};
-    document.getElementById("answerInput").style.display = "block";
-    document.getElementById("showAnswerBtn").style.display = "inline-block";
+  document.getElementById("correctBtn").addEventListener("click", () => {
+    progress[currentQuestion.id] = (progress[currentQuestion.id] || 0) + 1;
+    localStorage.setItem("quizProgress", JSON.stringify(progress));
     newQuestion();
-  }
-});
+  });
 
-newQuestion();
+  document.getElementById("wrongBtn").addEventListener("click", () => {
+    newQuestion();
+  });
+
+  document.getElementById("resetBtn").addEventListener("click", () => {
+    if (confirm("Willst du wirklich alles zurücksetzen und neu anfangen?")) {
+      localStorage.removeItem("quizProgress");
+      progress = {};
+      newQuestion();
+    }
+  });
+
+  // Kick off
+  newQuestion();
 </script>
-
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
