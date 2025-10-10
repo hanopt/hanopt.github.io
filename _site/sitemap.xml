@@ -35,6 +35,9 @@
 <loc>http://localhost:4000/book/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/finance/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>

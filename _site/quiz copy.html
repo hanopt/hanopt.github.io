@@ -32,7 +32,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">Über mich</a><a class="page-link" href="/book/">Mein Buch</a><a class="page-link" href="/photogallery/">Fotos</a><a class="page-link" href="/quiz%20copy.html">PSV-Quiz</a><a class="page-link" href="/quiz/">Pilz-Quiz</a><a class="page-link" href="/tour-signup/">Anmeldung Pilztour</a></div>
+        <div class="trigger"><a class="page-link" href="/about/">Über mich</a><a class="page-link" href="/book/">Mein Buch</a><a class="page-link" href="/finance/">Live Finance</a><a class="page-link" href="/photogallery/">Fotos</a><a class="page-link" href="/quiz%20copy.html">PSV-Quiz</a><a class="page-link" href="/quiz/">Pilz-Quiz</a><a class="page-link" href="/tour-signup/">Anmeldung Pilztour</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -55,9 +55,9 @@
     border-radius: 8px;
     border: 1px solid #ccc;
     font-size: 1rem;
-    resize: none;          /* user can't drag to resize */
-    overflow: hidden;      /* no scrollbars while growing */
-    min-height: 2.5rem;    /* starts as ~2 rows */
+    resize: none;
+    overflow: hidden;
+    min-height: 2.5rem;
     line-height: 1.4;
   }
 
@@ -89,6 +89,10 @@
     margin-top: 1.5rem;
   }
   #resetBtn:hover { background: #7e22ce; }
+
+  /* Extra Styles for third button */
+  #discardBtn { background: #6b7280; }       /* neutral grey */
+  #discardBtn:hover { background: #4b5563; }
 </style>
 
 <h1>Wer tiefer in die Mykologie eintauchen möchte, kann versuchen, die über 500 Fragen der PSV-Prüfung auswendig zu lernen.</h1>
@@ -103,15 +107,18 @@
 
   <div class="result" id="solution" style="display:none;"></div>
 
-  <div id="ratingButtons" style="display:none; margin-top:1rem;">
+  <div id="ratingButtons" style="display:none; margin-top:1rem; display:flex; gap:.5rem; flex-wrap:wrap;">
     <button id="correctBtn" style="background:#16a34a;">Richtig</button>
     <button id="wrongBtn" style="background:#dc2626;">Falsch</button>
+    <button id="discardBtn" title="Frage dauerhaft aus dem aktiven Pool entfernen">Frage nicht mehr benutzen</button>
   </div>
 
   <div class="stats" id="stats"></div>
   <button id="resetBtn">🔄 Quiz zurücksetzen</button>
 </div>
+
 <script>
+
 const questions = [
   {
     id: 1,
@@ -396,7 +403,7 @@ const questions = [
   {
     id: 57,
     question: "Nennen Sie drei Pilzarten mit schleimiger Huthaut.",
-    answer: "Goldröhrling (Suillus grevillei), Beringter Schleimrübling, Butterpilz (Suillus luteus)."
+    answer: "Goldröhrling (Suillus grevillei), Körnchenröhrling (Suillus granulatus), Butterpilz (Suillus luteus)."
   },
   {
     id: 58,
@@ -496,7 +503,7 @@ const questions = [
   {
     id: 77,
     question: "Nennen Sie je eine Zeigerpflanze für feuchte/nasse und extrem trockene Standorte.",
-    answer: "Extrem trocken: Königskerze. Feucht/nass: Echtes Mädesüß (Filipendula ulmaria) oder Brunnenkresse"
+    answer: "Extrem trocken: Polster-Kissenmoos (Grimmia pulvinata). Feucht/nass: Echtes Mädesüß (Filipendula ulmaria)."
   },
   {
     id: 78,
@@ -781,7 +788,7 @@ const questions = [
   {
     id: 134,
     question: "Nennen Sie drei wichtige bestimmungsrelevante Merkmale für die Gattung der Risspilze (Inocybe).",
-    answer: "Sporenpulver zimtbraun; Hut meist kegelig bis gebuckelt und radialfaserig; Lamellen angewachsen."
+    answer: "Sporenpulver zimtbraun; Hut meist kegelig bis gebuckelt und radialfaserig; Lamellen angewachsen, mit dem Alter rissiger Hutrand, Geruch:spermatisch/Fruchtig, (Mykorrhizapilze)"
   },
   {
     id: 135,
@@ -986,7 +993,7 @@ const questions = [
   {
     id: 175,
     question: "Nennen Sie drei wichtige bestimmungsrelevante Merkmale des Pfefferröhrlings (Chalciporus piperatus).",
-    answer: "Pfeffrig-scharfer Geschmack; weiches Fleisch; Fruchtkörper in Orangetönen; Röhren meist rotbraun, Röhren mit großen Löchern; "
+    answer: "Pfeffrig-scharfer Geschmack; weiches Fleisch; Fruchtkörper in Orangetönen; Röhren meist dunkler gefärbt."
   },
   {
     id: 176,
@@ -1056,7 +1063,7 @@ const questions = [
   {
     id: 189,
     question: "Nennen Sie fünf wichtige bestimmungsrelevante Merkmale für die Gattung der Dickröhrlinge (Boletus s.l.).",
-    answer: "Hutfarbe braun/beige; Stiel genetzt; Fleisch nicht oder kaum verfärbend; Sporenpulver olivgrün bis olivbraun; Röhren jung weiß, später olivgrün; bilden Ektomykorrhiza."
+    answer: "Stiel genetzt; Fleisch nicht oder kaum verfärbend; Sporenpulver olivgrün bis olivbraun; Röhren jung weiß, später olivgrün; bilden Ektomykorrhiza."
   },
   {
     id: 190,
@@ -1206,7 +1213,7 @@ const questions = [
     {
     id: 219,
     question: "Nennen Sie drei wichtige bestimmungsrelevante Merkmale des Violetten Rötelritterlings (Lepista nuda).",
-    answer: "Multivitamingeruch, Lamellen ausgebuchtet angewachsen; alle Teile violett bis lilafarben; Lamellen leicht verschiebbar; wächst bevorzugt im Wald."
+    answer: "Lamellen ausgebuchtet angewachsen; alle Teile violett bis lilafarben; Lamellen leicht verschiebbar; wächst bevorzugt im Wald."
   },
   {
     id: 220,
@@ -1261,7 +1268,7 @@ const questions = [
   {
     id: 230,
     question: "Beschreiben Sie den Duftenden Trichterling (Paralepistopsis/Clitocybe amoenolens) und nennen Sie 10 wichtige bestimmungsrelevante Merkmale.",
-    answer: "Lamelletten zwischen lamellen// Sporenpulver weiß //Geruch: Jasmin, überreife Birne // Geschmack: Süßlich, mehlig // Hut konvex bis flach, teils mit stumpfem Buckel, cremebeige bis rotbraun, feucht fleckend; Lamellen cremefarben, herablaufend, leicht ablösbar; Stiel hutfarben oder heller, jung voll, später hohl, fein faserig; Fleisch weißlich bis orange, parfümierter Geruch; Sporenpulver weißlich; saprotroph; wärmeliebend; enthält stark neurotoxisches Muscarin-Derivat."
+    answer: "Hut konvex bis flach, teils mit stumpfem Buckel, cremebeige bis rotbraun, feucht fleckend; Lamellen cremefarben, herablaufend, leicht ablösbar; Stiel hutfarben oder heller, jung voll, später hohl, fein faserig; Fleisch weißlich bis orange, parfümierter Geruch; Sporenpulver weißlich; saprotroph; wärmeliebend; enthält stark neurotoxisches Muscarin-Derivat."
   },
   {
     id: 231,
@@ -1631,7 +1638,7 @@ const questions = [
   {
     id: 304,
     question: "Nennen Sie drei wichtige bestimmungsrelevante Merkmale für die Gattung Bodenporlinge (Albatrellus).",
-    answer: "Gestielte Porlinge am Boden, Der Hut ist unregelmäßig verbogen, meist kurzer, dicker Stiel; dickes, trockenes, brüchiges Fleisch; (überwiegend) Mykorrhiza."
+    answer: "Gestielte Porlinge am Boden; meist kurzer, dicker Stiel; dickes, trockenes, brüchiges Fleisch; (überwiegend) Mykorrhiza."
   },
   {
     id: 305,
@@ -1882,7 +1889,7 @@ const questions = [
   {
     "id": 353,
     "question": "Was versteht man unter pileat, pleurotoid und boletoid?",
-    "answer": "Pileat: mit zentralem Stiel, pleurotoid: seitlich gestielt (side ear form), boletoid: röhrenförmig mit zentralem Stiel (Röhrlingstyp)."
+    "answer": "Pileat: mit zentralem Stiel, pleurotoid: seitlich gestielt, boletoid: röhrenförmig mit zentralem Stiel (Röhrlingstyp)."
   },
   {
     "id": 354,
@@ -1962,7 +1969,7 @@ const questions = [
   {
     "id": 369,
     "question": "Was ist ein chemisches Merkmal, das bei Täublingen oder Milchlingen zur Artbestimmung herangezogen wird?",
-    "answer": "Farb- und Geschmacksreaktionen der Milch oder Huthaut mit Chemikalien wie Eisensulfat, Guajak oder Ammoniak."
+    "answer": "Farbreaktionen der Milch oder Huthaut mit Chemikalien wie Eisensulfat, Guajak (Guajakharz), KOH, Phenol, Anilin  oder Ammoniak. Der Geschmack hilft ebenfalls bei der Bestimmung "
   },
   {
     "id": 370,
@@ -1982,7 +1989,7 @@ const questions = [
   {
     "id": 373,
     "question": "Was versteht man unter einem monomitischen, dimitischen und trimitischen Hyphensystem?",
-    "answer": "generativen Hyphen kommen auch Bindehyphen und Skeletthyphen vor."
+    "answer": "Monomitisch: nur generative Hyphen; dimitisch: zusätzlich Skeletthyphen; trimitisch: auch Bindehyphen vorhanden."
   },
   {
     "id": 374,
@@ -2182,7 +2189,7 @@ const questions = [
   {
     "id": 413,
     "question": "Was ist eine Zeigerpflanze und nennen Sie je eine für saure und basische Standorte.",
-    "answer": "Pflanzen, die Bodenverhältnisse anzeigen; z. B. Heidelbeere (sauer), Thymian (basisch)."
+    "answer": "Pflanzen, die Bodenverhältnisse anzeigen; z. B. Heidelbeere (sauer), Stinkende Nieswurz (basisch)."
   },
   {
     "id": 414,
@@ -2297,7 +2304,7 @@ const questions = [
   {
     "id": 436,
     "question": "Welche Sammelbeschränkung gilt für nicht geschützte, aber häufige Pilzarten?",
-    "answer": "Nur geringe Mengen zum persönlichen Verbrauch. 2 Kg pro Tag"
+    "answer": "Nur geringe Mengen zum persönlichen Verbrauch („Handstraußregel“) dürfen entnommen werden."
   },
   {
     "id": 437,
@@ -2307,12 +2314,12 @@ const questions = [
   {
     "id": 438,
     "question": "Nennen Sie drei Pilzgattungen, die nach der Bundesartenschutzverordnung besonders geschützt sind.",
-    "answer": "Morcheln (Morchella), Trüffeln (Tuber) und Kaiserling (Amanita caesarea) )."
+    "answer": "Morcheln (Morchella), Trüffeln (Tuber) und Saftlinge (Hygrocybe)."
   },
   {
     "id": 439,
     "question": "Nennen Sie drei Pilzarten, die nach der Bundesartenschutzverordnung besonders geschützt sind.",
-    "answer": "Saftlinge, Kaiserling (Amanita caesarea) und schwarzer Trüffel (Tuber melanosporum)."
+    "answer": "Königsröhrling (Butyriboletus regius), Kaiserling (Amanita caesarea) und Lärchenröhrling (Suillus grevillei)."
   },
   {
     "id": 440,
@@ -2602,7 +2609,7 @@ const questions = [
   {
     "id": 497,
     "question": "Nennen Sie zwei Pilzarten aus unterschiedlichen Gattungen, die in Verbindung mit Alkohol Vergiftungen auslösen können.",
-    "answer": "Grauer Faltentintling (Coprinopsis atramentaria) und Sparriger Schüppling."
+    "answer": "Grauer Faltentintling (Coprinopsis atramentaria) und Spitzschuppiger Schirmling (Lepiota aspera)."
   },
   {
     "id": 498,
@@ -2894,18 +2901,18 @@ const questions = [
 
 ];
 
- // Progress from localStorage
+
+  // Fortschritt aus localStorage laden
   let progress = JSON.parse(localStorage.getItem("quizProgress")) || {};
   let currentQuestion = {};
 
-  // Auto-expand textarea on input
+  // Auto-expand textarea
   const answerEl = document.getElementById("answerInput");
   function autoGrow(el) {
     el.style.height = "auto";
     el.style.height = el.scrollHeight + "px";
   }
   answerEl.addEventListener("input", () => autoGrow(answerEl));
-  // initialize height once
   autoGrow(answerEl);
 
   function getActiveQuestions() {
@@ -2916,11 +2923,11 @@ const questions = [
     document.getElementById("showAnswerBtn").disabled = !enabled;
     document.getElementById("correctBtn").disabled = !enabled;
     document.getElementById("wrongBtn").disabled = !enabled;
+    document.getElementById("discardBtn").disabled = !enabled;
     answerEl.disabled = !enabled;
   }
 
   function newQuestion() {
-    // Handle "no questions loaded" state
     if (questions.length === 0) {
       document.getElementById("question").textContent =
         "⚠️ Noch keine Fragen geladen. Füge später Fragen in das questions-Array ein.";
@@ -2946,7 +2953,7 @@ const questions = [
     currentQuestion = active[randomIndex];
     document.getElementById("question").textContent = currentQuestion.question;
     document.getElementById("solution").style.display = "none";
-    document.getElementById("ratingButtons").style.display = "none";
+    document.getElementById("ratingButtons").style.display = "flex";
     answerEl.value = "";
     autoGrow(answerEl);
     setUIEnabled(true);
@@ -2976,7 +2983,6 @@ const questions = [
     if (!currentQuestion.answer) return;
     document.getElementById("solution").style.display = "block";
     document.getElementById("solution").textContent = "✅ Lösung: " + currentQuestion.answer;
-    document.getElementById("ratingButtons").style.display = "block";
   });
 
   document.getElementById("correctBtn").addEventListener("click", () => {
@@ -2989,6 +2995,14 @@ const questions = [
     newQuestion();
   });
 
+  // 🆕 Frage „abschließen“ (nicht mehr benutzen) → direkt in den 3er-Bucket schieben
+  document.getElementById("discardBtn").addEventListener("click", () => {
+    if (!currentQuestion?.id) return;
+    progress[currentQuestion.id] = 3; // als abgeschlossen markieren
+    localStorage.setItem("quizProgress", JSON.stringify(progress));
+    newQuestion();
+  });
+
   document.getElementById("resetBtn").addEventListener("click", () => {
     if (confirm("Willst du wirklich alles zurücksetzen und neu anfangen?")) {
       localStorage.removeItem("quizProgress");
@@ -2997,7 +3011,7 @@ const questions = [
     }
   });
 
-  // Kick off
+  // Start
   newQuestion();
 </script>
       </div>

@@ -21,9 +21,9 @@ title: PSV-Quiz
     border-radius: 8px;
     border: 1px solid #ccc;
     font-size: 1rem;
-    resize: none;          /* user can't drag to resize */
-    overflow: hidden;      /* no scrollbars while growing */
-    min-height: 2.5rem;    /* starts as ~2 rows */
+    resize: none;
+    overflow: hidden;
+    min-height: 2.5rem;
     line-height: 1.4;
   }
 
@@ -55,6 +55,10 @@ title: PSV-Quiz
     margin-top: 1.5rem;
   }
   #resetBtn:hover { background: #7e22ce; }
+
+  /* Extra Styles for third button */
+  #discardBtn { background: #6b7280; }       /* neutral grey */
+  #discardBtn:hover { background: #4b5563; }
 </style>
 
 <h1>Wer tiefer in die Mykologie eintauchen möchte, kann versuchen, die über 500 Fragen der PSV-Prüfung auswendig zu lernen.</h1>
@@ -69,15 +73,18 @@ title: PSV-Quiz
 
   <div class="result" id="solution" style="display:none;"></div>
 
-  <div id="ratingButtons" style="display:none; margin-top:1rem;">
+  <div id="ratingButtons" style="display:none; margin-top:1rem; display:flex; gap:.5rem; flex-wrap:wrap;">
     <button id="correctBtn" style="background:#16a34a;">Richtig</button>
     <button id="wrongBtn" style="background:#dc2626;">Falsch</button>
+    <button id="discardBtn" title="Frage dauerhaft aus dem aktiven Pool entfernen">Frage nicht mehr benutzen</button>
   </div>
 
   <div class="stats" id="stats"></div>
   <button id="resetBtn">🔄 Quiz zurücksetzen</button>
 </div>
+
 <script>
+
 const questions = [
   {
     id: 1,
@@ -747,7 +754,7 @@ const questions = [
   {
     id: 134,
     question: "Nennen Sie drei wichtige bestimmungsrelevante Merkmale für die Gattung der Risspilze (Inocybe).",
-    answer: "Sporenpulver zimtbraun; Hut meist kegelig bis gebuckelt und radialfaserig; Lamellen angewachsen."
+    answer: "Sporenpulver zimtbraun; Hut meist kegelig bis gebuckelt und radialfaserig; Lamellen angewachsen, mit dem Alter rissiger Hutrand, Geruch:spermatisch/Fruchtig, (Mykorrhizapilze)"
   },
   {
     id: 135,
@@ -1928,7 +1935,7 @@ const questions = [
   {
     "id": 369,
     "question": "Was ist ein chemisches Merkmal, das bei Täublingen oder Milchlingen zur Artbestimmung herangezogen wird?",
-    "answer": "Farb- und Geschmacksreaktionen der Milch oder Huthaut mit Chemikalien wie Eisensulfat, Guajak oder Ammoniak."
+    "answer": "Farbreaktionen der Milch oder Huthaut mit Chemikalien wie Eisensulfat, Guajak (Guajakharz), KOH, Phenol, Anilin  oder Ammoniak. Der Geschmack hilft ebenfalls bei der Bestimmung "
   },
   {
     "id": 370,
@@ -2860,18 +2867,18 @@ const questions = [
 
 ];
 
- // Progress from localStorage
+
+  // Fortschritt aus localStorage laden
   let progress = JSON.parse(localStorage.getItem("quizProgress")) || {};
   let currentQuestion = {};
 
-  // Auto-expand textarea on input
+  // Auto-expand textarea
   const answerEl = document.getElementById("answerInput");
   function autoGrow(el) {
     el.style.height = "auto";
     el.style.height = el.scrollHeight + "px";
   }
   answerEl.addEventListener("input", () => autoGrow(answerEl));
-  // initialize height once
   autoGrow(answerEl);
 
   function getActiveQuestions() {
@@ -2882,11 +2889,11 @@ const questions = [
     document.getElementById("showAnswerBtn").disabled = !enabled;
     document.getElementById("correctBtn").disabled = !enabled;
     document.getElementById("wrongBtn").disabled = !enabled;
+    document.getElementById("discardBtn").disabled = !enabled;
     answerEl.disabled = !enabled;
   }
 
   function newQuestion() {
-    // Handle "no questions loaded" state
     if (questions.length === 0) {
       document.getElementById("question").textContent =
         "⚠️ Noch keine Fragen geladen. Füge später Fragen in das questions-Array ein.";
@@ -2912,7 +2919,7 @@ const questions = [
     currentQuestion = active[randomIndex];
     document.getElementById("question").textContent = currentQuestion.question;
     document.getElementById("solution").style.display = "none";
-    document.getElementById("ratingButtons").style.display = "none";
+    document.getElementById("ratingButtons").style.display = "flex";
     answerEl.value = "";
     autoGrow(answerEl);
     setUIEnabled(true);
@@ -2942,7 +2949,6 @@ const questions = [
     if (!currentQuestion.answer) return;
     document.getElementById("solution").style.display = "block";
     document.getElementById("solution").textContent = "✅ Lösung: " + currentQuestion.answer;
-    document.getElementById("ratingButtons").style.display = "block";
   });
 
   document.getElementById("correctBtn").addEventListener("click", () => {
@@ -2955,6 +2961,14 @@ const questions = [
     newQuestion();
   });
 
+  // 🆕 Frage „abschließen“ (nicht mehr benutzen) → direkt in den 3er-Bucket schieben
+  document.getElementById("discardBtn").addEventListener("click", () => {
+    if (!currentQuestion?.id) return;
+    progress[currentQuestion.id] = 3; // als abgeschlossen markieren
+    localStorage.setItem("quizProgress", JSON.stringify(progress));
+    newQuestion();
+  });
+
   document.getElementById("resetBtn").addEventListener("click", () => {
     if (confirm("Willst du wirklich alles zurücksetzen und neu anfangen?")) {
       localStorage.removeItem("quizProgress");
@@ -2963,6 +2977,6 @@ const questions = [
     }
   });
 
-  // Kick off
+  // Start
   newQuestion();
 </script>
