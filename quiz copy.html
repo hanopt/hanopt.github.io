@@ -57,18 +57,41 @@ title: PSV-Quiz
   #resetBtn:hover { background: #7e22ce; }
 
   /* Extra Styles for third button */
-#discardBtn {
-  background: #6b7280;
-  margin-left: 15rem; /* Abstand zu "Richtig" und "Falsch" */
-}
-#discardBtn:hover { background: #4b5563; }
+  #discardBtn {
+    background: #6b7280;
+    margin-left: 15rem; /* Abstand zu "Richtig" und "Falsch" */
+  }
+  #discardBtn:hover { background: #4b5563; }
+
+  /* Export / Import area */
+  #exportArea, #importArea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    font-family: monospace;
+    font-size: 0.95rem;
+    min-height: 4rem;
+    resize: vertical;
+  }
+  .export-controls, .import-controls {
+    margin-top: 0.5rem;
+    display:flex;
+    gap:0.5rem;
+    flex-wrap:wrap;
+  }
+
+  .note {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #374151;
+  }
 </style>
 
+
 <h1>Wer tiefer in die Mykologie eintauchen möchte, kann versuchen, die über 500 Fragen der PSV-Prüfung auswendig zu lernen.</h1>
-
-
-
-
 
 <div class="quiz-container">
   <h2 id="question">Frage wird geladen…</h2>
@@ -88,6 +111,27 @@ title: PSV-Quiz
 
   <div class="stats" id="stats"></div>
   <button id="resetBtn">🔄 Quiz zurücksetzen</button>
+
+  <!-- ===== Export / Import UI ===== -->
+  <hr style="margin-top:1.25rem; border:none; border-top:1px solid #e5e7eb;" />
+
+  <h3>Progress exportieren</h3>
+  <div class="export-controls">
+    <button id="exportBtn" style="background:#2563eb;">Exportiere gespeicherten Fortschritt</button>
+    <button id="copyExportBtn" style="background:#10b981;">In Zwischenablage kopieren</button>
+    <button id="clearExportBtn" style="background:#ef4444;">Export-Ausgabe leeren</button>
+  </div>
+  <textarea id="exportArea" readonly placeholder="Hier erscheint der exportierte JSON-String..."></textarea>
+  <div class="note">Tipp: Du kannst den JSON-Text kopieren und z.B. anderswo sichern.</div>
+
+  <h3 style="margin-top:1rem;">Progress importieren (überschreiben)</h3>
+  <div class="import-controls">
+    <button id="importBtn" style="background:#059669;">Importieren / Überschreiben</button>
+    <button id="validateBtn" style="background:#7c3aed;">Validieren</button>
+    <button id="clearImportBtn" style="background:#6b7280;">Import-Feld leeren</button>
+  </div>
+  <textarea id="importArea" placeholder='Füge hier JSON ein — z. B. {"frage-1":0,"frage-2":2}'></textarea>
+  <div class="note">Beim Import wird der bestehende progress ersetzt und in localStorage gespeichert. Es gibt eine einfache Validierung.</div>
 </div>
 
 <script>
@@ -2152,7 +2196,7 @@ const questions = [
   {
     "id": 411,
     "question": "Was sind Folgezersetzer und nennen Sie zwei Beispiele.",
-    "answer": "Pilze, die stark zersetztes Holz besiedeln, z. B. Schmetterlingstramete und Zimtfarbener Weichporling."
+    "answer": "Saprobiont = Folgezersetzer // alle Helmlinge sind Saprobionten Pilze, die stark zersetztes Holz besiedeln, z. B. Schmetterlingstramete und Zimtfarbener Weichporling."
   },
   {
     "id": 412,
@@ -2247,7 +2291,7 @@ const questions = [
   {
     "id": 430,
     "question": "Nennen Sie zwei saprotrophe Pilze, die auf Laubholz wachsen.",
-    "answer": "Hallimasch (Armillaria mellea) und Schuppiger Porling (Polyporus squamosus)."
+    "answer": "Beringter Schleimrübling (MUCIDULA MUCIDA), Hallimasch (Armillaria mellea) und Schuppiger Porling (Polyporus squamosus)."
   },
   {
     "id": 431,
@@ -2876,116 +2920,238 @@ const questions = [
 
 
   // Fortschritt aus localStorage laden
-  let progress = JSON.parse(localStorage.getItem("quizProgress")) || {};
-  let currentQuestion = {};
+let progress = JSON.parse(localStorage.getItem("quizProgress")) || {};
+let currentQuestion = {};
 
-  // Auto-expand textarea
-  const answerEl = document.getElementById("answerInput");
-  function autoGrow(el) {
-    el.style.height = "auto";
-    el.style.height = el.scrollHeight + "px";
+// Auto-expand textarea (all relevant textareas)
+function makeAutoGrow(selector) {
+  const el = document.querySelector(selector);
+  if (!el) return;
+  function autoGrow(e) {
+    e.target.style.height = "auto";
+    e.target.style.height = e.target.scrollHeight + "px";
   }
-  answerEl.addEventListener("input", () => autoGrow(answerEl));
-  autoGrow(answerEl);
+  // set up initial height and listener
+  el.addEventListener("input", autoGrow);
+  // trigger once to set height
+  el.dispatchEvent(new Event('input'));
+}
+const answerEl = document.getElementById("answerInput");
+answerEl.addEventListener("input", () => {
+  answerEl.style.height = "auto";
+  answerEl.style.height = answerEl.scrollHeight + "px";
+});
+answerEl.dispatchEvent(new Event('input'));
 
-  function getActiveQuestions() {
-    return questions.filter(q => (progress[q.id] || 0) < 3);
-  }
+// Ensure import/export areas also can be resized by user; keep their native resize
+// but provide a small auto-grow for importArea initial sizing
+const importArea = document.getElementById("importArea");
+importArea.addEventListener("input", () => {
+  importArea.style.height = "auto";
+  importArea.style.height = importArea.scrollHeight + "px";
+});
+importArea.dispatchEvent(new Event('input'));
 
-  function setUIEnabled(enabled) {
-    document.getElementById("showAnswerBtn").disabled = !enabled;
-    document.getElementById("correctBtn").disabled = !enabled;
-    document.getElementById("wrongBtn").disabled = !enabled;
-    document.getElementById("discardBtn").disabled = !enabled;
-    answerEl.disabled = !enabled;
-  }
+function getActiveQuestions() {
+  return questions.filter(q => (progress[q.id] || 0) < 3);
+}
 
-  function newQuestion() {
-    if (questions.length === 0) {
-      document.getElementById("question").textContent =
-        "⚠️ Noch keine Fragen geladen. Füge später Fragen in das questions-Array ein.";
-      document.getElementById("solution").style.display = "none";
-      document.getElementById("ratingButtons").style.display = "none";
-      setUIEnabled(false);
-      updateStats();
-      return;
-    }
+function setUIEnabled(enabled) {
+  document.getElementById("showAnswerBtn").disabled = !enabled;
+  document.getElementById("correctBtn").disabled = !enabled;
+  document.getElementById("wrongBtn").disabled = !enabled;
+  document.getElementById("discardBtn").disabled = !enabled;
+  answerEl.disabled = !enabled;
+}
 
-    const active = getActiveQuestions();
-    if (active.length === 0) {
-      document.getElementById("question").textContent =
-        "🎉 Alle Fragen wurden dreimal richtig beantwortet! Glückwunsch!";
-      document.getElementById("solution").style.display = "none";
-      document.getElementById("ratingButtons").style.display = "none";
-      setUIEnabled(false);
-      updateStats();
-      return;
-    }
-
-    const randomIndex = Math.floor(Math.random() * active.length);
-    currentQuestion = active[randomIndex];
-    document.getElementById("question").textContent = currentQuestion.question;
+function newQuestion() {
+  if (questions.length === 0) {
+    document.getElementById("question").textContent =
+      "⚠️ Noch keine Fragen geladen. Füge später Fragen in das questions-Array ein.";
     document.getElementById("solution").style.display = "none";
-    document.getElementById("ratingButtons").style.display = "flex";
-    answerEl.value = "";
-    autoGrow(answerEl);
-    setUIEnabled(true);
+    document.getElementById("ratingButtons").style.display = "none";
+    setUIEnabled(false);
     updateStats();
+    return;
   }
 
-  function updateStats() {
-    const total = questions.length;
-    let zero = 0, one = 0, two = 0, three = 0;
-    questions.forEach(q => {
-      const count = progress[q.id] || 0;
-      if (count === 0) zero++;
-      else if (count === 1) one++;
-      else if (count === 2) two++;
-      else if (count >= 3) three++;
-    });
-    document.getElementById("stats").innerHTML = `
-      <strong>Fragen Pool insgesamt:</strong> ${total}<br>
-      Noch nie richtig beantwortet: ${zero}<br>
-      Einmal richtig beantwortet: ${one}<br>
-      Zweimal richtig beantwortet: ${two}<br>
-      Dreimal richtig beantwortet (abgeschlossen): ${three}
-    `;
+  const active = getActiveQuestions();
+  if (active.length === 0) {
+    document.getElementById("question").textContent =
+      "🎉 Alle Fragen wurden dreimal richtig beantwortet! Glückwunsch!";
+    document.getElementById("solution").style.display = "none";
+    document.getElementById("ratingButtons").style.display = "none";
+    setUIEnabled(false);
+    updateStats();
+    return;
   }
 
-  document.getElementById("showAnswerBtn").addEventListener("click", () => {
-    if (!currentQuestion.answer) return;
-    document.getElementById("solution").style.display = "block";
-    document.getElementById("solution").textContent = "✅ Lösung: " + currentQuestion.answer;
-  });
+  const randomIndex = Math.floor(Math.random() * active.length);
+  currentQuestion = active[randomIndex];
+  document.getElementById("question").textContent = currentQuestion.question;
+  document.getElementById("solution").style.display = "none";
+  document.getElementById("ratingButtons").style.display = "flex";
+  answerEl.value = "";
+  answerEl.style.height = "auto";
+  answerEl.style.height = answerEl.scrollHeight + "px";
+  setUIEnabled(true);
+  updateStats();
+}
 
-  document.getElementById("correctBtn").addEventListener("click", () => {
-    progress[currentQuestion.id] = (progress[currentQuestion.id] || 0) + 1;
-    localStorage.setItem("quizProgress", JSON.stringify(progress));
-    newQuestion();
+function updateStats() {
+  const total = questions.length;
+  let zero = 0, one = 0, two = 0, three = 0;
+  questions.forEach(q => {
+    const count = progress[q.id] || 0;
+    if (count === 0) zero++;
+    else if (count === 1) one++;
+    else if (count === 2) two++;
+    else if (count >= 3) three++;
   });
+  document.getElementById("stats").innerHTML = `
+    <strong>Fragen Pool insgesamt:</strong> ${total}<br>
+    Noch nie richtig beantwortet: ${zero}<br>
+    Einmal richtig beantwortet: ${one}<br>
+    Zweimal richtig beantwortet: ${two}<br>
+    Dreimal richtig beantwortet (abgeschlossen): ${three}
+  `;
+}
 
-  document.getElementById("wrongBtn").addEventListener("click", () => {
-    newQuestion();
-  });
+document.getElementById("showAnswerBtn").addEventListener("click", () => {
+  if (!currentQuestion.answer) return;
+  document.getElementById("solution").style.display = "block";
+  document.getElementById("solution").textContent = "✅ Lösung: " + currentQuestion.answer;
+});
 
-  // 🆕 Frage „abschließen“ (nicht mehr benutzen) → direkt in den 3er-Bucket schieben
-  document.getElementById("discardBtn").addEventListener("click", () => {
-    if (!currentQuestion?.id) return;
-    progress[currentQuestion.id] = 3; // als abgeschlossen markieren
-    localStorage.setItem("quizProgress", JSON.stringify(progress));
-    newQuestion();
-  });
-
-  document.getElementById("resetBtn").addEventListener("click", () => {
-    if (confirm("Willst du wirklich alles zurücksetzen und neu anfangen?")) {
-      localStorage.removeItem("quizProgress");
-      progress = {};
-      newQuestion();
-    }
-  });
-
-  // Start
+document.getElementById("correctBtn").addEventListener("click", () => {
+  progress[currentQuestion.id] = (progress[currentQuestion.id] || 0) + 1;
+  localStorage.setItem("quizProgress", JSON.stringify(progress));
   newQuestion();
+});
+
+document.getElementById("wrongBtn").addEventListener("click", () => {
+  newQuestion();
+});
+
+// 🆕 Frage „abschließen“ (nicht mehr benutzen) → direkt in den 3er-Bucket schieben
+document.getElementById("discardBtn").addEventListener("click", () => {
+  if (!currentQuestion?.id) return;
+  progress[currentQuestion.id] = 3; // als abgeschlossen markieren
+  localStorage.setItem("quizProgress", JSON.stringify(progress));
+  newQuestion();
+});
+
+document.getElementById("resetBtn").addEventListener("click", () => {
+  if (confirm("Willst du wirklich alles zurücksetzen und neu anfangen?")) {
+    localStorage.removeItem("quizProgress");
+    progress = {};
+    newQuestion();
+    // clear export area too
+    document.getElementById("exportArea").value = "";
+  }
+});
+
+// ===== Export / Import logic =====
+function refreshExportArea() {
+  const exportArea = document.getElementById("exportArea");
+  exportArea.value = JSON.stringify(progress, null, 2);
+  // set height auto
+  exportArea.style.height = "auto";
+  exportArea.style.height = exportArea.scrollHeight + "px";
+}
+
+document.getElementById("exportBtn").addEventListener("click", () => {
+  // ensure we have latest from localStorage (in case user modified localStorage externally)
+  progress = JSON.parse(localStorage.getItem("quizProgress")) || progress || {};
+  refreshExportArea();
+});
+
+document.getElementById("copyExportBtn").addEventListener("click", async () => {
+  const exportArea = document.getElementById("exportArea");
+  if (!exportArea.value) {
+    alert("Nichts zu kopieren — erst Exportieren drücken.");
+    return;
+  }
+  try {
+    await navigator.clipboard.writeText(exportArea.value);
+    alert("Export wurde in die Zwischenablage kopiert.");
+  } catch (e) {
+    // fallback
+    exportArea.select();
+    document.execCommand('copy');
+    alert("Export wurde kopiert (Fallback).");
+  }
+});
+
+document.getElementById("clearExportBtn").addEventListener("click", () => {
+  document.getElementById("exportArea").value = "";
+  document.getElementById("exportArea").style.height = "auto";
+});
+
+document.getElementById("validateBtn").addEventListener("click", () => {
+  const raw = document.getElementById("importArea").value.trim();
+  if (!raw) { alert("Kein JSON im Import-Feld."); return; }
+  try {
+    const parsed = JSON.parse(raw);
+    // basic structural validation: object with string keys and number values
+    if (typeof parsed !== 'object' || Array.isArray(parsed)) {
+      alert("Ungültiges Format: JSON muss ein Objekt mit id->number Paaren sein.");
+      return;
+    }
+    for (const k in parsed) {
+      const v = parsed[k];
+      if (typeof v !== 'number' || !Number.isFinite(v) || v < 0) {
+        alert(`Ungültiger Wert für Schlüssel "${k}". Werte müssen nicht-negative Zahlen sein.`);
+        return;
+      }
+    }
+    alert("Validierung erfolgreich — JSON sieht in Ordnung aus.");
+  } catch (err) {
+    alert("JSON-Parsing-Fehler: " + err.message);
+  }
+});
+
+document.getElementById("importBtn").addEventListener("click", () => {
+  const raw = document.getElementById("importArea").value.trim();
+  if (!raw) { if (!confirm("Import-Feld ist leer — möchtest du den progress auf {} zurücksetzen?")) return; }
+  let parsed;
+  try {
+    parsed = raw ? JSON.parse(raw) : {};
+  } catch (err) {
+    alert("JSON-Parsing-Fehler: " + err.message);
+    return;
+  }
+  // Basic validation
+  if (typeof parsed !== 'object' || Array.isArray(parsed)) {
+    alert("Ungültiges Format: JSON muss ein Objekt mit id->number Paaren sein.");
+    return;
+  }
+  for (const k in parsed) {
+    const v = parsed[k];
+    if (typeof v !== 'number' || !Number.isFinite(v) || v < 0) {
+      alert(`Ungültiger Wert für Schlüssel "${k}". Werte müssen nicht-negative Zahlen sein.`);
+      return;
+    }
+  }
+
+  if (!confirm("Achtung: Der bestehende Fortschritt wird vollständig überschrieben. Fortfahren?")) return;
+
+  // overwrite
+  progress = parsed;
+  localStorage.setItem("quizProgress", JSON.stringify(progress));
+  updateStats();
+  newQuestion();
+  refreshExportArea();
+  alert("Import erfolgreich — Fortschritt wurde überschrieben.");
+});
+
+document.getElementById("clearImportBtn").addEventListener("click", () => {
+  document.getElementById("importArea").value = "";
+  document.getElementById("importArea").style.height = "auto";
+});
+
+// Start
+newQuestion();
 </script>
 
 
