@@ -10,7 +10,7 @@ permalink: /tour-signup/
 ## 👉 [Anmeldung hier](https://forms.gle/JvqXBEnY9zq2iczn6) 👈
 
 
-![Alt text](/assets/img/me-tour.jpg)
+
 
 
 🍄 Pilzexkursion 
@@ -40,3 +40,4 @@ Social Media:
 - 📸 Instagram: [@hanopt](https://instagram.com/hanopt)  
 - ▶️ YouTube: [hanopt](https://youtube.com/@hanopt)  
 
+![Alt text](/assets/img/me-tour.jpg)

@@ -3,7 +3,7 @@ layout: default
 ---
 {% include vapi-widget.html %}
 
-![Alt text](/assets/img/shrooms.png)
+![Alt text](/assets/img/MoskauShrooms.jpg)
 ### Im Herbst 2025 gibt's wieder Pilztouren im Süden von Hamburg!
 ### 👉 [Anmeldung hier](https://forms.gle/JvqXBEnY9zq2iczn6) 👈
 
