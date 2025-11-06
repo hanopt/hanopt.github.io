@@ -3,7 +3,7 @@ layout: page
 title: "Fotos"
 permalink: /photogallery/
 ---
-
+{% include vapi-widget.html %}
 # 📸 Foto Gallerie
 
 #### Jeden Tag machen wir idealerweise neue Erfahrungen damit das Leben interessant bleibt. Fotos können uns daran erinnern, was wir bis jetzt alles erlebt haben.

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+{% include vapi-widget.html %}
 
 ![Alt text](/assets/img/shrooms.png)
 ### Im Herbst 2025 gibt's wieder Pilztouren im Süden von Hamburg!

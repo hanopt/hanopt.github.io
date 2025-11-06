@@ -58,4 +58,4 @@ I am an independent publisher, which means I handle everything myself—from wri
 
 I chose to publish my book through Amazon KDP, as the platform makes self-publishing straightforward once the manuscript and cover are complete. If you’d like to support my work, you can order a copy directly on Amazon.
 
-Link:
+Link: 👉 [Amazon](https://amzn.eu/d/fffdYOJ) 👈

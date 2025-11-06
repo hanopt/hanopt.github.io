@@ -58,4 +58,4 @@ Ich bin unabhängiger Buchautor, was bedeutet, dass ich alles selbst übernehme 
 
 Ich entschied mich, mein Buch über Amazon KDP zu veröffentlichen, da die Plattform Self-Publishing unkompliziert macht, sobald Manuskript und Cover fertig sind. Wenn du meine Arbeit unterstützen möchtest, kannst du ein Exemplar direkt bei Amazon bestellen.  
 
-Link:
+Link: 👉 [Amazon](https://amzn.eu/d/fffdYOJ) 👈

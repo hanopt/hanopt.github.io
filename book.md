@@ -3,6 +3,7 @@ layout: page
 title: Mein Buch
 permalink: /book/
 ---
+{% include vapi-widget.html %}
 
 # 📖 In die Pilze und noch viel weiter
 

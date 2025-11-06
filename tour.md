@@ -4,7 +4,7 @@ title: "Anmeldung Pilztour"
 subtitle: "Herbst 2025"
 permalink: /tour-signup/
 ---
-
+{% include vapi-widget.html %}
 
 ## Im Herbst 2025 gibt's wieder Pilztouren im Süden von Hamburg!
 ## 👉 [Anmeldung hier](https://forms.gle/JvqXBEnY9zq2iczn6) 👈
