@@ -1,34 +1,38 @@
 ---
 layout: post
-title: "Doomscrolling, Brainrot, Videospiele"
-categories: [Natur und Outdoor]
+title: "Wie verändert KI die Art wie wir arbeiten?"
+categories: [Technologie]
 lang: de
 ---
 
-Algorithmen auf Plattformen wie Instagram, TikTok oder YouTube sind gezielt darauf ausgelegt, unsere Aufmerksamkeit möglichst lange zu binden. Das ständige Swipen durch kurze Videos führt zu Dopaminausschüttungen, ohne dass dafür eine tatsächliche Leistung erbracht werden muss. Verkürzte Aufmerksamkeitsspannen können die Folge sein, da sich das Gehirn an kurze, stark stimulierende und ungewöhnliche Inhalte gewöhnt. Auch der Erhalt neuer Informationen, Kommentare, Likes und Benachrichtigungen löst Dopaminausschüttungen aus, wodurch Nutzer immer wieder auf die Plattformen zurückkehren. Wenn man sich in einer bestimmten Kategorie von Inhalten bewegt, kann dies zudem ein Gefühl sozialer Zugehörigkeit erzeugen.
+## Wie verändert KI die Art, wie wir arbeiten?
 
-Als ich 2014 mit meinem Studium begann, erlebte ich eine Phase, in der ich nach einem Umzug zunächst kein Internet in meiner Wohnung hatte. In dieser Zeit spielte ich keine Videospiele und nutzte kaum soziale Medien. Ich ging teilweise schon um 22 Uhr schlafen, weil mein Gehirn ohne den hellen Bildschirm und die ständige Reizüberflutung deutlich zur Ruhe kam. Nachdem ich schließlich wieder Internetzugang hatte, änderte sich das schnell: Ich begann erneut Videospiele zu spielen und driftete für eine Zeit in die Welt des kompetitiven Gamings ab. Spiele wie League of Legends oder Counter-Strike können süchtig machen und dazu führen, dass soziale Interaktion fast ausschließlich über das Spiel stattfindet. Je länger man spielt, desto mehr verlagert sich der Freundeskreis in die Online-Welt – reale Kontakte werden zunehmend seltener. Zudem zeigen sich in solchen Spielen oft die Schattenseiten menschlichen Verhaltens: Beleidigungen, Frustration und Sabotage des eigenen Teams sind keine Seltenheit.
+Künstliche Intelligenz verändert zunehmend die Art und Weise, wie wir arbeiten, lernen und miteinander interagieren. Der technologische Fortschritt verläuft dabei je nach Branche sehr unterschiedlich. Viele Behörden in Deutschland arbeiten nach wie vor mit Papierakten und verschicken Briefe – ein Beispiel hierfür ist die Staatsanwaltschaft, bei der die elektronische Aktenverwaltung noch nicht vollständig umgesetzt ist.
 
-## Maßnahmen ergreifen, damit die digitale Welt nicht Überhand gewinnt.
-- Freunde regelmäßig anrufen  
-- Vereine oder Sportgruppen besuchen  
-- Gemeinnützige Projekte unterstützen  
-- An Kursen teilnehmen  
-- Auch wenn Homeoffice bequem ist, kann es hilfreich sein, im Büro Kontakte zu Kollegen zu knüpfen  
+Bürokratische Prozesse erfordern oft, dass nach der Antragstellung bestimmte Bedingungen geprüft werden. Ein typisches Beispiel ist die Einbürgerung: Die Ausländerbehörde muss hierzu Dokumente von anderen Stellen wie Polizei, Verfassungsschutz oder Arbeitsagentur einholen. Wenn einzelne Behörden – etwa der Verfassungsschutz – unter Personalmangel leiden, kann die Bearbeitung mehrere Monate dauern.
 
-## Eigene Projekte umsetzen
-Wenn man sich Ziele setzt und diese langfristig verfolgt, ist es wichtig, das eigene Handeln regelmäßig zu reflektieren: Habe ich heute etwas getan, das mich meinen Zielen näherbringt?  
-Herausfordernde Projekte bleiben im Gedächtnis. Als ich begann, ein Buch zu schreiben, war vor allem die mühsame Korrekturarbeit eine echte Herausforderung. Auch der Einstieg in die LaTeX-Formatierung war anfangs nicht leicht. Dennoch bin ich froh, diesen Weg gegangen zu sein und ein großes Projekt abgeschlossen zu haben. Die Mühe und das Ergebnis, auf das man stolz sein kann, bleiben in Erinnerung – besonders, wenn andere das Werk schätzen und würdigen.
+Eine digitale Vernetzung der Behörden und automatisierte Prüfprozesse wären hier dringend notwendig. Ein IT-System könnte beispielsweise durch automatisierte Abfragen in Sekundenschnelle prüfen, ob relevante Einträge zu einer Person existieren, und so den Prozess deutlich beschleunigen. Besonders bei wiederkehrenden Abläufen wären digitale Workflows ein echter Gamechanger. Doch bislang gilt oft noch: Wer mit Behörden zu tun hat, braucht Geduld.
 
-## Informationsfluss regulieren
-Das Internet ist heute überflutet von Informationen. Jeden Tag jagt eine Schlagzeile die nächste. Für mich ist das eine besondere Herausforderung, da ich mich intensiv mit Aktien, ETFs, Kryptowährungen und Anleihen beschäftige. Wirtschaftsnachrichten beeinflussen mein Vermögen direkt. Kursgewinne nimmt man gelassen hin, doch bei Kursrückgängen überwiegt schnell die Sorge. Eine Flut negativer Nachrichten über Zollpolitik, Kriege und wirtschaftliche Entwicklungen ist auf Dauer nicht förderlich für die geistige Gesundheit.  
+Auch der Wirtschaftsstandort Deutschland leidet unter bürokratischen Hürden. Die Gründung einer GmbH dauert hierzulande meist vier bis acht Wochen, während es in Großbritannien nur ein bis zwei Wochen dauert – und in Estland sogar vollständig online in nur 18 Minuten möglich ist. Mein persönliches Highlight war das Ausfüllen des Formulars zur steuerlichen Erfassung: Zwar lässt es sich digital über Elster bearbeiten, doch die Fragen sind alles andere als intuitiv und stark mit dem komplexen deutschen Steuerrecht verknüpft.
 
-## weitere Ideen:
-- Zeitlimits für Apps festlegen  
-- Das Handy während der Arbeit außer Sichtweite legen  
-- Ablenkende Webseiten mit Browser-Add-ons blockieren  
-- Regelmäßig Spaziergänge ohne Handy unternehmen (auch wenn das schwerfällt)  
-- Statt ständigem Konsum von Reels und News lieber ein Buch vollständig lesen, um echte Expertise aufzubauen  
-- Eigene Texte schreiben, um Wissen zu strukturieren – reiner Informationskonsum führt selten zu vernetztem Denken  
+---
 
+## Was wäre mit der Implementierung bereits vorhandener KI-Technologien heute schon möglich?
 
+Einige einfache, aber wirkungsvolle Use-Cases zeigen das Potenzial:
+
+### 1. KI-Agenten im Bewerbungsprozess  
+Vor allem das erste Bewerbungsgespräch mit einem Personaler ist häufig eintönig. Bewerbende erhalten meist keinen echten Einblick in die potenzielle Tätigkeit, und Unternehmen investieren gleichzeitig viel Zeit und Geld in Personalressourcen.  
+In einem Interview bei einem großen Beratungsunternehmen führte ich das erste Gespräch mit einer Mitarbeiterin aus Rumänien, die mir standardisierte Fragen auf Englisch stellte und meine Antworten lediglich protokollierte.  
+Mittlerweile können Voice-Agents mit erstaunlich natürlich klingenden Stimmen solche Gespräche übernehmen. Ich habe beispielsweise die Plattform **Vapi** getestet, die LLMs, Text-to-Speech- und Speech-to-Text-APIs kombiniert, um einen lebensechten Voice-Agenten zu erstellen.  
+Neben einfachen Frage-Antwort-Dialogen lassen sich dort komplexe Workflows aufbauen: etwa Kundendaten abfragen, Termine im Kalender eintragen oder automatisch Bestätigungen per E-Mail versenden.
+
+### 2. Automatisierte Terminvereinbarung  
+Auch alltägliche Prozesse wie das Vereinbaren von Terminen können automatisiert werden. Arztpraxen, Friseure oder Handwerksbetriebe könnten durch KI-Agenten Anrufe entgegennehmen, freie Zeitfenster prüfen und Termine selbstständig eintragen – ohne menschliches Zutun. Dasselbe Prinzip lässt sich auch auf Bewerbungsprozesse übertragen, z. B. zur automatisierten Terminplanung für Vorstellungsgespräche.
+
+### 3. Automatisierte Text-, Bild- und Videoerstellung  
+Inzwischen lassen sich mit KI nicht nur Texte generieren, sondern auch Bilder und Videos produzieren oder übersetzen. Werbevideos können beispielsweise mithilfe von KI-Stimmen in andere Sprachen synchronisiert werden – eine enorme Erleichterung für internationale Unternehmen und Content Creator.
+
+---
+
+Künstliche Intelligenz bietet bereits heute Werkzeuge, die Verwaltungs- und Geschäftsprozesse erheblich beschleunigen könnten. Der Flaschenhals ist oft nicht die Technologie selbst, sondern deren Implementierung – und die Bereitschaft, bestehende Strukturen wirklich zu verändern.
