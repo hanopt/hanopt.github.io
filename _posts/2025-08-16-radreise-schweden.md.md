@@ -12,7 +12,6 @@ Im Sommer unternahm ich eine zehntägige Radreise durch Schweden – ein Abenteu
 ## 📊 Tour-Statistik
 - Gesamtdistanz: **820,28 km**  
 - Tagesdurchschnitt: ca.**82 km**  
-- Gesamter Höhenanstieg: **7.186 m**  
 - Durchschnittsgeschwindigkeit: **16,8 km/h**  
 
 

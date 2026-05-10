@@ -61,7 +61,7 @@ In countries with higher prices, it can be worth bringing something small but va
 The cheapest option is always buying food in supermarkets and cooking yourself. Don’t buy too much at once — it just adds weight. Shop more frequently when you actually need to.  
 
 Refilling water is one of the most important things:  
-- Ask people directly — many will happily help.  
+- Ask people directly — many will happily help.  Just ring a bell at a house in some rural areas.
 - Cemeteries often have water taps available.  
 
 **Checklist:**
@@ -91,11 +91,11 @@ Weather changes quickly: it can be hot, rainy, or windy in a single day.
 If you cycle along rivers or lakes, take a quick swim to wash yourself and your clothes. Hang wet clothes over panniers or handlebars to dry while riding — even tents can dry this way. Avoid packing wet gear inside bags.  
 
 **Checklist:**
-- Spare underwear, socks, T-shirts, long sleeve, shorts  
+- Spare underwear, socks, T-shirts, long sleeve, shorts  (2 pairs of underwear and t-shirt should be enough, you can wash one pair daily and let it dry on your bicycle whiel you use the other one)
 - Cap, sunscreen, sunglasses  
 - Sandals (often enough in summer)  
 - Rain jacket & pants  
-- Mosquito head net  
+- Mosquito head net  (you can use it for collecting mushrooms or herbs as well)
 - Small first aid kit  
 - Toothbrush, toothpaste, floss, soap  
 

@@ -1,13 +1,486 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-15T16:05:25+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Eduard’s Blog</title><subtitle>Pilze, Natur, Wissenschaft</subtitle><author><name>@hanopt</name></author><entry xml:lang="de"><title type="html">Aus welchen Teilen bestehen Fahrräder?</title><link href="http://localhost:4000/technologie/2025/11/15/Bike.html" rel="alternate" type="text/html" title="Aus welchen Teilen bestehen Fahrräder?" /><published>2025-11-15T00:00:00+01:00</published><updated>2025-11-15T00:00:00+01:00</updated><id>http://localhost:4000/technologie/2025/11/15/Bike</id><content type="html" xml:base="http://localhost:4000/technologie/2025/11/15/Bike.html"><![CDATA[<p>Dadurch dass es viele verschiedene Standarts und Hersteller bei Fahrrädern gibt, kann es für einen Anfänger schon eine Herausforderung das richtige Ersatzteil für sein Fahrrad zu finden.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-05-10T12:49:11+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Eduard’s Blog</title><subtitle>Pilze, Natur, Wissenschaft</subtitle><author><name>@hanopt</name></author><entry xml:lang="de"><title type="html">Willkommen im Königreich Marroko</title><link href="http://localhost:4000/natur%20und%20outdoor/2026/05/10/agadir.html" rel="alternate" type="text/html" title="Willkommen im Königreich Marroko" /><published>2026-05-10T00:00:00+02:00</published><updated>2026-05-10T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2026/05/10/agadir</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2026/05/10/agadir.html"><![CDATA[<h1 id="marokko-reise-praktische-tipps-zu-preisen-verkehr-und-alltag-in-agadir">Marokko-Reise: Praktische Tipps zu Preisen, Verkehr und Alltag in Agadir</h1>
 
-<p><img src="/assets/img/CVsGpnt.jpeg" alt="Aircraft Overview" /></p>
+<p>Marokko ist ein faszinierendes Land voller Dynamik, kann aber für Touristen – was die Preise und den Verkehr angeht – zunächst eine Herausforderung sein. Hier sind meine wichtigsten Erfahrungen und Tipps aus meiner Zeit in und um Agadir.</p>
+
+<hr />
+
+<h2 id="shopping--souks-preise-im-blick-behalten">Shopping &amp; Souks: Preise im Blick behalten</h2>
+
+<p>In den Souks (Märkten), wie dem bekannten Souk El Had, ist Vorsicht geboten. Ob gefälschte Markenkleidung, Duftsteine, Tees oder Gewürze: Informiere dich vorab über realistische Preise. Die Verkäufer sind rhetorisch geschult und preisen alles als extrem hochwertig an (beliebtes Argument bei Textilien: „That’s Cashmere!”).</p>
+
+<p><strong>Meine Tipps für entspanntes Einkaufen:</strong></p>
+
+<ul>
+  <li><strong>Supermärkte nutzen:</strong> Besuche einen großen Supermarkt wie den Marjane Agadir Founty. Hier sind alle Waren mit Preisschildern versehen. Das hilft, ein Gefühl für die echten Preise zu bekommen, bevor man auf dem Souk verhandelt.</li>
+  <li><strong>Touristenzentren meiden:</strong> In der Innenstadt und an touristischen Hotspots werden oft unanständig hohe Preise aufgerufen. In weniger touristischen Vierteln ist der Stressfaktor deutlich geringer.</li>
+  <li><strong>Verhandeln:</strong> Händler steigen bei Touristen meist sehr hoch ein, aber auch Locals sind vor zu hohen Preisen nicht immer gefeit.</li>
+</ul>
+
+<hr />
+
+<h2 id="transport-taxi-bus-und-scooter">Transport: Taxi, Bus und Scooter</h2>
+
+<p>Der Verkehr in Marokko ist dynamisch und oft chaotisch. Besonders in den Kreiseln der Innenstadt herrscht ein reges Treiben aus Scootern und Autos.</p>
+
+<ul>
+  <li><strong>Taxis &amp; Apps:</strong> Taxifahrer nennen Touristen gerne überhöhte Fixpreise. Nutze die App <strong>InDrive</strong> für faire Preise oder zumindest als Referenz für Verhandlungen.</li>
+  <li><strong>Flughafen-Transfer:</strong> Von Agadir zum weit entlegenen Flughafen (AGA) kommt man sehr günstig für <strong>50 DH</strong> mit dem offiziellen, klimatisierten Bus.</li>
+  <li><strong>Scooter:</strong> Die Miete für einen Scooter liegt bei etwa <strong>200–250 DH pro Tag</strong>. Beachte: Helme werden von Einheimischen selten getragen und die Polizei greift bei Rasern kaum ein.</li>
+  <li><strong>Zebrastreifen:</strong> Autos halten selten freiwillig an. Man muss meist erst die Straße betreten, damit der Verkehr (hoffentlich) stoppt.</li>
+</ul>
+
+<hr />
+
+<h2 id="geld--währung">Geld &amp; Währung</h2>
+
+<p>Beim Geldabheben am Automaten gibt es einen einfachen Trick: Klicke immer auf <strong>„Decline Conversion”</strong>. So erhältst du den deutlich besseren Wechselkurs deiner Hausbank statt des meist schlechteren Kurses des Automatenbetreibers.</p>
+
+<hr />
+
+<h2 id="lebenshaltungskosten--kulinarik">Lebenshaltungskosten &amp; Kulinarik</h2>
+
+<p>Die Qualität von frischem Obst ist hervorragend – besonders Avocados sind viel schmackhafter als in Deutschland. Hier ein paar Orientierungspunkte für Preise:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Produkt</th>
+      <th>Preis (ca.)</th>
+      <th>Ort / Info</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kleiner Kaffee + Wasser</td>
+      <td>12 DH</td>
+      <td>Agadir Innenstadt</td>
+    </tr>
+    <tr>
+      <td>1 kg Erdbeeren</td>
+      <td>25 DH</td>
+      <td>Markt</td>
+    </tr>
+    <tr>
+      <td>1 kg Avocados</td>
+      <td>30–50 DH</td>
+      <td>Markt</td>
+    </tr>
+    <tr>
+      <td>1 kg Bananen</td>
+      <td>13 DH</td>
+      <td>Inezgane</td>
+    </tr>
+    <tr>
+      <td>1,5 kg Papaya</td>
+      <td>15 DH</td>
+      <td>Tamri (Dorf)</td>
+    </tr>
+    <tr>
+      <td>Einfaches Gebäck</td>
+      <td>1–2 DH</td>
+      <td>Mehl-/Zuckerbasis</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="gesellschaftliches-bild">Gesellschaftliches Bild</h2>
+
+<p>Marokko wirkt deutlich jünger und dynamischer als Deutschland, die Bevölkerung ist weniger überaltert. In Agadir sieht man ein interessantes Nebeneinander: Viele Frauen tragen traditionell Kopftuch oder Schleier, gleichzeitig ist das Stadtbild modern und lebendig.</p>]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[Marokko-Reise: Praktische Tipps zu Preisen, Verkehr und Alltag in Agadir]]></summary></entry><entry xml:lang="de"><title type="html">FLugzeug Komponenten &amp;amp; Prozesse</title><link href="http://localhost:4000/technologie/2025/12/10/Flugzeuge-Komponenten.html" rel="alternate" type="text/html" title="FLugzeug Komponenten &amp;amp; Prozesse" /><published>2025-12-10T00:00:00+01:00</published><updated>2025-12-10T00:00:00+01:00</updated><id>http://localhost:4000/technologie/2025/12/10/Flugzeuge%20Komponenten</id><content type="html" xml:base="http://localhost:4000/technologie/2025/12/10/Flugzeuge-Komponenten.html"><![CDATA[<p>Bei diesem Blogpost handelt es sich um eine Übersicht zu verschiedenen Flugzeugkomponenten</p>
+
+<h2 id="hydraulic-system">Hydraulic system</h2>
+<p>THe PTU is a hydraulic “bridge” between the green and yellow system. Its a bidirectional unit, meaning it can transfer hydraulic power in either direction, depending on which system is losing pressure</p>
+
+<h2 id="cockpit">Cockpit</h2>
+<p><img src="/assets/img/LTS" alt="Notrutsche" />
+<img src="/assets/img/rotate NLG" alt="Notrutsche" />
+<img src="/assets/img/head up display" alt="Notrutsche" />
+<img src="/assets/img/overhead panel" alt="Notrutsche" /></p>
+
+<p>✅ 1. Static Ports (center-right, inside the red outline)</p>
+
+<p>These small holes labeled F/O (First Officer) and CAPT (Captain) are static ports.
+They measure static air pressure, which is used for:</p>
+
+<p>Altitude (altimeter)</p>
+
+<p>Vertical speed (VSI)</p>
+
+<p>Airspeed indicator (together with pitot tubes)</p>
+
+<p>The red box around them says:</p>
+
+<p>“STATIC PORTS – DO NOT PLUG OR DEFORM HOLES. Area within red line must be smooth and clean.”</p>
+
+<p>This is crucial, because blocking static ports has caused fatal aircraft accidents (e.g., Birgenair 301).</p>
+
+<p>✅ 2. Avionics Equipment Vent / Air Inlet Valve (left side)</p>
+
+<p>The round panel labeled AVIONICS EQPT VENT AIR INLET VALVE is part of the cooling system for the aircraft’s avionics (electronics).
+It pulls in air to cool the computers below the cockpit.
+The “CAUTION – HIGH AIR FLOW INTAKE” warning means that strong suction may occur while systems are running.
+<img src="/assets/img/overhead panel" alt="Notrutsche" /></p>
+
+<h3 id="fly-by-wire-system-electrical">Fly by Wire system (electrical)</h3>
+<p>Cables and Pulleys move stearing components.
+Since 1930s there are fly-by-wire planes. Russian manufacturer Tupolev developed the first FBW System
+Movement of joystick =&gt; gets converted into digital signal (ELAC1 Elvevator and Aileron Computer)
+(ELAC2) 
+Airbus “Normal Law” doesnt allow extreme and unsave plane movements
+Same stick input also lead to the same aircraft rotations because airplane speed is considered in the calculation of the ELAC system.
+Overwing Emergency doors</p>
+
+<p>It is easier to fly an airbus than a boeing.</p>
+
+<p>mechanical cables are heavy. A fly by wire-system reduces weight.</p>
+
+<p><img src="/assets/img/emergency.png" alt="Notrutsche" /></p>
+
+<p>mechanical cables</p>
+
+<p>Cargo Access Doors
+Overpressure light
+vent panel
+stabilizer bars
+Horizontal Stabilizer
+Slats (slat power drive unit), flaps (high lift fly systems, alter wing shape)
+static dischargers
+Main Landing gear
+fairing doors
+struts, shimmy damper, heavy duty carbon break stack in MLG
+Nose landing gear, rack and pinion steering system
+APU
+<img src="/assets/img/APU" alt="Notrutsche" />
+<img src="/assets/img/APU2" alt="Notrutsche" /></p>
+
+<p>Fuel in Centerbox + Wings
+Fuel wing port - refuel defuel panel =&gt; shows fuel levels</p>
+
+<p><img src="/assets/img/fuel" alt="Notrutsche" />
+<img src="/assets/img/fuel-collector" alt="Notrutsche" />
+<img src="/assets/img/Fuel Port" alt="Notrutsche" />
+Shutoff valves =&gt; tanks filled evenly
+Bleed air valves
+Air seperation Module
+Naca Scoop =&gt; pressure in fuel system
+one way flapper valves 
+main fuel pump
+air management
+Ram air duct</p>
+
+<p><img src="/assets/img/ram" alt="Notrutsche" /></p>
+
+<p>climate control system
+<img src="/assets/img/airductsclimate" alt="Notrutsche" />
+<img src="/assets/img/x.png" alt="Notrutsche" /></p>
+
+<p>low pressure ground connection
+outflow valve location
+anti-ice and fog
+piccolo tube = melt ice
+front engine cowl =&gt; heated with bleed air</p>
+
+<p><img src="/assets/img/i" alt="Notrutsche" /></p>
+
+<p>heating film in cockpit between glass layers.
+forward equipment bay (IT, electronics)</p>
+
+<p>ELT (Emergency Locator transmitter)
+<img src="/assets/img/elt" alt="Notrutsche" /></p>
+
+<p>generators in Engine and APU provvide power
+redundand hydraulic systems</p>
+
+<p>Fly by Wire system</p>
+
+<p>L104 –&gt; L103+ Software Rollback</p>
+
+<p>Emergence Software Rollback</p>
+
+<p>CUN -&gt; JET BLUE -&gt; NEW Joursey.</p>
+
+<p>Suddenly airplane nosedive</p>
+
+<p>emergency landing tampa</p>
+
+<p>Airframe</p>
+
+<p>Aluminum Alloy</p>
+
+<p>Rat</p>
+
+<p><img src="/assets/img/rat" alt="Notrutsche" /></p>
+
+<p>Struktur
+Vertical Frame =&gt; Spant
+Stringers, intercostals and subframes</p>
+
+<p>Radome =&gt; radiofrequence</p>
+
+<p><img src="/assets/img/Radome" alt="Notrutsche" />
+<img src="/assets/img/radome.png" alt="Notrutsche" /></p>
+
+<p>Birdstrike barrier</p>
+
+<p>Floor beams support floor panels</p>
+
+<p>Pressure BUlkheads =&gt; Seperate pressurized and not pressurized areas</p>
+
+<p>Unpressured areas =&gt; radome and below, Centerwingbox and tailcone</p>
+
+<p>Center Wingbox
+Keel Beam</p>
+
+<p>Wing-to-body- fairig closes and strenghens critical  wing attach point.</p>
+
+<p>Engine Pylon =&gt; titanium Bolts.</p>
+
+<p>Vertical a</p>
+
+<p>APU = auxillary power unit</p>
+
+<p>Windows =&gt; 3 Layer chemically strengened glas. 
+Cabin windows Thick acryli pane.</p>
+
+<p>Doors 
+Cargo access doors
+Smaller Overwing emergeny doors</p>
+
+<p>Doors must be disarmed before opening so the emergency slide doesnt fall out</p>
+
+<p>Door on hinge arm</p>
+
+<p>Wings Ailerns () elevators and rudder (vertical )</p>
+
+<p>wing front slats wing back flaps (flap track beam)</p>
+
+<p>Static dischargers</p>
+
+<p>Landing gear
+=&gt; Wing has attachments for the MLG, hydraulic actuator</p>
+
+<p><img src="/assets/img/MLG" alt="Notrutsche" /></p>
+
+<p>Fairing doors</p>
+
+<p>Nitrogen filled strats MLG shock absorber</p>
+
+<p>main wingtanks</p>
+
+<p>Hydraulic system 1 controls  Upper rudder actuator, left elevator and outboard actuator, left and right multifunction spoilers 1 and 3, flap power unit, left and right flap brake, left and right ground spoilers and landing gear</p>
+
+<p>Hydraulic system 2 middle rudder actuator, rght elevator outboard actuator</p>
+
+<p>Lavatories (Have heated water)
+<img src="/assets/img/wastetank" alt="Notrutsche" /></p>
+
+<p>Galley sinks
+Heated water lines =&gt; prevent water from freasing
+Faucet (Wasserhahn)</p>
+
+<p>Ku band / GPS
+<img src="/assets/img/Ku band" alt="Notrutsche" />
+Internet in flight possible</p>
+
+<h2 id="outside-check">Outside Check</h2>
+
+<p>Powerful flashlight
+Check for Damage of surfaces
+Deicing by airport crew</p>
+
+<p><img src="/assets/img/MLGg.png" alt="Notrutsche" />
+<img src="/assets/img/MLG2" alt="Notrutsche" />
+<img src="/assets/img/Wheel.png" alt="Notrutsche" />
+<img src="/assets/img/ATC.png" alt="Notrutsche" /></p>]]></content><author><name>@hanopt</name></author><category term="Technologie" /><summary type="html"><![CDATA[Bei diesem Blogpost handelt es sich um eine Übersicht zu verschiedenen Flugzeugkomponenten]]></summary></entry><entry xml:lang="de"><title type="html">DJI Drohnen und Hausdurchsuchungen in Deutschland</title><link href="http://localhost:4000/technologie/2025/11/27/drohne.html" rel="alternate" type="text/html" title="DJI Drohnen und Hausdurchsuchungen in Deutschland" /><published>2025-11-27T00:00:00+01:00</published><updated>2025-11-27T00:00:00+01:00</updated><id>http://localhost:4000/technologie/2025/11/27/drohne</id><content type="html" xml:base="http://localhost:4000/technologie/2025/11/27/drohne.html"><![CDATA[<p>Man kann auf Amazon seit einiger Zeit DJI-Drohnen kaufen. Die Drohne ist dann nach ein paar Tagen zugestellt; man kann sie auspacken und theoretisch sofort losfliegen. Wenn man das macht, hat man jedoch ein Problem: Man begeht eine Ordnungswidrigkeit. Es müssen zunächst eine Drohnen-Haftpflichtversicherung und eine Anmeldung beim Luftfahrt-Bundesamt (LBA) vorhanden sein. Und wenn man Pech hat, bricht das LKA bei dir zu Hause die Tür mit einem Rammbock ein.</p>
+
+<p><img src="/assets/img/LKA2.jpg" alt="Kettler Rad" /></p>
+
+<p>Im August 2024 traf es einen Drohnen-Enthusiasten besonders hart. Er wurde von einer Streife gesichtet, als er seine neu gekaufte Drohne landete. Ihm fehlten zu diesem Zeitpunkt der Aufkleber mit der e-ID auf der Drohne sowie die Drohnen-Haftpflichtversicherung. Die Polizeibeamten vor Ort äußerten zwar, dass das Fliegen an dem Ort zulässig sei – doch man kann grundsätzlich vermuten, dass auch Polizeibeamte nicht alle Einzelheiten der Luftverkehrs-Ordnung (LuftVO) kannten. Der Vorfall wurde dokumentiert und es wurde kommuniziert, dass irgendwann ein Bußgeldbescheid folgen würde.</p>
+
+<p>Es vergingen drei Monate. Ende November 2024 klingelte es morgens um 9 Uhr und drei Beamte vom LKA standen vor der Wohnungstür des Drohnen-Enthusiasten. Die Stimmung war angespannt. Die LKA-Beamten kamen ungefragt herein, sicherten die Wohnung und begannen eine gründliche Hausdurchsuchung, bei der sie sämtliche Datenträger einsammelten. Den Rammbock hatte das LKA zwar dabei, musste diesen aber nicht einsetzen, da der Drohnen-Enthusiast an diesem Tag glücklicherweise im Home-Office arbeitete und beim Öffnen der Tür eher mit einem Paketzusteller gerechnet hatte. Er hatte den Vorfall vom August 2024 fast schon wieder vergessen, doch der LKA-Beamte erklärte, sie seien hier, weil die Staatsanwaltschaft ein Ermittlungsverfahren wegen Verdachts auf militärische Spionage eingeleitet habe. Dem Drohnen-Enthusiasten war im August 2024 nicht bewusst gewesen, dass er in der Nähe von militärischen Anlagen seine Drohne steigen ließ, da es sich auch um einen Touristen Hotspot handelte.</p>
+
+<p>Es wurden insgesamt 15 Gegenstände beschlagnahmt. Darunter ein PC, viele USB-Sticks sowie Handys inklusive SIM-Karten. Aber auch Arbeitslaptops, wodurch die Home-Office-Tätigkeit schlagartig unterbrochen wurde.</p>
+
+<p>Die Beamten erstellten ein Protokoll und der Drohnen-Enthusiast musste unterschreiben, dass das LKA die Gegenstände sicherstellt, also mitnimmt.</p>
+
+<p>Besonders der erste Monat nach der Durchsuchung war kompliziert, denn ohne SIM-Karte und alle digitalen Endgeräte hat man auch keinen Zugang mehr zu seinen Online-Konten, da oft die SIM-Karte für die Zwei-Faktor-Authentifizierung benötigt wird. Überweisungen, Online-Depots, Social Media, Messenger sowie sämtliche Telefonnummern und Kontakte sind weg. Es war eine Art digitaler Detox: Sehr effektiv. Da wäre sogar jeder Yoga-Retreat-Teilnehmer neidisch.</p>
+
+<h3 id="hier-sind-ein-paar-auszüge-aus-der-luftverkehrs-ordnung-luftvo-welche-man-beachten-sollte-wenn-man-mit-der-drohne-fliegt">Hier sind ein paar Auszüge aus der Luftverkehrs-Ordnung (LuftVO), welche man beachten sollte, wenn man mit der Drohne fliegt:</h3>
+
+<p>Gemäß § 21h Absatz 3 Nummer 1 der Luftverkehrs-Ordnung (LuftVO) ist der Betrieb einer Drohne über und innerhalb eines seitlichen Abstands von <strong>1,5 Kilometern</strong> von der Begrenzung von Flugplätzen, die keine Flughäfen sind, nur zulässig, wenn der Betrieb in der „speziellen“ Kategorie stattfindet oder die Zustimmung der Luftaufsichtsstelle, der Flugleitung oder des Betreibers am Flugplatz eingeholt worden ist.</p>
+
+<p>Ordnungswidrig im Sinne des § 58 Absatz 1 Nummer 10 des Luftverkehrsgesetzes (LuftVG) handelt nach § 44 Absatz 1 Nummer 17d LuftVO, wer vorsätzlich oder fahrlässig entgegen § 21h Absatz 3 ein unbemanntes Fluggerät betreibt.</p>
+
+<p>Nach § 21h Absatz 3 Nummer 4 LuftVO ist der Betrieb eines unbemannten Fluggeräts über und innerhalb eines seitlichen Abstands von 100 Metern von Grundstücken, auf denen die Verfassungsorgane des Bundes oder der Länder oder oberste und obere Bundes- bzw. Landesbehörden ihren Sitz haben, nur zulässig, wenn die zuständige Stelle oder die Betreiber der Einrichtungen dem Betrieb des unbemannten Fluggerätes ausdrücklich zugestimmt haben.</p>
+
+<p>Gemäß § 21h Absatz 3 Nummer 7 LuftVO ist der Betrieb eines unbemannten Fluggeräts über Wohngrundstücken nur zulässig, wenn:</p>
+
+<ul>
+  <li>
+    <p>der durch den Betrieb über dem jeweiligen Wohngrundstück in seinen Rechten betroffene Eigentümer oder sonstige Nutzungsberechtigte dem Überflug ausdrücklich zugestimmt hat, oder</p>
+  </li>
+  <li>
+    <p>die Startmasse des unbemannten Fluggerätes bis zu 0,25 Kilogramm beträgt und das unbemannte Fluggerät und seine Ausrüstung zu optischen und akustischen Aufzeichnungen und Übertragungen sowie zur Aufzeichnung und zur Übertragung von Funksignalen Dritter nicht in der Lage sind,</p>
+  </li>
+  <li>
+    <p>oder der Betrieb in einer Flughöhe von mindestens 100 Metern stattfindet und die Luftraumnutzung über dem betroffenen Wohngrundstück zur Erfüllung eines berechtigten Betriebszwecks erforderlich ist, öffentliche Flächen oder Grundstücke, die keine Wohngrundstücke sind, für den Überflug nicht genutzt werden können und die Zustimmung des Grundstückseigentümers oder sonstigen Nutzungsberechtigten nicht in zumutbarer Weise eingeholt werden kann.</p>
+  </li>
+</ul>
+
+<p>Dabei müssen alle Vorkehrungen getroffen werden, um einen Eingriff in den geschützten Privatbereich und in das Recht auf informationelle Selbstbestimmung der betroffenen Bürger zu vermeiden; dazu zählt insbesondere, dass in ihren Rechten Betroffene regelmäßig vorab zu informieren sind, der Betrieb nicht zwischen 22:00 Uhr und 6:00 Uhr Ortszeit stattfindet und nicht zu erwarten ist, dass durch den Betrieb Immissionsrichtwerte nach Nummer 6.1 der Technischen Anleitung zum Schutz gegen Lärm überschritten werden.</p>
+
+<p>Nach § 21 Absatz 1 Nummer 5 LuftVO ist für die Aufstiege von unbemannten Luftfahrtsystemen und Flugmodellen vor der Nutzung des kontrollierten Luftraums und des Luftraums über Flugplätzen mit Flugverkehrskontrollstelle bei der zuständigen Flugverkehrskontrollstelle eine Flugverkehrskontrollfreigabe einzuholen.</p>
+
+<p>Gemäß § 44 Absatz 1 Nummer 17 LuftVO handelt ordnungswidrig im Sinne des § 58 Absatz 1 Nummer 10 LuftVG, wer vorsätzlich oder fahrlässig entgegen § 21 Absatz 1 eine Flugverkehrskontrollfreigabe nicht einholt. Solche Ordnungswidrigkeiten können nach Maßgabe des Gesetzes über Ordnungswidrigkeiten (OWiG) geahndet werden.</p>
+
+<p>Beachte folgende Punkte:</p>
+<ul>
+  <li>Es müssen Abstände zu Bundesbehörden eingehalten werden. (<strong>Abstand 100 Meter</strong>)</li>
+  <li>Die Roten Zonen auf der Karte sind strikte Verbotszonen, aber auch andere Gebiete sind durch weitere Regeln eingeschränkt für Drohnenflüge.</li>
+</ul>
+
+<p><img src="/assets/img/Redzones.png" alt="Drohnes" /></p>]]></content><author><name>@hanopt</name></author><category term="Technologie" /><summary type="html"><![CDATA[Man kann auf Amazon seit einiger Zeit DJI-Drohnen kaufen. Die Drohne ist dann nach ein paar Tagen zugestellt; man kann sie auspacken und theoretisch sofort losfliegen. Wenn man das macht, hat man jedoch ein Problem: Man begeht eine Ordnungswidrigkeit. Es müssen zunächst eine Drohnen-Haftpflichtversicherung und eine Anmeldung beim Luftfahrt-Bundesamt (LBA) vorhanden sein. Und wenn man Pech hat, bricht das LKA bei dir zu Hause die Tür mit einem Rammbock ein.]]></summary></entry><entry xml:lang="de"><title type="html">Eurofins - Analytiklabore</title><link href="http://localhost:4000/technologie/2025/11/19/eurofins.html" rel="alternate" type="text/html" title="Eurofins - Analytiklabore" /><published>2025-11-19T00:00:00+01:00</published><updated>2025-11-19T00:00:00+01:00</updated><id>http://localhost:4000/technologie/2025/11/19/eurofins</id><content type="html" xml:base="http://localhost:4000/technologie/2025/11/19/eurofins.html"><![CDATA[<h1 id="einblick-in-die-welt-der-lebensmittelanalytik-wie-eurofins-globale-lieferketten-sicherer-macht">Einblick in die Welt der Lebensmittelanalytik: Wie Eurofins globale Lieferketten sicherer macht</h1>
+
+<p>Kürzlich hatte ich die Gelegenheit, ein Interview bei Eurofins zu führen, und dabei faszinierende Einblicke in die Welt der Lebensmittelanalytik zu gewinnen. Was genau passiert eigentlich, bevor ein Lebensmittel aus Übersee in unseren Supermarktregalen landet? Lassen Sie mich Sie mitnehmen auf eine Reise durch die komplexe Welt der internationalen Qualitätssicherung.</p>
+
+<h2 id="der-weg-vom-feld-zum-teller-ein-beispiel-aus-der-praxis">Der Weg vom Feld zum Teller: Ein Beispiel aus der Praxis</h2>
+
+<p>Stellen Sie sich vor, ein indischer Reisexporteur möchte seine Ware in die Europäische Union liefern. Was simpel klingt, erfordert einen aufwendigen Prüfprozess: Der Exporteur benötigt ein anerkanntes Lebensmittellabor, das die Qualität und Sicherheit der Ware nach strengen EU-Vorgaben bestätigt.</p>
+
+<p>Hier kommt Eurofins ins Spiel. Eigene Inspektoren reisen vor Ort nach Indien, entnehmen Proben unter kontrollierten Bedingungen und stellen sicher, dass die Ware ordnungsgemäß verplombt wird – ein wichtiger Schutz gegen Manipulation. Die Probe wird dann per Expressversand nach Deutschland geschickt, was typischerweise zwei bis fünf Tage dauert.</p>
+
+<p>Interessant dabei: Oft haben einzelne Handelsunternehmen wie Edeka noch strengere Richtlinien als die gesetzlichen Mindestanforderungen. Qualität und Verbraucherschutz gehen also häufig über die reine Regulatorik hinaus.</p>
+
+<h2 id="eurofins-ein-global-player-in-der-analytik">Eurofins: Ein Global Player in der Analytik</h2>
+
+<p>Mit rund 65.000 Mitarbeitenden und etwa 950 Laboren in 60 Ländern ist Eurofins einer der größten Anbieter für Laboranalysen weltweit. Das Unternehmen bedient dabei drei Hauptbereiche: Lebensmittel, Pharma und Umwelt.</p>
+
+<p>Das Geschäftsmodell ruht auf zwei zentralen Säulen:</p>
+
+<p><strong>1. Regulatorische Anforderungen</strong></p>
+
+<p>Internationale Vorgaben verpflichten Unternehmen, bestimmte Qualitäts- und Sicherheitsstandards einzuhalten. Lebensmittel dürfen beispielsweise definierte Schadstoffgrenzen nicht überschreiten. Eurofins ermöglicht durch seine weltweiten Inspektionen und Tests einen reibungslosen Warenfluss zwischen verschiedenen Wirtschaftsräumen.</p>
+
+<p><strong>2. Lokale Partnerschaften</strong></p>
+
+<p>Besonders spannend fand ich das Netzwerk lokaler Sales-Partner in Regionen wie Pakistan, Zentral- und Südamerika sowie Peru und Ecuador. Diese Partner bringen unschätzbares Wissen mit: Sie kennen die kulturellen Besonderheiten, sprechen die Landessprache und können dadurch schneller Vertrauen zu lokalen Exporteuren aufbauen.</p>
+
+<p>Jede Region hat dabei ihre eigenen Schwerpunkte: Pakistan etwa für Reis, Früchte und Textilien; Peru und Ecuador für Obst, Meeresprodukte, Kaffee und Kakao.</p>
+
+<h2 id="das-regulatorische-fundament">Das regulatorische Fundament</h2>
+
+<p>Die Arbeit von Eurofins basiert auf einem dichten Netz gesetzlicher Vorgaben, darunter:</p>
+
+<ul>
+  <li><strong>Verordnung (EG) Nr. 396/2005</strong>: legt maximale Rückstandshöchstgehalte für Pestizide fest</li>
+  <li><strong>Verordnung (EG) Nr. 1308/2013</strong>: definiert Qualitätsanforderungen an Reis und zulässige Bezeichnungen</li>
+  <li>Strikte Dokumentationspflichten für Import und Export</li>
+  <li>Gesundheits-, Zoll- und Verbraucherschutzanforderungen</li>
+  <li>Akkreditierungen wie ISO 17025</li>
+</ul>
+
+<p>Diese Regularien betreffen vor allem Lebensmittel, Agrarprodukte, Pharma, Kosmetik, Umweltanalytik und den internationalen Handel.</p>
+
+<h2 id="mehr-als-nur-compliance-der-erweiterte-mehrwert">Mehr als nur Compliance: Der erweiterte Mehrwert</h2>
+
+<p>Was mich besonders beeindruckt hat: Eurofins beschränkt sich nicht auf gesetzlich vorgeschriebene Analysen. Das Unternehmen bietet zahlreiche zusätzliche Leistungen:</p>
+
+<ul>
+  <li>Freiwillige Qualitätskontrollen zur Bewertung und Auswahl von Lieferanten</li>
+  <li>Unterstützung bei der Produktentwicklung (Nährstoffprofile, Aroma, Haltbarkeit)</li>
+  <li>Risikomanagement entlang globaler Lieferketten</li>
+  <li>Schutz der Markenreputation durch präventive Tests</li>
+  <li>Forschung und Entwicklung neuer Messmethoden, Genom-Analysen oder Umweltmonitoring</li>
+</ul>
+
+<p>Für viele Unternehmen – besonders in der Pharma-, Lebensmittel- oder Biotechbranche – wäre es schlichtweg zu teuer, alle Analyseverfahren selbst vorzuhalten. Externe Labore wie Eurofins fungieren daher als Effizienz- und Innovationspartner.</p>
+
+<h2 id="ein-blick-ins-labor-reis-unter-der-lupe">Ein Blick ins Labor: Reis unter der Lupe</h2>
+
+<p>Was wird bei Reis eigentlich alles getestet? Die Liste ist beeindruckend:</p>
+
+<ul>
+  <li>Mykotoxine (Pilzgifte)</li>
+  <li>Pestizide (mittels Gaschromatographie)</li>
+  <li>Arsen (per Massenspektrometrie)</li>
+  <li>Feuchtigkeitsgehalt</li>
+  <li>Schimmelpilze und bakterielle Kontaminationen</li>
+</ul>
+
+<p>Das verwendete Equipment ist hochmodern und teilweise automatisiert:</p>
+
+<ul>
+  <li><strong>SCIEX QTRAP® 5500 LC/MS/MS System</strong> – ideal für Metaboliten-Analytik und die Untersuchung von Lebensmittelkontaminanten</li>
+  <li><strong>Agilent Technologies 7890B GC System</strong> – für präzise Gaschromatographie</li>
+  <li><strong>Automatischer Probengeber (MPS – Multi Purpose Sampler)</strong> – für effiziente Arbeitsabläufe</li>
+</ul>
+
+<h2 id="fazit-unsichtbare-sicherheit">Fazit: Unsichtbare Sicherheit</h2>
+
+<p>Mein Gespräch bei Eurofins hat mir die Augen geöffnet für die komplexe Infrastruktur, die hinter unserem täglichen Einkauf steht. Jedes Mal, wenn wir Reis, Kaffee oder exotisches Obst kaufen, haben zahlreiche Experten, Labore und Inspektoren bereits dafür gesorgt, dass diese Produkte sicher und qualitativ hochwertig sind.</p>
+
+<p>In einer zunehmend globalisierten Welt, in der Lieferketten immer komplexer werden, spielen Unternehmen wie Eurofins eine unverzichtbare Rolle – als Wächter der Qualität und Brückenbauer zwischen den Märkten.</p>]]></content><author><name>@hanopt</name></author><category term="Technologie" /><summary type="html"><![CDATA[Einblick in die Welt der Lebensmittelanalytik: Wie Eurofins globale Lieferketten sicherer macht]]></summary></entry><entry xml:lang="de"><title type="html">Fachbegriffe Rund um Fahrräder</title><link href="http://localhost:4000/technologie/2025/11/15/Bike.html" rel="alternate" type="text/html" title="Fachbegriffe Rund um Fahrräder" /><published>2025-11-15T00:00:00+01:00</published><updated>2025-11-15T00:00:00+01:00</updated><id>http://localhost:4000/technologie/2025/11/15/Bike</id><content type="html" xml:base="http://localhost:4000/technologie/2025/11/15/Bike.html"><![CDATA[<h2 id="die-wichtigsten-fahrradwerkzeuge">Die wichtigsten Fahrradwerkzeuge</h2>
+<p>Drehmomentschlüssel
+Inbusschlüssel-Set (Innensechskant)
+Reifenheber
+Luftpumpe (Standpumpe)
+Kettennieter
+Kettenlehre
+Pedalschlüssel (15mm Maulschlüssel)
+Torx-Schlüssel-Set
+Schraubendreher (Kreuz und Schlitz)
+Kassettenabzieher &amp; Kettenpeitsche
+Speichenschlüssel (Nippelspanner)
+Seitenschneider
+Trettlagerschlüssel</p>
+
+<p><img src="/assets/img/werkzeug.png" alt="Tool Overview" /></p>
+
+<p>Hilftreich sind auch:</p>
+<ul>
+  <li>Lock Tight =&gt; Schraubensicherung</li>
+  <li>Schmierfett (Bike Grease)</li>
+  <li>Ein Fahrradmontageständer</li>
+  <li>Kettenschloss, nicht jedes mal mit Nieten zu arbeiten.</li>
+</ul>
+
+<p><img src="/assets/img/fahrrad.png" alt="Kettler Rad" /></p>
+
+<p><img src="/assets/img/fork-end.jpg" alt="Aircraft Overview" />
+<em>Ausfallende (fork end), mit Öffnung gegen die Fahrtrichtung</em>
+Ich habe mit in letzter Zeit wieder mit der Entwicklung eines E-Bikes beschäftigt. 
+Hierfür versuche ich einen Mittelmotor von Bafang (Bafang BBS01B 36V 250W) in ein <strong>altes blaues Kettlerrad</strong> einzubauen.
+Das Problem ist, dass die Öffnung des Ausfallendes in Fahrtrichtung zeigt. Dadurch das der Motor eine hohe Kraft beim Anfahren hervorbringen kann, verrutschte das Hinterrad immer wieder leicht im Ausfallende. Die Folge war zu viel Spiel am Hinterrad. Das Rad verrutsche sogar seitlich leicht. Ich vermute, dass anfahren im 7-Gang mit E-Motor keine so gute Idee war</p>
+
+<p><img src="/assets/img/kettler.png" alt="Kettler Rad" /></p>
+
+<h2 id="fahrradkette">Fahrradkette</h2>
+<p>Haben häufig eine Laufrichtung, Also sollten die kleinen Logos nach außen zeigen. Es gibt schmale und breitere ketten.
+Eine breite Kette passt zwar auf eine dünne Kassette, aber eine schmale Kette würde nicht auf eine breite Kassette passen.</p>
+
+<p>1 tool for removing the cassette with chain whip</p>
+
+<p>Dadurch dass es viele verschiedene Standarts und Hersteller bei Fahrrädern gibt, kann es für einen Anfänger schon eine Herausforderung das richtige Ersatzteil für sein Fahrrad zu finden.</p>
+
+<p>Wenn die Kette verschleißt, sollte man frühzeitig tauschen, damit Kassette nicht verschleißt.</p>
+
+<p>Außerdem gibt es riehmen mit Nabenschaltung kombiniert.</p>
+<h2 id="gangschaltung">Gangschaltung</h2>
+<p>Kettenschaltung vs. Nabenschaltung
+Hebel, Seilzug, Schaltwerk, Umwerfer, Kettenblätter</p>
+
+<p>kettenschaltung ==&gt; Mehr Dreck, aber funktioniert bei jeden Wetter, Mehr Verschleiß als bei Nabenschaltung</p>
+
+<p>Stufenlose Nabenschaltung</p>
 
 <h2 id="der-fahrradrahmen-bicycle-frame">Der Fahrradrahmen (bicycle frame)</h2>
 <p>Fahrradrahmen können aus verschiedenen Materialien hergestellt. Alumiunium, Titan,</p>
 
 <p>Was bedeutet 12-fach, 10-fach, 9 Fach etc.?</p>
 
-<p>e-bike motoren</p>
+<h2 id="e-bike-motoren">e-bike motoren</h2>
+<p>Grundsätzlich können E-Bike Motoren an 3 Stellen verbaut werden. Es gibt</p>
 
 <p>Hier ein Beispiel von einem E-Bike Display. Das ist das Model 500C Bafang Display.
 <img src="/assets/img/display.JPEG" alt="Aircraft Overview" /></p>
@@ -17,84 +490,15 @@ Ich habe ein Spannungsregler verwendet und festgestellt, dass das Display bei 39
 Es wird grundsätzlich in der Software der Spannungsabfall in der Batterie später in einen prozentualen Wert umgewandelt.</p>
 
 <p><img src="/assets/img/battery.png" alt="Aircraft Overview" />
-22.5Ah Gepäckträgerbatterie, 36V, 8,3 Kg</p>]]></content><author><name>@hanopt</name></author><category term="Technologie" /><summary type="html"><![CDATA[Dadurch dass es viele verschiedene Standarts und Hersteller bei Fahrrädern gibt, kann es für einen Anfänger schon eine Herausforderung das richtige Ersatzteil für sein Fahrrad zu finden.]]></summary></entry><entry xml:lang="de"><title type="html">Flugzeugbau</title><link href="http://localhost:4000/technologie/2025/11/12/Flugzeuge.html" rel="alternate" type="text/html" title="Flugzeugbau" /><published>2025-11-12T00:00:00+01:00</published><updated>2025-11-12T00:00:00+01:00</updated><id>http://localhost:4000/technologie/2025/11/12/Flugzeuge</id><content type="html" xml:base="http://localhost:4000/technologie/2025/11/12/Flugzeuge.html"><![CDATA[<p>Die Luftfahrtindustrie ist für mich ein besonders präsentes Thema – nicht zuletzt, weil ich in Buxtehude wohne und täglich Airbus-Flugzeuge über meinem Kopf sehe, die anschließend in alle Welt ausgeliefert werden. Besonders der Airbus A320 wird in Finkenwerder in großen Stückzahlen gefertigt. Hin und wieder zieht auch die Beluga durch den Himmel – das Transportflugzeug, das große Komponenten aus anderen Werken zur Final Assembly nach Finkenwerder bringt.</p>
-
-<p>Ich selbst habe rund eineinhalb Jahre bei Airbus gearbeitet, hauptsächlich in den Bereichen Kabine und Qualität. In dieser Zeit habe ich eng mit verschiedenen Kabinenlieferanten zusammengearbeitet, Nacharbeiten koordiniert und dringende Themen direkt mit den Suppliern abgestimmt. So konnte ich wertvolle Einblicke in die Produktion und die internen Abläufe bei Airbus gewinnen.</p>
-
-<p>Auffällig ist, dass das Unternehmen – wie viele Großkonzerne – sehr hierarchisch strukturiert ist. Die Stammmitarbeiter übernehmen meist zentrale Rollen und profitieren von tariflicher Bezahlung sowie langfristiger Sicherheit. Leiharbeitskräfte werden zwar gut in die Abläufe eingebunden, haben jedoch häufig nur befristete Verträge und werden nach drei Jahren nicht immer übernommen. Ein Bekannter von mir musste beispielsweise nach Ablauf seines Vertrags von Finkenwerder nach Bremen wechseln, um dort eine neue Leiharbeitsstelle anzutreten.</p>
+22.5Ah Gepäckträgerbatterie, 36V, 8,3 Kg</p>]]></content><author><name>@hanopt</name></author><category term="Technologie" /><summary type="html"><![CDATA[Die wichtigsten Fahrradwerkzeuge Drehmomentschlüssel Inbusschlüssel-Set (Innensechskant) Reifenheber Luftpumpe (Standpumpe) Kettennieter Kettenlehre Pedalschlüssel (15mm Maulschlüssel) Torx-Schlüssel-Set Schraubendreher (Kreuz und Schlitz) Kassettenabzieher &amp; Kettenpeitsche Speichenschlüssel (Nippelspanner) Seitenschneider Trettlagerschlüssel]]></summary></entry><entry xml:lang="de"><title type="html">Flugzeugbau Airbus</title><link href="http://localhost:4000/technologie/2025/11/12/Flugzeuge.html" rel="alternate" type="text/html" title="Flugzeugbau Airbus" /><published>2025-11-12T00:00:00+01:00</published><updated>2025-11-12T00:00:00+01:00</updated><id>http://localhost:4000/technologie/2025/11/12/Flugzeuge</id><content type="html" xml:base="http://localhost:4000/technologie/2025/11/12/Flugzeuge.html"><![CDATA[<p>Auffällig ist, dass das Unternehmen – wie viele Großkonzerne – sehr hierarchisch strukturiert ist. Die Stammmitarbeiter übernehmen meist zentrale Rollen und profitieren von tariflicher Bezahlung sowie langfristiger Sicherheit. Leiharbeitskräfte werden zwar gut in die Abläufe eingebunden, haben jedoch häufig nur befristete Verträge und werden nach drei Jahren nicht immer übernommen. Ein Bekannter von mir musste beispielsweise nach Ablauf seines Vertrags von Finkenwerder nach Bremen wechseln, um dort eine neue Leiharbeitsstelle anzutreten.</p>
 
 <p>Auch Beratungsfirmen und Zulieferer, die Airbus unterstützen, arbeiten oft unter deutlich schlechteren Bedingungen. Dort sind die Gehälter meist nicht tarifgebunden und entsprechend niedriger. Externe Mitarbeiter, die für Airbus-Projekte abgestellt werden, erhalten zudem oft nur begrenzten Einblick in interne Strukturen. Sie sind auf ihre jeweiligen Aufgaben spezialisiert und haben kaum Gelegenheit, die Gesamtprozesse oder Schulungen im Unternehmen kennenzulernen.</p>
 
-<p>Besonders faszinierend finde ich den Bereich der Final Assembly Line, da man dort die Produktion hautnah miterlebt. Während in der Automobilindustrie bereits vieles ausgelagert oder automatisiert wurde, ist die Luftfahrtproduktion noch ein Mix aus moderner Technik und Handarbeit. Zwar kommen Roboter, etwa beim Vernieten, zunehmend zum Einsatz, doch ein Großteil der Arbeit erfolgt weiterhin manuell durch erfahrene Mechaniker. Die Logistik bei Airbus ist ebenfalls nur begrenzt automatisiert. Die modernsten Logistiklösungen habe ich bisher bei BOSCH in der Injektorenproduktion kennengelernt: automatisierte Palettenlager, Kleinteilelager von Unternehmen wie Stöcklin, RFID-Gates für automatisierte Ein- und Auslagerungsprozesse und AGVs (Automated Guided Vehicles) vom Unternehmen Metralabs.</p>
+<p>Besonders faszinierend finde ich den Bereich der Final Assembly Line, da man dort die Produktion hautnah miterlebt. Während in der Automobilindustrie bereits vieles ausgelagert oder automatisiert wurde, ist die Luftfahrtproduktion noch ein Mix aus moderner Technik und Handarbeit. Zwar kommen Roboter, etwa beim Vernieten, zunehmend zum Einsatz, doch ein Großteil der Arbeit erfolgt weiterhin manuell durch erfahrene Mechaniker. Die Logistik bei Airbus ist ebenfalls nur begrenzt automatisiert. Die modernsten Logistiklösungen habe ich bisher bei BOSCH in der Injektorenproduktion kennengelernt: automatisierte Palettenlager, Kleinteilelager von Unternehmen wie Stöcklin, RFID-Gates für automatisierte Ein- und Auslagerungsprozesse und AGVs (Automated Guided Vehicles) vom Unternehmen Metralabs. Man sollte noch zusätzlich anmerken, dass Flugzeugbau deutlich komplexer ist als Autobau. In einer Final Assembly Line kommen eine Vielzahl von Einzelbauteilen zusammen aus verschiedenen Ländern. Zudem  kommen noch regulatorische Auflagen von der EASA hinzu.</p>
 
-<p>Auch die Digitalisierung ist noch nicht flächendeckend umgesetzt. In einigen Bereichen – etwa in der Logistik oder bei sogenannten Intervention Cards – läuft vieles noch analog. Das IT-Systemumfeld ist komplex: SAP ist das zentrale, aber wenig benutzerfreundliche Tool. Daneben existiert eine Vielzahl kleinerer Anwendungen, die bestimmte Funktionen ergänzen oder spezialisierte Datenbereiche abbilden. Positiv hervorheben möchte ich Google Workspace, das durch moderne Tools und Automatisierungsmöglichkeiten, beispielsweise mit Google Apps Script, Verbesserungen ermöglicht. Google Apps Script ist ein sehr nützliches Tool, um Prozesse wie das automatisierte Versenden von E-Mails umzusetzen. Durch die native Anbindung an das Google-Ökosystem lassen sich zahlreiche Dienste effizient miteinander verknüpfen. Das Hauptproblem besteht jedoch darin, dass viele unternehmensinterne Tools keine Schnittstellen zu diesem Ökosystem bieten. Ohne Zugriff auf alle relevanten Daten lassen sich keine wirklich effektiven Automatisierungen entwickeln. Dadurch bleibt das Potenzial von Google Apps Script oft ungenutzt.</p>
+<p>Auch die Digitalisierung ist noch nicht flächendeckend umgesetzt. In einigen Bereichen – etwa in der Logistik oder bei sogenannten Intervention Cards – läuft vieles noch analog. Das IT-Systemumfeld ist komplex: SAP ist das zentrale, aber wenig benutzerfreundliche Tool. Daneben existiert eine Vielzahl kleinerer Anwendungen, die bestimmte Funktionen ergänzen oder spezialisierte Datenbereiche abbilden. Positiv hervorheben möchte ich Google Workspace, das durch moderne Tools und Automatisierungsmöglichkeiten, beispielsweise mit Google Apps Script, Verbesserungen ermöglicht. Google Apps Script ist ein sehr nützliches Tool, um Prozesse wie das automatisierte Versenden von E-Mails umzusetzen. Durch die native Anbindung an das Google-Ökosystem lassen sich zahlreiche Dienste effizient miteinander verknüpfen. Das Hauptproblem besteht jedoch darin, dass viele unternehmensinterne Tools keine Schnittstellen zu diesem Ökosystem bieten. Ohne Zugriff auf alle relevanten Daten lassen sich keine wirklich effektiven Automatisierungen entwickeln. Dadurch bleibt das Potenzial von Google Apps Script oft ungenutzt. Mittlerweile wurde auch der Zugang zu Google Apps Script eingeschränkt, sodass Mitarbeiter nicht in der Lage sind Prozesse selbst zu optimieren.</p>
 
-<p>Viele Prozesse, die sich leicht automatisieren ließen, werden nach wie vor analog durchgeführt oder erfordern den Einsatz von Mitarbeitenden. Ein typisches Beispiel ist das Zurücksetzen von Passwörtern, die regelmäßig geändert werden müssen. Häufig vergessen Nutzer ihr Passwort und müssen den Support kontaktieren. In solchen Fällen authentifiziert sich zunächst der Anrufer, anschließend führt ein Mitarbeiter die Authentifizierung durch und erhält schließlich die Informationen zur Passwortzurücksetzung. Gerade solche Abläufe eignen sich hervorragend für den Einsatz von Voice Agents, die diese Routineaufgaben automatisiert, sicher und effizient übernehmen könnten.</p>
-
-<p>Insgesamt lässt sich sagen, dass das Prozess- und Toolwissen bei Airbus sehr spezialisiert ist. Wer dort arbeitet, bewegt sich in einem komplexen, etablierten System, das sich nur schwer auf andere Branchen übertragen lässt.</p>]]></content><author><name>@hanopt</name></author><category term="Technologie" /><summary type="html"><![CDATA[Die Luftfahrtindustrie ist für mich ein besonders präsentes Thema – nicht zuletzt, weil ich in Buxtehude wohne und täglich Airbus-Flugzeuge über meinem Kopf sehe, die anschließend in alle Welt ausgeliefert werden. Besonders der Airbus A320 wird in Finkenwerder in großen Stückzahlen gefertigt. Hin und wieder zieht auch die Beluga durch den Himmel – das Transportflugzeug, das große Komponenten aus anderen Werken zur Final Assembly nach Finkenwerder bringt.]]></summary></entry><entry xml:lang="de"><title type="html">Wie verändert KI die Art wie wir arbeiten?</title><link href="http://localhost:4000/technologie/2025/11/07/Ai-automation.html" rel="alternate" type="text/html" title="Wie verändert KI die Art wie wir arbeiten?" /><published>2025-11-07T00:00:00+01:00</published><updated>2025-11-07T00:00:00+01:00</updated><id>http://localhost:4000/technologie/2025/11/07/Ai-automation</id><content type="html" xml:base="http://localhost:4000/technologie/2025/11/07/Ai-automation.html"><![CDATA[<h2 id="wie-verändert-ki-die-art-wie-wir-arbeiten">Wie verändert KI die Art, wie wir arbeiten?</h2>
-
-<p align="justify">
-Künstliche Intelligenz verändert zunehmend die Art und Weise, wie wir arbeiten, lernen und miteinander interagieren. Der technologische Fortschritt verläuft dabei je nach Branche sehr unterschiedlich. Viele Behörden in Deutschland arbeiten nach wie vor mit Papierakten und verschicken Briefe – ein Beispiel hierfür ist die Staatsanwaltschaft, bei der die elektronische Aktenverwaltung noch nicht vollständig umgesetzt ist.
-</p>
-
-<p align="justify">
-Bürokratische Prozesse erfordern oft, dass nach der Antragstellung bestimmte Bedingungen geprüft werden. Ein typisches Beispiel ist die Einbürgerung: Die Ausländerbehörde muss hierzu Dokumente von anderen Stellen wie Polizei, Verfassungsschutz oder Arbeitsagentur einholen. Wenn einzelne Behörden – etwa der Verfassungsschutz – unter Personalmangel leiden, kann die Bearbeitung mehrere Monate dauern.
-</p>
-<p align="justify">
-Eine digitale Vernetzung der Behörden und automatisierte Prüfprozesse wären hier dringend notwendig. Ein IT-System könnte beispielsweise durch automatisierte Abfragen in Sekundenschnelle prüfen, ob relevante Einträge zu einer Person existieren, und so den Prozess deutlich beschleunigen. Besonders bei wiederkehrenden Abläufen wären digitale Workflows ein echter Gamechanger. Doch bislang gilt oft noch: Wer mit Behörden zu tun hat, braucht Geduld.
-</p>
-
-<p align="justify">
-Auch der Wirtschaftsstandort Deutschland leidet unter bürokratischen Hürden. Die Gründung einer GmbH dauert hierzulande meist vier bis acht Wochen, während es in Großbritannien nur ein bis zwei Wochen dauert – und in Estland sogar vollständig online in nur 18 Minuten möglich ist. Mein persönliches Highlight war das Ausfüllen des Formulars zur steuerlichen Erfassung: Zwar lässt es sich digital über Elster bearbeiten, doch die Fragen sind alles andere als intuitiv und stark mit dem komplexen deutschen Steuerrecht verknüpft.
-</p>
-<hr />
-
-<h2 id="was-wäre-mit-der-implementierung-bereits-vorhandener-ki-technologien-heute-schon-möglich">Was wäre mit der Implementierung bereits vorhandener KI-Technologien heute schon möglich?</h2>
-
-<p>Einige einfache, aber wirkungsvolle Use-Cases zeigen das Potenzial:</p>
-
-<h3 id="1-ki-agenten-im-bewerbungsprozess">1. KI-Agenten im Bewerbungsprozess</h3>
-<p align="justify">
-Vor allem das erste Bewerbungsgespräch mit einem Personaler ist häufig eintönig. Bewerber erhalten meist keinen echten Einblick in die potenzielle Tätigkeit, und Unternehmen investieren gleichzeitig viel Zeit in die Personalabteilung.  
-In einem Interview bei einem großen Beratungsunternehmen führte ich das erste Gespräch mit einer Mitarbeiterin aus Rumänien, die mir standardisierte Fragen auf Englisch stellte und meine Antworten lediglich protokollierte.  
-Mittlerweile können Voice-Agents mit erstaunlich natürlich klingenden Stimmen solche Gespräche übernehmen. Ich habe beispielsweise die Plattform Vapi getestet, die LLMs, Text-to-Speech- und Speech-to-Text-APIs kombiniert, um einen lebensechten Voice-Agenten zu erstellen.  
-Neben einfachen Frage-Antwort-Dialogen lassen sich dort komplexe Workflows aufbauen: etwa Kundendaten abfragen, Termine im Kalender eintragen oder automatisch Bestätigungen per E-Mail versenden. </p>
-
-<h3 id="2-automatisierte-terminvereinbarung">2. Automatisierte Terminvereinbarung</h3>
-<p align="justify"> Auch alltägliche Prozesse wie das Vereinbaren von Terminen können automatisiert werden. Arztpraxen, Friseure oder Handwerksbetriebe könnten durch KI-Agenten Anrufe entgegennehmen, freie Zeitfenster prüfen und Termine selbstständig eintragen – ohne menschliches Zutun. Dasselbe Prinzip lässt sich auch auf Bewerbungsprozesse übertragen, z. B. zur automatisierten Terminplanung für Vorstellungsgespräche. </p>
-
-<h3 id="3-automatisierte-text--bild--und-videoerstellung">3. Automatisierte Text-, Bild- und Videoerstellung</h3>
-<p align="justify"> Inzwischen lassen sich mit KI nicht nur Texte generieren, sondern auch Bilder und Videos produzieren oder übersetzen. Werbevideos können beispielsweise mithilfe von KI-Stimmen in andere Sprachen synchronisiert werden – eine enorme Erleichterung für internationale Unternehmen und Content Creator. </p>
-
-<h3 id="4-unternehmenswissen">4. Unternehmenswissen</h3>
-<p align="justify"> In allen Unternehmen, in denen ich bisher arbeiten durfte, war es kaum möglich, sich eigenständig in die Unternehmensprozesse einzuarbeiten. Die Einarbeitung erfolgt oft nur oberflächlich, und Schulungsunterlagen sind selten vorhanden. Eine Vielzahl unterschiedlicher IT-Systeme trägt zusätzlich zur Unübersichtlichkeit bei.
-
-Ein interessanter Ansatz wäre es, alle verfügbaren Unternehmensdaten – einschließlich Schulungsunterlagen – zentral zu speichern und interne LLM-Lösungen zu nutzen, um den Wissenszugriff zu erleichtern. Inzwischen gibt es in fast jedem Unternehmen Gruppenchats. Wenn es dort einen Kanal gäbe, in dem jede Mitarbeiterin und jeder Mitarbeiter einmal täglich eine Erkenntnis oder Erfahrung teilt – und die Unternehmenskultur dies aktiv fördert –, könnte innerhalb kurzer Zeit eine umfangreiche, abteilungsübergreifende Wissenssammlung entstehen. Selbst wenn dieses Wissen zunächst unstrukturiert wäre, ließe es sich mithilfe von LLMs effizient auswerten und zusammenfassen. Mitarbeiter sollten täglich maßgeschneiderte Wissenssnippets auf ihrem Startbildschirm sehen. </p>
-
-<p>Mitarbeiter können Beiträge bewerten:</p>
-<ul>
-  <li>Unter jedem Dokument: 👍👎❓</li>
-  <li>LLM fragt bei 👎: „Was fehlt?“ → Antwort wird sofort eingebaut.</li>
-  <li>Top-Beitragende bekommen automatisch Punkte.</li>
-  <li>Mitarbeiter, welche nützliche Informationen teilen, sollten mit Prämien belohnt werden.</li>
-</ul>
-
-<p align="justify">  Ich habe mich oft gefragt: „Was macht eigentlich die andere Abteilung?“ Ein offeneres, transparenteres Informationssystem würde besonders Berufseinsteigern helfen, das Unternehmen und seine Bereiche schneller zu verstehen. Gleichzeitig könnten neue Mitarbeiterinnen und Mitarbeiter mit einem „fresh-eye“-Blick wertvolle Impulse zur Lösung bestehender Probleme liefern – vorausgesetzt, sie haben einen guten Gesamtüberblick. Besonders von "alten Hasen" in Unternehmen höre ich häufiger, dass sie vor allem mit Leuten aus dem Studium nicht warm werden, da diese meistens zu theoretische Kenntnisse mitbringen. Vor allem Berufseinsteiger mit Studium haben meistens einen Informationsnachteil, wenn es um betriebsinterne Prozesse geht. Gleichzeitig geht meiner Meinung nach großes Potenzial verloren, da vor allem Akademiker Wissen und Methoden ins Unternehmen einbringen könnten, aber häufig direkt im repetiven Tagesgeschäft eingesetzt werden. </p>
-
-<hr />
-<hr />
-<p>Zum Thema Automatisierung gibt es unterschiedliche Sichtweisen.</p>
-
-<p>Künstliche Intelligenz bietet bereits heute Werkzeuge, mit denen sich Verwaltungs- und Geschäftsprozesse erheblich beschleunigen und effizienter gestalten lassen. Der eigentliche Flaschenhals sind jedoch häufig starre Unternehmensstrukturen. Viele Mitarbeitende haben keinen Anreiz, aktiv an Prozessverbesserungen mitzuwirken, da sie befürchten, dass ihr Arbeitsplatz durch vollautomatisierte Abläufe gefährdet sein könnte.</p>
-
-<p>Ich erinnere mich an ein Gespräch mit einem Manager bei Bosch während meines Praktikums. Er fragte mich:
-„Was denkst du, sind die größten Hürden bei der Umsetzung von Prozessverbesserungen?“
-Ich dachte zunächst an technische Schwierigkeiten oder veraltete IT- und Produktionssysteme. Doch er sagte:
-„Nein, es sind am Ende die Menschen, die sich weigern, Veränderungen zu akzeptieren.“</p>
-
-<p>Ein Unternehmen ist letztlich nur dann erfolgreich – insbesondere aus Sicht der Anteilseigner –, wenn es ein gutes Produkt zu einem wettbewerbsfähigen Preis anbieten und gleichzeitig seine Kosten optimieren kann. Wenn jedoch eine Produktion zunehmend unrentabel wird, hilft es auch den Mitarbeitenden langfristig nicht, an alten Prozessen festzuhalten. Wird die Ware oder Dienstleistung irgendwann nicht mehr nachgefragt, führt das zwangsläufig zu einem Einbruch des Cashflows – und gefährdet damit das gesamte Unternehmen.</p>
-
-<p>Interessanterweise profitieren ältere Mitarbeitende in solchen Situationen manchmal kurzfristig von der mangelnden Wettbewerbsfähigkeit, etwa durch hohe Abfindungen oder Frührentenprogramme. Für manche kann es sogar finanziell attraktiv sein, eine Abfindung zu erhalten und die Zeit bis zur Rente mithilfe von Arbeitslosengeld zu überbrücken.</p>]]></content><author><name>@hanopt</name></author><category term="Technologie" /><summary type="html"><![CDATA[Wie verändert KI die Art, wie wir arbeiten?]]></summary></entry><entry xml:lang="de"><title type="html">Doomscrolling, Brainrot, Videospiele</title><link href="http://localhost:4000/natur%20und%20outdoor/2025/10/27/brain-rot-copy.html" rel="alternate" type="text/html" title="Doomscrolling, Brainrot, Videospiele" /><published>2025-10-27T00:00:00+01:00</published><updated>2025-10-27T00:00:00+01:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2025/10/27/brain-rot%20copy</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2025/10/27/brain-rot-copy.html"><![CDATA[<p>Algorithmen auf Plattformen wie Instagram, TikTok oder YouTube sind gezielt darauf ausgelegt, unsere Aufmerksamkeit möglichst lange zu binden. Das ständige Swipen durch kurze Videos führt zu Dopaminausschüttungen, ohne dass dafür eine tatsächliche Leistung erbracht werden muss. Verkürzte Aufmerksamkeitsspannen können die Folge sein, da sich das Gehirn an kurze, stark stimulierende und ungewöhnliche Inhalte gewöhnt. Auch der Erhalt neuer Informationen, Kommentare, Likes und Benachrichtigungen löst Dopaminausschüttungen aus, wodurch Nutzer immer wieder auf die Plattformen zurückkehren. Wenn man sich in einer bestimmten Kategorie von Inhalten bewegt, kann dies zudem ein Gefühl sozialer Zugehörigkeit erzeugen.</p>
+<p>Insgesamt lässt sich sagen, dass das Prozess- und Toolwissen bei Airbus sehr spezialisiert ist. Wer dort arbeitet, bewegt sich in einem komplexen, etablierten System, das sich nur schwer auf andere Branchen übertragen lässt.</p>]]></content><author><name>@hanopt</name></author><category term="Technologie" /><summary type="html"><![CDATA[Auffällig ist, dass das Unternehmen – wie viele Großkonzerne – sehr hierarchisch strukturiert ist. Die Stammmitarbeiter übernehmen meist zentrale Rollen und profitieren von tariflicher Bezahlung sowie langfristiger Sicherheit. Leiharbeitskräfte werden zwar gut in die Abläufe eingebunden, haben jedoch häufig nur befristete Verträge und werden nach drei Jahren nicht immer übernommen. Ein Bekannter von mir musste beispielsweise nach Ablauf seines Vertrags von Finkenwerder nach Bremen wechseln, um dort eine neue Leiharbeitsstelle anzutreten.]]></summary></entry><entry xml:lang="de"><title type="html">Doomscrolling, Brainrot, Videospiele</title><link href="http://localhost:4000/natur%20und%20outdoor/2025/10/27/brain-rot-copy.html" rel="alternate" type="text/html" title="Doomscrolling, Brainrot, Videospiele" /><published>2025-10-27T00:00:00+01:00</published><updated>2025-10-27T00:00:00+01:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2025/10/27/brain-rot%20copy</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2025/10/27/brain-rot-copy.html"><![CDATA[<p>Algorithmen auf Plattformen wie Instagram, TikTok oder YouTube sind gezielt darauf ausgelegt, unsere Aufmerksamkeit möglichst lange zu binden. Das ständige Swipen durch kurze Videos führt zu Dopaminausschüttungen, ohne dass dafür eine tatsächliche Leistung erbracht werden muss. Verkürzte Aufmerksamkeitsspannen können die Folge sein, da sich das Gehirn an kurze, stark stimulierende und ungewöhnliche Inhalte gewöhnt. Auch der Erhalt neuer Informationen, Kommentare, Likes und Benachrichtigungen löst Dopaminausschüttungen aus, wodurch Nutzer immer wieder auf die Plattformen zurückkehren. Wenn man sich in einer bestimmten Kategorie von Inhalten bewegt, kann dies zudem ein Gefühl sozialer Zugehörigkeit erzeugen.</p>
 
 <p>Als ich 2014 mit meinem Studium begann, erlebte ich eine Phase, in der ich nach einem Umzug zunächst kein Internet in meiner Wohnung hatte. In dieser Zeit spielte ich keine Videospiele und nutzte kaum soziale Medien. Ich ging teilweise schon um 22 Uhr schlafen, weil mein Gehirn ohne den hellen Bildschirm und die ständige Reizüberflutung deutlich zur Ruhe kam. Nachdem ich schließlich wieder Internetzugang hatte, änderte sich das schnell: Ich begann erneut Videospiele zu spielen und driftete für eine Zeit in die Welt des kompetitiven Gamings ab. Spiele wie League of Legends oder Counter-Strike können süchtig machen und dazu führen, dass soziale Interaktion fast ausschließlich über das Spiel stattfindet. Je länger man spielt, desto mehr verlagert sich der Freundeskreis in die Online-Welt – reale Kontakte werden zunehmend seltener. Zudem zeigen sich in solchen Spielen oft die Schattenseiten menschlichen Verhaltens: Beleidigungen, Frustration und Sabotage des eigenen Teams sind keine Seltenheit.</p>
 
@@ -228,241 +632,4 @@ Für das Cover nutzte ich meine besten Makrofotos von Pilzen, die die Vielfalt r
 
 <p>Ich entschied mich, mein Buch über Amazon KDP zu veröffentlichen, da die Plattform Self-Publishing unkompliziert macht, sobald Manuskript und Cover fertig sind. Wenn du meine Arbeit unterstützen möchtest, kannst du ein Exemplar direkt bei Amazon bestellen.</p>
 
-<p>Link: 👉 <a href="https://amzn.eu/d/fffdYOJ">Amazon</a> 👈</p>]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[Der Grund, warum ich zu schreiben begann]]></summary></entry><entry xml:lang="en"><title type="html">My Book Writing Journey 🍄</title><link href="http://localhost:4000/natur%20und%20outdoor/2025/08/17/book-writing.html" rel="alternate" type="text/html" title="My Book Writing Journey 🍄" /><published>2025-08-17T00:00:00+02:00</published><updated>2025-08-17T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2025/08/17/book-writing</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2025/08/17/book-writing.html"><![CDATA[<h1 id="the-reason-i-started-writing">The Reason I Started Writing</h1>
-
-<p>My book-writing journey started in December. The idea came to me after a particularly busy weekend where I gave four mushroom tours back-to-back. I had spent around 16 hours in the forest, guiding beginners through the fascinating world of mushrooms. By the end, I felt completely exhausted—not just from the walking, but from answering the same questions again and again.
-That’s when I decided to start writing those questions down, along with detailed answers. They eventually became the foundation for my chapter “Einsteigerfragen” (Beginner Questions). For this chapter, I created several hand-drawn illustrations to explain key concepts. Since beginners are often uncertain and worried about mushroom poisoning, I included data to highlight the relatively low frequency of such incidents. In addition, I dedicated an entire chapter to the most lethal mushroom toxins, including case reports, to help beginners recognize the species they should strictly avoid.</p>
-
-<p><img src="/assets/img/lifecycle.JPEG" alt="Alt text" /></p>
-
-<h1 id="the-tools-behind-my-book-and-cover-design">The Tools Behind My Book and Cover Design</h1>
-
-<p>Another major reason for starting the book was the huge collection of mushroom photos I had gathered over the years. I started teaching about mushrooms in 2023. I also decided to start posting about the interesting facts I gathered. This book can be also seen as a result of the knowledge I through multiple years of picking experience.</p>
-
-<p>I already had a small mushroom booklet drafted in Canva, so at first, I thought I could simply expand it into a full book. But after a few weeks, I realized Canva was the wrong tool for such a big project. Citations were hard to handle, but I wanted my book to have a scientific touch. On top of that, I hit Canva’s storage limit, which meant I would have had to pay for their premium plan just to continue working—a pretty sneaky way of luring people into subscriptions.</p>
-
-<p>So, I made the tough decision to switch completely to LaTeX and set up TeXStudio. Transferring everything over was tedious, but absolutely worth it. LaTeX can be frustrating at times, but once it’s running, it’s powerful. Citations, image placement, cross-references, and page numbers all update automatically. I even managed to create two glossaries: one for key terms and another for all the mushroom species mentioned in the book. To keep my work safe, I also used Git for version control—very useful when a small LaTeX change suddenly breaks the entire compilation!
-Interestingly, I had written the book’s introduction quite early on, but I later realized it was much easier to find the right words once the main chapters were already in place.</p>
-
-<p>My first book cover draft was also in Canva, but I later switched to GIMP for over more granular control over the final result. 
-I used my best mushroom macro photos for my cover which represent the variety of mushroom the reader will explore in the book.</p>
-
-<p><img src="/assets/img/cover.png" alt="book cover" /></p>
-
-<h1 id="proof-reading-and-spell-checking">Proof Reading and Spell-checking</h1>
-
-<p>A huge amount of effort went into proofreading and editing. Rereading your own writing can be exhausting—especially when it’s an entire book. Luckily, my grandmother, who has always loved reading to her grandchildren, supported me in a special way. I quickly translated some chapters into Russian with ChatGPT, and she read them aloud to me. This review was more content-focused, and my grandparents even contributed insights from their own mushroom-gathering experiences to the book.</p>
-
-<p>The most tedious part was checking the German text for grammar mistakes. I used standard spelling correction tools and ChatGPT to catch errors. As a final step, I generated an audio version with a text-to-speech tool, so I could simply listen to the text and spot poorly constructed sentences.</p>
-
-<h1 id="mushroom-cultivation-and-truffles">Mushroom Cultivation and Truffles</h1>
-
-<p>The main focus of this book is on mushrooms I encountered during my educational tours in the forest. Some of these species, such as the oyster mushroom, can also be cultivated.</p>
-
-<p>Mushroom cultivation has a long history, especially in China, where it has been practiced for thousands of years. To reflect this, one chapter introduces the fundamentals of mushroom cultivation. Since truffles are among the most expensive culinary delicacies in the world, I also dedicated a chapter to truffle cultivation. To explore this topic firsthand, I traveled to Spain, the leading truffle-producing country in Europe.</p>
-
-<p><img src="/assets/img/cult.JPG" alt="book cover" /></p>
-
-<h1 id="traveling-to-sweden-and-exploring-forests">Traveling to Sweden and Exploring Forests</h1>
-
-<p>I completed two bikepacking tours through Sweden, a country I would consider one of the best places to spend a summer vacation. During this season, the Northern Hemisphere tilts toward the sun, resulting in long days filled with light. For instance, in Gothenburg, the sun rises around 4:10 a.m. and sets at about 10:15 p.m. - over 18 hours of daylight.</p>
-
-<p>My book is not only about mushrooms but also about exploring nature more broadly. That’s why I highly recommend both reading it and experiencing Sweden firsthand. Alongside mushrooms such as chanterelles, you will also find delicious lingonberries. Don’t be discouraged by the rain—rainy days are essential for the growth of both mushrooms and berries. The berries usually ripen by late July, which I consider the best time to visit the country.</p>
-
-<p>Camping in the forests of Sweden brings you closer to nature, as you begin to notice countless plants and mushrooms along the way. I also loved listening to the sounds of wildlife. One evening was especially memorable—my friend and I heard owls calling nearby, right next to our campsite.</p>
-
-<p><img src="/assets/img/Korb.JPG" alt="Pfifferlinge und Beeren" /></p>
-
-<h1 id="publishing">Publishing</h1>
-
-<p>I am an independent publisher, which means I handle everything myself—from writing and illustrating to publishing and promotion. This project is a testament to what a single person can achieve, and I hope it inspires others to pursue their own creative ideas.</p>
-
-<p>I chose to publish my book through Amazon KDP, as the platform makes self-publishing straightforward once the manuscript and cover are complete. If you’d like to support my work, you can order a copy directly on Amazon.</p>
-
-<p>Link: 👉 <a href="https://amzn.eu/d/fffdYOJ">Amazon</a> 👈</p>]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[The Reason I Started Writing]]></summary></entry><entry xml:lang="de"><title type="html">Radreise durch Schweden – 10 Tage Abenteuer 🚴🏼</title><link href="http://localhost:4000/natur%20und%20outdoor/2025/08/16/radreise-schweden.md.html" rel="alternate" type="text/html" title="Radreise durch Schweden – 10 Tage Abenteuer 🚴🏼" /><published>2025-08-16T00:00:00+02:00</published><updated>2025-08-16T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2025/08/16/radreise-schweden.md</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2025/08/16/radreise-schweden.md.html"><![CDATA[<p>Im Sommer unternahm ich eine zehntägige Radreise durch Schweden – ein Abenteuer voller Natur, Bewegung und kleiner kulinarischer Highlights. 🚴‍♂️🇸🇪🍄</p>
-
-<hr />
-
-<h2 id="-tour-statistik">📊 Tour-Statistik</h2>
-<ul>
-  <li>Gesamtdistanz: <strong>820,28 km</strong></li>
-  <li>Tagesdurchschnitt: ca.<strong>82 km</strong></li>
-  <li>Gesamter Höhenanstieg: <strong>7.186 m</strong></li>
-  <li>Durchschnittsgeschwindigkeit: <strong>16,8 km/h</strong></li>
-</ul>
-
-<hr />
-
-<h2 id="️-route">🗺️ Route</h2>
-<p>Mit der Fähre ging es von <strong>Kiel nach Göteborg</strong>, anschließend fuhren wir folgende Etappen:</p>
-
-<ul>
-  <li>Göteborg → Uddevalla</li>
-  <li>Uddevalla → Fjällbacka</li>
-  <li>Tanum → Halden</li>
-  <li>Halden → Marker</li>
-  <li>Marker → Arvika</li>
-  <li>Arvika → Karlstad</li>
-  <li>Karlstad → Mariestad</li>
-  <li>Mariestad → Götene</li>
-  <li>Götene → Alingsås</li>
-  <li>Alingsås → Göteborg</li>
-</ul>
-
-<p>Besonders eindrucksvoll war die Passage an der Westküste (Salzwasser), aber auch die Etappen rund um den <strong>Vänernsee</strong> (Süßwasser) boten viele schöne Momente.</p>
-
-<hr />
-
-<h2 id="-natur--pilze">🍄 Natur &amp; Pilze</h2>
-<p>Unterwegs hielt ich natürlich auch nach Pilzen Ausschau. <strong>Pfifferlinge</strong> wuchsen direkt am Wegesrand und landeten gleich in der Pfanne. Es gab auch noch viele Rotkappen. Es war Ende Juli aber noch relativ trocken, sodass man Pilze nur an sehr schattigen Stellen finden konnte. Dazu gab es reichlich Preiselbeeren, die wir fleißig sammelten. Auch Wildkräuter wie der Rainfarn fanden ihren Weg in unser Kartoffelpüree.</p>
-
-<hr />
-
-<h2 id="-kulinarische-highlights">🍳 Kulinarische Highlights</h2>
-<ul>
-  <li>Gekocht wurde klassisch auf dem Gaskocher: <strong>Reis, Kartoffeln, Nudeln</strong>.  Beim Einkauf im Supermarkt sollte man versuchen nicht zu viel <strong>Overengineering</strong> betreiben. Umso größer der Einkauf, desto schwerer am Ende auch das Reisegepäck.</li>
-  <li>Bananen waren unsere ständigen Begleiter – einer der besten Energielieferanten auf der Tour.</li>
-  <li>Einmal gab es sogar ein richtiges BBQ an einem gut ausgestatteten Rastplatz – inklusive Wasserhahn! 💧🔥</li>
-</ul>
-
-<hr />
-
-<h2 id="-leben-unterwegs">🌊 Leben unterwegs</h2>
-<ul>
-  <li>Zu Beginn begleitete uns viel Sonne – in Strömstad wurde es so heiß, dass ab 13 Uhr nichts mehr ging. Wir saßen in der Pizzeria und mussten uns erstmal von der Hitze erholen. An solchen Tagen macht es wenig Sinn die Kilometer zu erzwingen. Besser viel trinken und Energie sammeln.</li>
-  <li>Baden in klaren Seen war die perfekte Erfrischung nach langen Etappen.</li>
-  <li>Auch die Kleidung wurde kurzerhand im See gewaschen – nachhaltig und erfrischend.</li>
-  <li>Die letzten Tage waren besonders regnerisch und windig – aber genau das gehört zum Abenteuer dazu. 🌬️</li>
-</ul>
-
-<hr />
-
-<h2 id="-ausblick">📖 Ausblick</h2>
-<p>Nach der Tour habe ich an meinem Buch <strong>„In die Pilze und noch viel weiter“</strong> 🍄📖 weitergearbeitet. Der Release-Day kommt näher!</p>
-
-<hr />
-
-<p>👉 Schweden hat mich mit seiner Natur, Ruhe und Weite begeistert. Eine Radreise dorthin kann ich jedem empfehlen, der Lust auf Abenteuer und Entschleunigung hat.</p>]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[Im Sommer unternahm ich eine zehntägige Radreise durch Schweden – ein Abenteuer voller Natur, Bewegung und kleiner kulinarischer Highlights. 🚴‍♂️🇸🇪🍄]]></summary></entry><entry xml:lang="en"><title type="html">How to Prepare for Your First Bikepacking Trip 🚴🏼</title><link href="http://localhost:4000/natur%20und%20outdoor/2025/07/25/how-to-prepare-for-your-first-bikepacking-trip.html" rel="alternate" type="text/html" title="How to Prepare for Your First Bikepacking Trip 🚴🏼" /><published>2025-07-25T00:00:00+02:00</published><updated>2025-07-25T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2025/07/25/how%20to%20prepare%20for%20your%20first%20bikepacking%20trip</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2025/07/25/how-to-prepare-for-your-first-bikepacking-trip.html"><![CDATA[<h2 id="what-will-you-need-for-your-trip">What will you need for your trip?</h2>
-
-<p>Follow a simple rule: <strong>pack as little as possible</strong>.<br />
-I’ve met cyclists who managed their tours with just two panniers — and that was enough. Especially in summer, you don’t need much gear.</p>
-
-<p>Of course, you can buy lots of equipment for your trip, but many items will turn out to be useless, only making your luggage heavier and bulkier. Focus on the essentials.</p>
-
-<p>In my opinion, the best bikepacking experiences happen when you travel with someone else. Sharing the struggles and the good moments makes the journey more fun.<br />
-Take a small Bluetooth speaker with you — cycling to music together can be a great mood boost.</p>
-
-<hr />
-
-<h2 id="what-is-the-best-time-for-a-tour">What is the best time for a tour?</h2>
-
-<p>I recommend starting your first trips in <strong>summer</strong>:</p>
-<ul>
-  <li>It’s warm, which makes long days outside much easier.</li>
-  <li>Nights are mild, so you won’t freeze.</li>
-  <li>If it rains, you can dry your equipment quickly once the sun comes back.</li>
-</ul>
-
-<hr />
-
-<h2 id="where-to-go">Where to go?</h2>
-
-<p>Choose a route with <strong>paved bike paths</strong> and as little car traffic as possible.</p>
-
-<p>I personally enjoyed cycling along the <strong>Rhine river</strong> — it has great cycling infrastructure. <strong>Sweden</strong> was also fantastic, though sometimes you’ll end up on car roads. The good news: many of them are quiet with little traffic.</p>
-
-<p>⚠️ Don’t blindly trust Google Maps. Sometimes it will lead you onto terrible gravel roads, costing you hours. Always check elevation gain as well.</p>
-
-<p>That said, don’t avoid challenging routes entirely — some of the most beautiful places are hidden along the harder paths.</p>
-
-<hr />
-
-<h2 id="equipment">Equipment</h2>
-
-<h3 id="sleep">Sleep</h3>
-<p>Proper sleep is essential on a bike tour. Make sure you don’t freeze at night.</p>
-
-<p>In summer, a <strong>thin sleeping bag</strong> is usually enough — sometimes it’s so warm you barely need it, but temperatures can drop quickly at night. It’s better to be prepared than to wake up shivering and searching for extra clothes in the dark.</p>
-
-<p>Look for quiet camping spots: flat ground in forests, near lakes, or wild camping areas (like in Sweden, where it’s allowed). Be careful with campfires — in dry seasons they can be forbidden due to wildfire risk.</p>
-
-<p><strong>Checklist:</strong></p>
-<ul>
-  <li>Tent</li>
-  <li>Inflatable sleeping mat</li>
-  <li>Sleeping bag (even in summer)</li>
-  <li>Earplugs &amp; eye mask (great for naps during the day)</li>
-</ul>
-
-<hr />
-
-<h3 id="food">Food</h3>
-<p>In countries with higher prices, it can be worth bringing something small but valuable, like <strong>a bottle of good olive oil</strong>.</p>
-
-<p>The cheapest option is always buying food in supermarkets and cooking yourself. Don’t buy too much at once — it just adds weight. Shop more frequently when you actually need to.</p>
-
-<p>Refilling water is one of the most important things:</p>
-<ul>
-  <li>Ask people directly — many will happily help.</li>
-  <li>Cemeteries often have water taps available.</li>
-</ul>
-
-<p><strong>Checklist:</strong></p>
-<ul>
-  <li>Small gas cooker</li>
-  <li>Cooking pot &amp; bowl</li>
-  <li>Water bottles</li>
-  <li>Knife &amp; spoon</li>
-</ul>
-
-<hr />
-
-<h3 id="keep-your-stuff-organized">Keep your stuff organized</h3>
-<p>Invest in panniers, frame bags, or drybags that attach securely to your bike.</p>
-
-<p>Use <strong>organizer bags</strong> to separate categories like hygiene, clothing, and rain gear. It will save you endless time searching for things.</p>
-
-<p><strong>Checklist:</strong></p>
-<ul>
-  <li>Frame bag &amp; 2 panniers</li>
-  <li>Organizer pouches for small items</li>
-</ul>
-
-<hr />
-
-<h3 id="stay-clean--protect-your-body">Stay clean &amp; protect your body</h3>
-<p>Weather changes quickly: it can be hot, rainy, or windy in a single day.</p>
-<ul>
-  <li>Wear too much → you sweat heavily.</li>
-  <li>Wear too little → you risk freezing.</li>
-</ul>
-
-<p>If you cycle along rivers or lakes, take a quick swim to wash yourself and your clothes. Hang wet clothes over panniers or handlebars to dry while riding — even tents can dry this way. Avoid packing wet gear inside bags.</p>
-
-<p><strong>Checklist:</strong></p>
-<ul>
-  <li>Spare underwear, socks, T-shirts, long sleeve, shorts</li>
-  <li>Cap, sunscreen, sunglasses</li>
-  <li>Sandals (often enough in summer)</li>
-  <li>Rain jacket &amp; pants</li>
-  <li>Mosquito head net</li>
-  <li>Small first aid kit</li>
-  <li>Toothbrush, toothpaste, floss, soap</li>
-</ul>
-
-<hr />
-
-<h3 id="navigation">Navigation</h3>
-<p>A <strong>phone</strong> is usually enough for navigation.</p>
-
-<p>If you want to challenge yourself (and save battery), bring a <strong>paper map</strong>. If you struggle to navigate, just ask some locals. It’s also a great way to start a conversation and learn a bit more about the local culture.</p>
-
-<p>There are gadgets like Garmin devices and GPS watches, but for most beginners, a phone + power bank works perfectly.</p>
-
-<p><strong>Checklist:</strong></p>
-<ul>
-  <li>Phone holder for handlebar</li>
-  <li>Power bank &amp; charging cables</li>
-</ul>
-
-<hr />]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[What will you need for your trip?]]></summary></entry></feed>
+<p>Link: 👉 <a href="https://amzn.eu/d/fffdYOJ">Amazon</a> 👈</p>]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[Der Grund, warum ich zu schreiben begann]]></summary></entry></feed>

@@ -30,3 +30,5 @@ Das Internet ist heute überflutet von Informationen. Jeden Tag jagt eine Schlag
 - Regelmäßig Spaziergänge ohne Handy unternehmen (auch wenn das schwerfällt)  
 - Statt ständigem Konsum von Reels und News lieber ein Buch vollständig lesen, um echte Expertise aufzubauen  
 - Eigene Texte schreiben, um Wissen zu strukturieren – reiner Informationskonsum führt selten zu vernetztem Denken  
+
+
