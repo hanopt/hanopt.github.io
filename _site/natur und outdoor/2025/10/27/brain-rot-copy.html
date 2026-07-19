@@ -81,6 +81,20 @@
       </time></p>
   </header>
 
+  <div id="lightbox-overlay" onclick="closeLightbox()" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:9999; cursor:zoom-out; align-items:center; justify-content:center;">
+  <img id="lightbox-img" src="" style="max-width:90%; max-height:90%; border-radius:6px;">
+</div>
+
+<script>
+function openLightbox(el) {
+  document.getElementById('lightbox-img').src = el.src;
+  document.getElementById('lightbox-overlay').style.display = 'flex';
+}
+function closeLightbox() {
+  document.getElementById('lightbox-overlay').style.display = 'none';
+}
+</script>
+
   <div class="post-content e-content" itemprop="articleBody">
     <p>Algorithmen auf Plattformen wie Instagram, TikTok oder YouTube sind gezielt darauf ausgelegt, unsere Aufmerksamkeit möglichst lange zu binden. Das ständige Swipen durch kurze Videos führt zu Dopaminausschüttungen, ohne dass dafür eine tatsächliche Leistung erbracht werden muss. Verkürzte Aufmerksamkeitsspannen können die Folge sein, da sich das Gehirn an kurze, stark stimulierende und ungewöhnliche Inhalte gewöhnt. Auch der Erhalt neuer Informationen, Kommentare, Likes und Benachrichtigungen löst Dopaminausschüttungen aus, wodurch Nutzer immer wieder auf die Plattformen zurückkehren. Wenn man sich in einer bestimmten Kategorie von Inhalten bewegt, kann dies zudem ein Gefühl sozialer Zugehörigkeit erzeugen.</p>
 
@@ -100,14 +114,14 @@
 Herausfordernde Projekte bleiben im Gedächtnis. Als ich begann, ein Buch zu schreiben, war vor allem die mühsame Korrekturarbeit eine echte Herausforderung. Auch der Einstieg in die LaTeX-Formatierung war anfangs nicht leicht. Dennoch bin ich froh, diesen Weg gegangen zu sein und ein großes Projekt abgeschlossen zu haben. Die Mühe und das Ergebnis, auf das man stolz sein kann, bleiben in Erinnerung – besonders, wenn andere das Werk schätzen und würdigen.</p>
 
 <h2 id="informationsfluss-regulieren">Informationsfluss regulieren</h2>
-<p>Das Internet ist heute überflutet von Informationen. Jeden Tag jagt eine Schlagzeile die nächste. Für mich ist das eine besondere Herausforderung, da ich mich intensiv mit Aktien, ETFs, Kryptowährungen und Anleihen beschäftige. Wirtschaftsnachrichten beeinflussen mein Vermögen direkt. Kursgewinne nimmt man gelassen hin, doch bei Kursrückgängen überwiegt schnell die Sorge. Eine Flut negativer Nachrichten über Zollpolitik, Kriege und wirtschaftliche Entwicklungen ist auf Dauer nicht förderlich für die geistige Gesundheit.</p>
+<p>Das Internet ist heute überflutet von Informationen. Jeden Tag jagt eine Schlagzeile die nächste. Für mich ist das eine besondere Herausforderung, da ich mich  mit Aktien, ETFs &amp; Kryptowährungen beschäftige. Wirtschaftsnachrichten beeinflussen meine Werte im Depot direkt. Kursgewinne nimmt man gelassen hin, doch bei Kursrückgängen überwiegt schnell die Sorge. Eine Flut negativer Nachrichten über Zollpolitik, Kriege und wirtschaftliche Entwicklungen ist auf Dauer nicht förderlich für die geistige Gesundheit.</p>
 
 <h2 id="weitere-ideen">weitere Ideen:</h2>
 <ul>
   <li>Zeitlimits für Apps festlegen</li>
   <li>Das Handy während der Arbeit außer Sichtweite legen</li>
   <li>Ablenkende Webseiten mit Browser-Add-ons blockieren</li>
-  <li>Regelmäßig Spaziergänge ohne Handy unternehmen (auch wenn das schwerfällt)</li>
+  <li>Regelmäßig Spaziergänge ohne Handy unternehmen</li>
   <li>Statt ständigem Konsum von Reels und News lieber ein Buch vollständig lesen, um echte Expertise aufzubauen</li>
   <li>Eigene Texte schreiben, um Wissen zu strukturieren – reiner Informationskonsum führt selten zu vernetztem Denken</li>
 </ul>

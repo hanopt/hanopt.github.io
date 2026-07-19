@@ -21,13 +21,13 @@ Wenn man sich Ziele setzt und diese langfristig verfolgt, ist es wichtig, das ei
 Herausfordernde Projekte bleiben im Gedächtnis. Als ich begann, ein Buch zu schreiben, war vor allem die mühsame Korrekturarbeit eine echte Herausforderung. Auch der Einstieg in die LaTeX-Formatierung war anfangs nicht leicht. Dennoch bin ich froh, diesen Weg gegangen zu sein und ein großes Projekt abgeschlossen zu haben. Die Mühe und das Ergebnis, auf das man stolz sein kann, bleiben in Erinnerung – besonders, wenn andere das Werk schätzen und würdigen.
 
 ## Informationsfluss regulieren
-Das Internet ist heute überflutet von Informationen. Jeden Tag jagt eine Schlagzeile die nächste. Für mich ist das eine besondere Herausforderung, da ich mich intensiv mit Aktien, ETFs, Kryptowährungen und Anleihen beschäftige. Wirtschaftsnachrichten beeinflussen mein Vermögen direkt. Kursgewinne nimmt man gelassen hin, doch bei Kursrückgängen überwiegt schnell die Sorge. Eine Flut negativer Nachrichten über Zollpolitik, Kriege und wirtschaftliche Entwicklungen ist auf Dauer nicht förderlich für die geistige Gesundheit.  
+Das Internet ist heute überflutet von Informationen. Jeden Tag jagt eine Schlagzeile die nächste. Für mich ist das eine besondere Herausforderung, da ich mich  mit Aktien, ETFs & Kryptowährungen beschäftige. Wirtschaftsnachrichten beeinflussen meine Werte im Depot direkt. Kursgewinne nimmt man gelassen hin, doch bei Kursrückgängen überwiegt schnell die Sorge. Eine Flut negativer Nachrichten über Zollpolitik, Kriege und wirtschaftliche Entwicklungen ist auf Dauer nicht förderlich für die geistige Gesundheit.  
 
 ## weitere Ideen:
 - Zeitlimits für Apps festlegen  
 - Das Handy während der Arbeit außer Sichtweite legen  
 - Ablenkende Webseiten mit Browser-Add-ons blockieren  
-- Regelmäßig Spaziergänge ohne Handy unternehmen (auch wenn das schwerfällt)  
+- Regelmäßig Spaziergänge ohne Handy unternehmen 
 - Statt ständigem Konsum von Reels und News lieber ein Buch vollständig lesen, um echte Expertise aufzubauen  
 - Eigene Texte schreiben, um Wissen zu strukturieren – reiner Informationskonsum führt selten zu vernetztem Denken  
 

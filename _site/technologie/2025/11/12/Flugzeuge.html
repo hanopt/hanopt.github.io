@@ -81,6 +81,20 @@
       </time></p>
   </header>
 
+  <div id="lightbox-overlay" onclick="closeLightbox()" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:9999; cursor:zoom-out; align-items:center; justify-content:center;">
+  <img id="lightbox-img" src="" style="max-width:90%; max-height:90%; border-radius:6px;">
+</div>
+
+<script>
+function openLightbox(el) {
+  document.getElementById('lightbox-img').src = el.src;
+  document.getElementById('lightbox-overlay').style.display = 'flex';
+}
+function closeLightbox() {
+  document.getElementById('lightbox-overlay').style.display = 'none';
+}
+</script>
+
   <div class="post-content e-content" itemprop="articleBody">
     <p>Auffällig ist, dass das Unternehmen – wie viele Großkonzerne – sehr hierarchisch strukturiert ist. Die Stammmitarbeiter übernehmen meist zentrale Rollen und profitieren von tariflicher Bezahlung sowie langfristiger Sicherheit. Leiharbeitskräfte werden zwar gut in die Abläufe eingebunden, haben jedoch häufig nur befristete Verträge und werden nach drei Jahren nicht immer übernommen. Ein Bekannter von mir musste beispielsweise nach Ablauf seines Vertrags von Finkenwerder nach Bremen wechseln, um dort eine neue Leiharbeitsstelle anzutreten.</p>
 
