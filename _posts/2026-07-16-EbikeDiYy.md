@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "E-Bike DIY"
+title: "E-Bike Eigenbau"
 categories: [Natur und Outdoor]
 lang: de
 ---
