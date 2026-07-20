@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-07-20T08:36:04+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Eduard’s Blog</title><subtitle>Pilze, Natur, Wissenschaft</subtitle><author><name>@hanopt</name></author><entry xml:lang="de"><title type="html">E-Bike Eigenbau</title><link href="http://localhost:4000/natur%20und%20outdoor/2026/07/16/EbikeDiYy.html" rel="alternate" type="text/html" title="E-Bike Eigenbau" /><published>2026-07-16T00:00:00+02:00</published><updated>2026-07-16T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2026/07/16/EbikeDiYy</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2026/07/16/EbikeDiYy.html"><![CDATA[<h1 id="der-kettler-oldtimer-zum-selbstgebauten-elektro-rad">Der Kettler-Oldtimer zum selbstgebauten Elektro-Rad</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-07-20T16:48:32+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Eduard’s Blog</title><subtitle>Pilze, Natur, Wissenschaft</subtitle><author><name>@hanopt</name></author><entry xml:lang="de"><title type="html">E-Bike Eigenbau</title><link href="http://localhost:4000/natur%20und%20outdoor/2026/07/16/EbikeDiYy.html" rel="alternate" type="text/html" title="E-Bike Eigenbau" /><published>2026-07-16T00:00:00+02:00</published><updated>2026-07-16T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2026/07/16/EbikeDiYy</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2026/07/16/EbikeDiYy.html"><![CDATA[<h1 id="der-kettler-oldtimer-zum-selbstgebauten-elektro-rad">Der Kettler-Oldtimer zum selbstgebauten Elektro-Rad</h1>
 
 <h2 id="der-kettler-oldtimer">Der Kettler-Oldtimer</h2>
 
@@ -41,9 +41,70 @@
 
 <p>Ursprünglich bin ich mit einem fertig gekauften Akkupack gefahren, das auf möglichst große Reichweite ausgelegt war (bestehend aus 90 Zellen). Praktisch verstaut habe ich es einfach in einer Fahrradtasche – eine pragmatische, aber nicht besonders elegante Lösung. Ich begann mich intensiver in die Theorie des Akku-Selbstbaus einzuarbeiten.</p>
 
-<p><strong>Mein Zell-Layout:</strong> eine 10S5P-Konfiguration mit Samsung-35E-Zellen (INR18650, 2900 mAh, 8,25 A). Dabei habe ich zehn Zellen in Serie und fünf Zellen parallel geschaltet, verbunden mit einem Punktschweißgerät und Nickelstreifen.
+<p><strong>Mein Zell-Layout:</strong> eine 10S5P-Konfiguration mit Samsung-29E-Zellen. Dabei habe ich zehn Zellen in Serie und fünf Zellen parallel geschaltet, verbunden mit einem Punktschweißgerät und Nickelstreifen.
 Bei der Auswahl der Li-Ion-Zellen habe ich mich etwas schwergetan, weil die Auswahl sehr groß ist. Meine Wahl fiel auf einen Zelltyp, welcher keine besonders großen Ströme (Ampere) auf einmal abgeben kann, aber dafür langlebiger ist.
 Je mehr Strom auf einmal durch die Zellen fließt, desto mehr Hitze entsteht auch, wodurch die Langlebigkeit sinkt.</p>
+
+<div style="display: flex; gap: 10px; justify-content: space-between; align-items: center;">
+  <img src="/assets/img/Ebike/c2-cell.png" alt="Einzelne 18650-Zelle" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)" />
+  <img src="/assets/img/Ebike/c2-cellcontents.png" alt="Inhalt der Zell-Lieferung" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)" />
+  <img src="/assets/img/Ebike/c2-Puntkschweissen.jpg" alt="Punktschweißen der Zellen mit Nickelstreifen" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)" />
+</div>
+<p><em>Von links nach rechts: eine einzelne Zelle, der Inhalt der Zell-Lieferung, das Punktschweißen der Zellen mit Nickelstreifen. (Zum Vergrößern anklicken)</em></p>
+
+<ul>
+  <li>Kapazität: 2750mAh</li>
+  <li>Nennspannung 3,6V - 3,7V</li>
+  <li>Ladezyklus-Beendigungsspannung 4,20 V ± 0,05 V</li>
+  <li>maximaler Entladestrom: 8,25A</li>
+  <li>Nicht tiefer als 2,5 V entladen</li>
+  <li>Plus-Pool: Flachdach</li>
+  <li>Chemie: Li-Ion</li>
+  <li>Schutzschaltung: Ohne</li>
+  <li>Durchmesser: 18,3 mm</li>
+  <li>Höhe: 64,9 mm</li>
+  <li>Gewicht: 44,8 g</li>
+</ul>
+
+<p>Folgende Specs sollte mein Akku-Pack etwa haben:</p>
+<h1 id="10s5p-pack-berechnung-samsung-inr18650-29e">10S5P Pack-Berechnung (Samsung INR18650-29E)</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Wert</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kapazität</td>
+      <td>5 × 2.750mAh = 13.750mAh</td>
+    </tr>
+    <tr>
+      <td>Nennspannung</td>
+      <td>~36,2V (10 × 3,62V)</td>
+    </tr>
+    <tr>
+      <td>Max. Spannung</td>
+      <td>42,0V (10 × 4,2V)</td>
+    </tr>
+    <tr>
+      <td>Kontinuierlicher Strom</td>
+      <td>5 × 2,75A = 13,75A</td>
+    </tr>
+    <tr>
+      <td>Kontinuierliche Leistung</td>
+      <td>~495–575W</td>
+    </tr>
+    <tr>
+      <td>Pulsstrom (nicht dauerhaft)</td>
+      <td>5 × 8,25A = 41,25A</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Das Akkupack habe ich gewogen: 2,4 Kg etwa.</strong></p>
 
 <div style="display: flex; gap: 10px; justify-content: space-between; align-items: center;">
   <img src="/assets/img/Ebike/C-cell-delivery.jpg" alt="Gelieferte 18650-Zellen für den Akku-Eigenbau" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)" />
@@ -55,8 +116,6 @@ Je mehr Strom auf einmal durch die Zellen fließt, desto mehr Hitze entsteht auc
 <p>Ein paar technische Eckdaten zum fertigen Pack:</p>
 
 <ul>
-  <li>Nennspannung: 36 V</li>
-  <li>Maximalspannung (voll geladen): 42 V (10 × 4,2 V pro Zelle)</li>
   <li>BMS-Limit: 30 A max. Arbeitsstrom, 20 A Dauerstrom</li>
   <li>Ladegerät: 2 A, max. 42 V – bewusst etwas langsamer gewählt, dafür schonender für die Zellen</li>
 </ul>
@@ -100,7 +159,7 @@ Auf Englisch: Overcharge Protection, Short Circuit Protection und Over Discharge
   <img src="/assets/img/Ebike/e - front.jpg" alt="Frontlicht ADDVIEW Nova E100" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)" />
   <img src="/assets/img/Ebike/e - red.jpg" alt="Rücklicht mit Bremssensorik" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)" />
 </div>
-<p><em>Von links nach rechts: Steuerung über das Display, das Frontlicht, das Rücklicht mit Bremssensorik.</em></p>
+<p><em>Von links nach rechts: Steuerung über das Display, das Frontlicht, das Rücklicht mit Bremssensorik. (Zum Vergrößern anklicken)</em></p>
 
 <h2 id="antriebsmotor-ritzel-und-e-bike-kette">Antriebsmotor, Ritzel und E-Bike-Kette</h2>
 
@@ -113,7 +172,16 @@ Auf Englisch: Overcharge Protection, Short Circuit Protection und Over Discharge
   <img src="/assets/img/Ebike/f-18.jpg" alt="Ritzel hinten mit 18 Zähnen" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)" />
   <img src="/assets/img/Ebike/f-chain.jpg" alt="e101 EPT E-Bike-Kette mit MissingLink" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)" />
 </div>
-<p><em>Von links nach rechts: das Kettenblatt (47-Zähne) vorne, das 18-Zähne-Ritzel hinten, die e101 EPT E-Bike-Kette. (Zum Vergrößern anklicken)</em></p>]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[Der Kettler-Oldtimer zum selbstgebauten Elektro-Rad]]></summary></entry><entry xml:lang="de"><title type="html">Willkommen im Königreich Marroko</title><link href="http://localhost:4000/natur%20und%20outdoor/2026/05/10/agadir.html" rel="alternate" type="text/html" title="Willkommen im Königreich Marroko" /><published>2026-05-10T00:00:00+02:00</published><updated>2026-05-10T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2026/05/10/agadir</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2026/05/10/agadir.html"><![CDATA[<h1 id="marokko-reise-praktische-tipps-zu-preisen-verkehr-und-alltag-in-agadir">Marokko-Reise: Praktische Tipps zu Preisen, Verkehr und Alltag in Agadir</h1>
+<p><em>Von links nach rechts: das Kettenblatt (46-Zähne) vorne, das 18-Zähne-Ritzel hinten, die e101 EPT E-Bike-Kette. (Zum Vergrößern anklicken)</em></p>
+
+<h2 id="ausblick">Ausblick</h2>
+
+<p>Man kann das E-Bike natürlich immer weiter perfektionieren. Die Frage ist nur, ob das wirklich sinnvoll ist oder man dabei ins Over-Engineering verfällt.</p>
+
+<p>Es gibt trotzdem noch ein Feature, das mich beschäftigt: Bei niedrigen Temperaturen sinkt die Reichweite des Akkus drastisch. Dieses Problem ließe sich vermutlich mit einem Heizkabel und einem Thermostat lösen.</p>
+
+<p><img src="/assets/img/Ebike/z-Finished.jpg" alt="Das fertige selbstgebaute E-Bike" style="width: 100%; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)" />
+<em>Das fertige E-Bike – vom Kettler-Oldtimer zum selbstgebauten Elektro-Rad. (Zum Vergrößern anklicken)</em></p>]]></content><author><name>@hanopt</name></author><category term="Natur und Outdoor" /><summary type="html"><![CDATA[Der Kettler-Oldtimer zum selbstgebauten Elektro-Rad]]></summary></entry><entry xml:lang="de"><title type="html">Willkommen im Königreich Marroko</title><link href="http://localhost:4000/natur%20und%20outdoor/2026/05/10/agadir.html" rel="alternate" type="text/html" title="Willkommen im Königreich Marroko" /><published>2026-05-10T00:00:00+02:00</published><updated>2026-05-10T00:00:00+02:00</updated><id>http://localhost:4000/natur%20und%20outdoor/2026/05/10/agadir</id><content type="html" xml:base="http://localhost:4000/natur%20und%20outdoor/2026/05/10/agadir.html"><![CDATA[<h1 id="marokko-reise-praktische-tipps-zu-preisen-verkehr-und-alltag-in-agadir">Marokko-Reise: Praktische Tipps zu Preisen, Verkehr und Alltag in Agadir</h1>
 
 <p>Marokko ist ein faszinierendes Land voller Dynamik, kann aber für Touristen – was die Preise und den Verkehr angeht – zunächst eine Herausforderung sein. Hier sind meine wichtigsten Erfahrungen und Tipps aus meiner Zeit in und um Agadir.</p>
 

@@ -47,9 +47,43 @@ Die Entscheidung für eine Nabenschaltung war bewusst: Ich wollte ein robustes S
 
 Ursprünglich bin ich mit einem fertig gekauften Akkupack gefahren, das auf möglichst große Reichweite ausgelegt war (bestehend aus 90 Zellen). Praktisch verstaut habe ich es einfach in einer Fahrradtasche – eine pragmatische, aber nicht besonders elegante Lösung. Ich begann mich intensiver in die Theorie des Akku-Selbstbaus einzuarbeiten.
 
-**Mein Zell-Layout:** eine 10S5P-Konfiguration mit Samsung-35E-Zellen (INR18650, 2900 mAh, 8,25 A). Dabei habe ich zehn Zellen in Serie und fünf Zellen parallel geschaltet, verbunden mit einem Punktschweißgerät und Nickelstreifen.
+**Mein Zell-Layout:** eine 10S5P-Konfiguration mit Samsung-29E-Zellen. Dabei habe ich zehn Zellen in Serie und fünf Zellen parallel geschaltet, verbunden mit einem Punktschweißgerät und Nickelstreifen.
 Bei der Auswahl der Li-Ion-Zellen habe ich mich etwas schwergetan, weil die Auswahl sehr groß ist. Meine Wahl fiel auf einen Zelltyp, welcher keine besonders großen Ströme (Ampere) auf einmal abgeben kann, aber dafür langlebiger ist.
 Je mehr Strom auf einmal durch die Zellen fließt, desto mehr Hitze entsteht auch, wodurch die Langlebigkeit sinkt.
+
+<div style="display: flex; gap: 10px; justify-content: space-between; align-items: center;">
+  <img src="/assets/img/Ebike/c2-cell.png" alt="Einzelne 18650-Zelle" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)">
+  <img src="/assets/img/Ebike/c2-cellcontents.png" alt="Inhalt der Zell-Lieferung" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)">
+  <img src="/assets/img/Ebike/c2-Puntkschweissen.jpg" alt="Punktschweißen der Zellen mit Nickelstreifen" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)">
+</div>
+*Von links nach rechts: eine einzelne Zelle, der Inhalt der Zell-Lieferung, das Punktschweißen der Zellen mit Nickelstreifen. (Zum Vergrößern anklicken)*
+
+- Kapazität: 2750mAh
+- Nennspannung 3,6V - 3,7V
+- Ladezyklus-Beendigungsspannung 4,20 V ± 0,05 V
+- maximaler Entladestrom: 8,25A
+- Nicht tiefer als 2,5 V entladen
+- Plus-Pool: Flachdach
+- Chemie: Li-Ion
+- Schutzschaltung: Ohne
+- Durchmesser: 18,3 mm
+- Höhe: 64,9 mm
+- Gewicht: 44,8 g
+
+Folgende Specs sollte mein Akku-Pack etwa haben:
+# 10S5P Pack-Berechnung (Samsung INR18650-29E)
+
+
+| Parameter | Wert |
+|---|---|
+| Kapazität | 5 × 2.750mAh = 13.750mAh |
+| Nennspannung | ~36,2V (10 × 3,62V) |
+| Max. Spannung | 42,0V (10 × 4,2V) |
+| Kontinuierlicher Strom | 5 × 2,75A = 13,75A |
+| Kontinuierliche Leistung | ~495–575W |
+| Pulsstrom (nicht dauerhaft) | 5 × 8,25A = 41,25A |
+
+**Das Akkupack habe ich gewogen: 2,4 Kg etwa.**
 
 <div style="display: flex; gap: 10px; justify-content: space-between; align-items: center;">
   <img src="/assets/img/Ebike/C-cell-delivery.jpg" alt="Gelieferte 18650-Zellen für den Akku-Eigenbau" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)">
@@ -60,12 +94,11 @@ Je mehr Strom auf einmal durch die Zellen fließt, desto mehr Hitze entsteht auc
 
 Ein paar technische Eckdaten zum fertigen Pack:
 
-- Nennspannung: 36 V
-- Maximalspannung (voll geladen): 42 V (10 × 4,2 V pro Zelle)
 - BMS-Limit: 30 A max. Arbeitsstrom, 20 A Dauerstrom
 - Ladegerät: 2 A, max. 42 V – bewusst etwas langsamer gewählt, dafür schonender für die Zellen
 
 Fixiert habe ich die Zellen mit zwei wabenförmigen 5×10-Zellhaltern, die ich von oben und unten aufgesetzt habe, sodass jede Zelle sicher an ihrem Platz bleibt.
+
 
 Nachdem ich mit dem Punktschweißen des Akkupacks fertig war, dauerte es noch eine Woche, weil ich noch das passende Battery-Management-System (BMS) gesucht habe. Das BMS schützt das Akkupack vor Überladen und vor dem Tiefenentladen.
 Auch der Bafang-Motor hat eine Schutzeinstellung, welche verhindert, dass das Akkupack komplett entladen wird. Also ein doppelter Tiefenentladeschutz. Das Gleiche gilt für das Netzteil. Es wird ebenfalls eine Überladung verhindert. Das BMS unterbricht ebenfalls den Stromkreis, sollte es zu einem Kurzschluss kommen.
@@ -104,7 +137,7 @@ Beide Lichter habe ich zentral miteinander verbunden, sodass ich sie gemeinsam b
   <img src="/assets/img/Ebike/e - front.jpg" alt="Frontlicht ADDVIEW Nova E100" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)">
   <img src="/assets/img/Ebike/e - red.jpg" alt="Rücklicht mit Bremssensorik" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)">
 </div>
-*Von links nach rechts: Steuerung über das Display, das Frontlicht, das Rücklicht mit Bremssensorik.*
+*Von links nach rechts: Steuerung über das Display, das Frontlicht, das Rücklicht mit Bremssensorik. (Zum Vergrößern anklicken)*
 
 ## Antriebsmotor, Ritzel und E-Bike-Kette
 
@@ -117,4 +150,13 @@ Bei der Kette bin ich bewusst nicht bei irgendeiner Standardkette geblieben, son
   <img src="/assets/img/Ebike/f-18.jpg" alt="Ritzel hinten mit 18 Zähnen" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)">
   <img src="/assets/img/Ebike/f-chain.jpg" alt="e101 EPT E-Bike-Kette mit MissingLink" style="width: 32%; height: 220px; object-fit: cover; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)">
 </div>
-*Von links nach rechts: das Kettenblatt (47-Zähne) vorne, das 18-Zähne-Ritzel hinten, die e101 EPT E-Bike-Kette. (Zum Vergrößern anklicken)*
+*Von links nach rechts: das Kettenblatt (46-Zähne) vorne, das 18-Zähne-Ritzel hinten, die e101 EPT E-Bike-Kette. (Zum Vergrößern anklicken)*
+
+## Ausblick
+
+Man kann das E-Bike natürlich immer weiter perfektionieren. Die Frage ist nur, ob das wirklich sinnvoll ist oder man dabei ins Over-Engineering verfällt.
+
+Es gibt trotzdem noch ein Feature, das mich beschäftigt: Bei niedrigen Temperaturen sinkt die Reichweite des Akkus drastisch. Dieses Problem ließe sich vermutlich mit einem Heizkabel und einem Thermostat lösen. 
+
+<img src="/assets/img/Ebike/z-Finished.jpg" alt="Das fertige selbstgebaute E-Bike" style="width: 100%; border-radius: 6px; cursor: zoom-in;" onclick="openLightbox(this)">
+*Das fertige E-Bike – vom Kettler-Oldtimer zum selbstgebauten Elektro-Rad. (Zum Vergrößern anklicken)*
