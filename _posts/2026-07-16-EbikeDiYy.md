@@ -5,7 +5,7 @@ categories: [Natur und Outdoor]
 lang: de
 ---
 
-# Der Kettler-Oldtimer zum selbstgebauten Elektro-Rad
+# Vom Kettler-Oldtimer zum selbstgebauten Elektro-Rad
 
 ## Der Kettler-Oldtimer
 
