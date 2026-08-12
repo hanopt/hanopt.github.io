@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Die Entstehungsgeschicht von meinem Buch 🍄"
+title: "Die Entstehungsgeschicht von meinem Buch 🍄 Jetzt verfügbar auf Amazon!"
 categories: [Natur und Outdoor]
 lang: de
 ---
