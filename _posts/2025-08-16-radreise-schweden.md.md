@@ -7,16 +7,48 @@ lang: de
 
 Im Sommer unternahm ich eine zehntägige Radreise durch Schweden – ein Abenteuer voller Natur, Bewegung und kleiner kulinarischer Highlights. 🚴‍♂️🇸🇪🍄  
 
----
+
+Welchen Vogel haben wir hier in der Nacht gehört? (Hör dir gerne die Tonspur mal an.)
+<audio controls>
+  <source src="/assets/audio/Strange noises.mp3" type="audio/mpeg">
+  <source src="/assets/audio/Strange noises.m4a" type="audio/mp4">
+  Your browser does not support the audio element.
+</audio>
+
+Es war möglicherweise ein Sperlingskauz
+<img src="/assets/img/Sperlingskauz.png" alt="Alt text">
+
+
 
 ## 📊 Tour-Statistik
 - Gesamtdistanz: **820,28 km**  
 - Tagesdurchschnitt: ca.**82 km**  
-- Durchschnittsgeschwindigkeit: **16,8 km/h**  
-
-
 
 ---
+
+<div class="image-grid">
+  <img src="/assets/img/Schweden_bridge.jpg" alt="Alt text">
+  <img src="/assets/img/Schweden_Sunset.jpg" alt="Alt text">
+  <img src="/assets/img/Schwedenelch.jpg" alt="Alt text">
+  <img src="/assets/img/Schwerden_ferry.jpg" alt="Alt text">
+</div>
+
+<style>
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.image-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+</style>
 
 ## 🗺️ Route
 Mit der Fähre ging es von **Kiel nach Göteborg**, anschließend fuhren wir folgende Etappen:
@@ -62,3 +94,5 @@ Nach der Tour habe ich an meinem Buch **„In die Pilze und noch viel weiter“*
 ---
 
 👉 Schweden hat mich mit seiner Natur, Ruhe und Weite begeistert. Eine Radreise dorthin kann ich jedem empfehlen, der Lust auf Abenteuer und Entschleunigung hat.  
+
+
