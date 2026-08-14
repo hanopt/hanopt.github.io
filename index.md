@@ -37,6 +37,7 @@ layout: default
               {% when "en" %} 🇬🇧 English
               {% when "de" %} 🇩🇪 Deutsch
               {% when "ru" %} 🇷🇺 Русский
+              {% when "es" %} 🇪🇸 Español
               {% else %} {{ post.lang | upcase }}
             {% endcase %}
           {% endif %}
