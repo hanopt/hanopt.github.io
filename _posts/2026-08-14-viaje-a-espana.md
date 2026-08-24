@@ -10,7 +10,7 @@ Es war ein unglaublich spannender Roadtrip, der in Barcelona begann. Gemeinsam m
 
 Besonders Nordspanien hat es mir angetan. Wir fuhren durch das Baskenland – eine sehr hügelige Region am Rande der Pyrenäen. Hier war es gar nicht so einfach, einen guten Schlafplatz für die Nacht zu finden. Die Weiden waren meist eingezäunt und das Terrain so steil, dass eine flache Stelle für Zelt und Auto Mangelware war. 
 
-### Auto bleibt stecken
+### Auto bleibt im Schlamm stecken
 
 Schließlich bogen wir auf einen steilen Schotter-Feldweg ab. Oben entdeckten wir eine große Weide, die perfekt schien.
 Während mein Kollege den Wagen parkte, lief ich zum Gipfel, um die Umgebung zu erkunden – und stieß überraschend auf einen Kuhfriedhof. Überall lagen Knochen, vollständige Skelette und teilweise noch Hautreste. Als ich zurückkam, folgte direkt die nächste Hiobsbotschaft: Unser Wagen steckte tief im Schlamm fest. Da die Wiese leicht abfiel, rutschten wir bei jedem Befreiungsversuch nur noch weiter den Hang hinunter. Der Geländewagen hatte leider nur Vorderradantrieb, und die Reifen mit glattem Straßenprofil drehten einfach durch.
